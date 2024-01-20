@@ -1,7 +1,7 @@
 import React from "react";
-import "../../components/jewelleryBuyGuide/ChooseDiamond.css";
-import chain from "../../assets/jewelleryBuyGuideImg/chain.png";
-import crown from "../../assets/jewelleryBuyGuideImg/ring.png";
+import "../../../components/ui-components/jewelleryBuyGuide/ChooseDiamond.css";
+import chain from "../../../assets/jewelleryBuyGuideImg/chain.png";
+import crown from "../../../assets/jewelleryBuyGuideImg/ring.png";
 
 export default function ChooseDiamond() {
   let chooseDiamond = [

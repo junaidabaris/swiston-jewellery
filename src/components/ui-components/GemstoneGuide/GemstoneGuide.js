@@ -1,8 +1,8 @@
 import React from "react";
-import GarentTopImage from "../../images/GemstoneGuideImg/diamond-1300411_640.webp";
+import GarentTopImage from "../../../images/GemstoneGuideImg/diamond-1300411_640.webp";
 import { GemstoneGarnet } from "./GemstoneGarnet";
 import { CareDiamond } from "../DiamondBuyingGuide/CareDiamond";
-import "../../components/GemstoneGuide/GemstoneGuide.css";
+import "../../../components/ui-components/GemstoneGuide/GemstoneGuide.css";
 export const GemstoneGuide = () => {
   return (
     <>

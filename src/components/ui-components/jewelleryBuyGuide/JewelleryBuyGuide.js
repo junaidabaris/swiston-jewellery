@@ -1,6 +1,6 @@
 import React from "react";
-import "../../components/jewelleryBuyGuide/JewelleryBuyGuide.css";
-import jewelleryTop from "../../assets/jewelleryBuyGuideImg/top-img.jpg";
+import "../../../components/ui-components/jewelleryBuyGuide/JewelleryBuyGuide.css";
+import jewelleryTop from "../../../assets/jewelleryBuyGuideImg/top-img.jpg";
 // import PickRightMetal from "../../Components/jewelleryBuyGuide/PickRightMetal";
 import ChooseDiamond from "./ChooseDiamond";
 import { CareDiamond } from "../DiamondBuyingGuide/CareDiamond";

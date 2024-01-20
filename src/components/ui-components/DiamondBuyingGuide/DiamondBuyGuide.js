@@ -1,6 +1,6 @@
 import React from "react";
 import "../DiamondBuyingGuide/DiamondBuyGuide.css";
-import diamondbuy from "../../images/DiamondBuyGuideImg/top-diamond.jpg";
+import diamondbuy from "../../../images/DiamondBuyGuideImg/top-diamond.jpg";
 
 import {
   GiEmeraldNecklace,
@@ -10,7 +10,7 @@ import {
   GiDropEarrings,
 } from "react-icons/gi";
 import { TbSquareRounded } from "react-icons/tb";
-import anomatie from "../../images/DiamondBuyGuideImg/0cccb686b24340568b61d2f4f5131872.jpg";
+import anomatie from "../../../images/DiamondBuyGuideImg/0cccb686b24340568b61d2f4f5131872.jpg";
 import { MdOutlineApproval } from "react-icons/md";
 import { CareDiamond } from "./CareDiamond";
 

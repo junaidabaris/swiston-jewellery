@@ -2,7 +2,7 @@ import React from "react";
 // import "../../Components/GoldRate/GoldRate.css";
 import "./GoldRate.css";
 import { GoArrowRight } from "react-icons/go";
-import engmentring from "../../images/HomeMainimages/homemain3.gif";
+import engmentring from "../../../images/HomeMainimages/homemain3.gif";
 import GoldRateSlide from "./GoldRateSlide";
 import GoldRateCard from "./GoldRateCard";
 import GoldRateToday from "./GoldRateToday";

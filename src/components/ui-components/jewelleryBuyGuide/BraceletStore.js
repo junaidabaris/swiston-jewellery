@@ -1,10 +1,10 @@
 import React from "react";
-import "../../components/jewelleryBuyGuide/BraceletStore.css";
-import bracelet1 from "../../assets/jewelleryBuyGuideImg/braclete1.webp";
-import bracelet2 from "../../assets/jewelleryBuyGuideImg/bracelete2.png";
-import bracelet3 from "../../assets/jewelleryBuyGuideImg/bracelete3.png";
-import bracelet4 from "../../assets/jewelleryBuyGuideImg/bracelete4.webp";
-import bracelet5 from "../../assets/jewelleryBuyGuideImg/earring5.jpeg";
+import "../../../components/ui-components/jewelleryBuyGuide/BraceletStore.css";
+import bracelet1 from "../../../assets/jewelleryBuyGuideImg/braclete1.webp";
+import bracelet2 from "../../../assets/jewelleryBuyGuideImg/bracelete2.png";
+import bracelet3 from "../../../assets/jewelleryBuyGuideImg/bracelete3.png";
+import bracelet4 from "../../../assets/jewelleryBuyGuideImg/bracelete4.webp";
+import bracelet5 from "../../../assets/jewelleryBuyGuideImg/earring5.jpeg";
 
 export default function BraceletStore() {
   let bracelet = [
