@@ -1,5 +1,5 @@
 import React from "react";
-import "../../components/GemstoneGuide/GemstoneGarnet.css";
+import "../../../components/ui-components/GemstoneGuide/GemstoneGarnet.css";
 
 export const GemstoneGarnet = () => {
   let menu = [

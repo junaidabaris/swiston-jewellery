@@ -1,6 +1,6 @@
 import React from "react";
-import "../../components/jewelleryBuyGuide/PickRightMetal.css";
-import pickrightimg from "../../assets/jewelleryBuyGuideImg/rings-2634929_640.webp";
+import "../../../components/ui-components/jewelleryBuyGuide/PickRightMetal.css";
+import pickrightimg from "../../../assets/jewelleryBuyGuideImg/rings-2634929_640.webp";
 export default function PickRightMetal() {
   let rightMetal = [
     {

@@ -2,7 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import "../../components/GoldRate/GoldRateSlide.css";
+import "../../../components/ui-components/GoldRate/GoldRateSlide.css";
 import GoldRateCard from "./GoldRateCard";
 
 function SampleNextArrow(props) {

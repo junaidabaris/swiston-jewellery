@@ -1,7 +1,7 @@
 import React from "react";
 import "./GoldRateToday.css";
-import digitalimg from "../../images/GoldRateImages/digital-gold-img.jpeg";
-import bestgold from "../../images/GoldRateImages/bestgold.jpeg";
+import digitalimg from "../../../images/GoldRateImages/digital-gold-img.jpeg";
+import bestgold from "../../../images/GoldRateImages/bestgold.jpeg";
 
 const GoldRateToday = () => {
   let slectState = [

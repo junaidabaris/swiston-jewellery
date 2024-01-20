@@ -1,10 +1,10 @@
-import ExchangeProgram from "../../components/GoldExchangecompo/ExchangeProgram";
-import GoldCalculate from "../../components/GoldExchangecompo/GoldCalculate";
-import HowChange from "../../components/GoldExchangecompo/HowChange";
-import HowItUse from "../../components/GoldExchangecompo/HowItUse";
-import OurStores from "../../components/GoldExchangecompo/OurStores";
-import StorsList from "../../components/GoldExchangecompo/StorsList";
-import TableComp from "../../components/GoldExchangecompo/TableComp";
+import ExchangeProgram from "../../components/ui-components/GoldExchangecompo/ExchangeProgram";
+import GoldCalculate from "../../components/ui-components/GoldExchangecompo/GoldCalculate";
+import HowChange from "../../components/ui-components/GoldExchangecompo/HowChange";
+import HowItUse from "../../components/ui-components/GoldExchangecompo/HowItUse";
+import OurStores from "../../components/ui-components/GoldExchangecompo/OurStores";
+import StorsList from "../../components/ui-components/GoldExchangecompo/StorsList";
+import TableComp from "../../components/ui-components/GoldExchangecompo/TableComp";
 
 function GoldExchange(params) {
   return (

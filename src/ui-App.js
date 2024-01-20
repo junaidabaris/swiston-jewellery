@@ -7,20 +7,20 @@ import "bootstrap/dist/css/bootstrap.css";
 import Footer from "./common/footer/Footer";
 import "../src/assets/css/style.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Carriers from "./components/carriers/Carriers";
-import Home from "./components/home/Home";
-import ProductDetails from "./components/productDetails/ProductDetails";
+import Carriers from "./components/ui-components/carriers/Carriers";
+import Home from "./components/ui-components/home/Home";
+import ProductDetails from "./components/ui-components/productDetails/ProductDetails";
 
-import GoldRate from "./components/GoldRate/GoldRate";
-import DiamondBuyGuide from "./components/DiamondBuyingGuide/DiamondBuyGuide";
-import TrendingSearche from "./components/TrendingSearches/TrendingSearche";
-import ProductSelectSize from "./components/productDetails/productSelectSize/ProductSelectSize";
-import Category from "./components/category/Category";
-// import GemstoneGuide from "./components/GemstoneGuide/GemstoneGuide";
-import ReferAndEarn from "./components/referAndEarn/ReferAndEarn.";
-import { GemstoneGuide } from "./components/GemstoneGuide/GemstoneGuide";
-import JewelleryBuyGuide from "./components/jewelleryBuyGuide/JewelleryBuyGuide";
-import GoldExchange from "./page/gold-exchange/Index";
+import GoldRate from "./components/ui-components/GoldRate/GoldRate";
+import DiamondBuyGuide from "./components/ui-components/DiamondBuyingGuide/DiamondBuyGuide";
+import ProductSelectSize from "./components/ui-components/productDetails/productSelectSize/ProductSelectSize";
+import Category from "./components/ui-components/category/Category";
+// import GemstoneGuide from "./components/ui-components/GemstoneGuide/GemstoneGuide";
+import ReferAndEarn from "./components/ui-components/referAndEarn/ReferAndEarn.";
+import { GemstoneGuide } from "./components/ui-components/GemstoneGuide/GemstoneGuide";
+import JewelleryBuyGuide from "./components/ui-components/jewelleryBuyGuide/JewelleryBuyGuide";
+import GoldExchange from "./pages/gold-exchange/Index";
+import TrendingSearche from "./components/ui-components/TrendingSearches/TrendingSearche";
 function UIApp() {
   const [show, setShow] = useState(false);
   return (
@@ -54,4 +54,4 @@ function UIApp() {
   );
 }
 
-export default App;
+export default UIApp;

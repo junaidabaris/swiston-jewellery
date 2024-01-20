@@ -1,13 +1,13 @@
 import React from "react";
-import "../../components/jewelleryBuyGuide/RingStore.css";
-import ring1 from "../../assets/jewelleryBuyGuideImg/ring.png";
-import ring2 from "../../assets/jewelleryBuyGuideImg/ring2.avif";
-import ring3 from "../../assets/jewelleryBuyGuideImg/ring3.avif";
-import ring4 from "../../assets/jewelleryBuyGuideImg/ring4.avif";
-import ring5 from "../../assets/jewelleryBuyGuideImg/ring5.avif";
-import ring6 from "../../assets/jewelleryBuyGuideImg/ring6.avif";
-import ring7 from "../../assets/jewelleryBuyGuideImg/ring7.avif";
-import ring8 from "../../assets/jewelleryBuyGuideImg/ring8.avif";
+import "../../../components/ui-components/jewelleryBuyGuide/RingStore.css";
+import ring1 from "../../../assets/jewelleryBuyGuideImg/ring.png";
+import ring2 from "../../../assets/jewelleryBuyGuideImg/ring2.avif";
+import ring3 from "../../../assets/jewelleryBuyGuideImg/ring3.avif";
+import ring4 from "../../../assets/jewelleryBuyGuideImg/ring4.avif";
+import ring5 from "../../../assets/jewelleryBuyGuideImg/ring5.avif";
+import ring6 from "../../../assets/jewelleryBuyGuideImg/ring6.avif";
+import ring7 from "../../../assets/jewelleryBuyGuideImg/ring7.avif";
+import ring8 from "../../../assets/jewelleryBuyGuideImg/ring8.avif";
 
 export default function RingStore() {
   const ringStore = [

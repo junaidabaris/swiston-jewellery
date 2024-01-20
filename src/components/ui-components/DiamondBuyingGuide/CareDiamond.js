@@ -1,6 +1,6 @@
 import React from "react";
 import "./CareDiamond.css";
-import image from "../../images/DiamondBuyGuideImg/careimage.jpg";
+import image from "../../../images/DiamondBuyGuideImg/careimage.jpg";
 export const CareDiamond = () => {
   return (
     <>

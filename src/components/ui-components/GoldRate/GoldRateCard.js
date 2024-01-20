@@ -1,5 +1,5 @@
 import React from "react";
-import dev1 from "../../images/GoldRateImages/istfront1.png"
+import dev1 from "../../../images/GoldRateImages/istfront1.png"
 export default function GoldRateCard() {
   return (
     <>

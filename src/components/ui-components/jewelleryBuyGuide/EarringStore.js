@@ -1,13 +1,13 @@
 import React from "react";
 // import "../../Components/jewelleryBuyGuide/EarringStore.css";
-import earring1 from "../../assets/jewelleryBuyGuideImg/earring1.webp";
-import earring2 from "../../assets/jewelleryBuyGuideImg/earring2.jpeg";
-import earring3 from "../../assets/jewelleryBuyGuideImg/earring3.jpeg";
-import earring4 from "../../assets/jewelleryBuyGuideImg/earring4.jpeg";
-import earring5 from "../../assets/jewelleryBuyGuideImg/earring5.jpeg";
-import earring6 from "../../assets/jewelleryBuyGuideImg/earring6.jpeg";
-import earring7 from "../../assets/jewelleryBuyGuideImg/earring7.jpeg";
-import earring8 from "../../assets/jewelleryBuyGuideImg/earring8.jpeg";
+import earring1 from "../../../assets/jewelleryBuyGuideImg/earring1.webp";
+import earring2 from "../../../assets/jewelleryBuyGuideImg/earring2.jpeg";
+import earring3 from "../../../assets/jewelleryBuyGuideImg/earring3.jpeg";
+import earring4 from "../../../assets/jewelleryBuyGuideImg/earring4.jpeg";
+import earring5 from "../../../assets/jewelleryBuyGuideImg/earring5.jpeg";
+import earring6 from "../../../assets/jewelleryBuyGuideImg/earring6.jpeg";
+import earring7 from "../../../assets/jewelleryBuyGuideImg/earring7.jpeg";
+import earring8 from "../../../assets/jewelleryBuyGuideImg/earring8.jpeg";
 export default function EarringStore() {
   const ringStore = [
     {
