@@ -1,0 +1,75 @@
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.modal.show {
+  display: block;
+}
+.modal-content {
+  width: 0px;
+}
+
+.modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 25%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 10px 25px;
+}
+.country_close_button {
+  display: flex;
+  justify-content: end;
+  align-items: start;
+}
+
+.country_close_button span {
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+  margin-bottom: 10px;
+}
+.country_heading p {
+  color: black;
+  font-size: 17px;
+  font-weight: 500;
+  border-bottom: 1px solid black;
+  display: inline-block;
+}
+.flag_image img {
+  width: 80px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 20px;
+}
+.flag_image p {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding-top: 10px;
+  color: rgb(44, 42, 42);
+  font-size: 12px;
+}
+.flag_selected {
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 20px;
+  padding-bottom: 30px;
+}
+.flag_btn {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}

@@ -1,0 +1,18 @@
+.productCategories_background {
+  width: 100%;
+  background-color: rgb(204, 228, 230);
+  padding: 40px 40px;
+  margin-bottom: 40px;
+}
+.product_related_btn_flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.product_related_btn_flex .product_related_btn {
+  border: none;
+  padding: 8px 15px;
+  border-radius: 15px;
+  background-color: #fff;
+  font-size: 12px;
+  margin: 10px;
+}

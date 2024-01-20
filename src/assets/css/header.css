@@ -1,0 +1,397 @@
+.header_background {
+  background-color: beige;
+  width: 100%;
+  /* height: 70px; */
+}
+.header-search input {
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.header-social-icons span {
+  font-size: 22px;
+}
+
+.navs ol {
+  list-style: none;
+  display: flex;
+
+  /* justify-content: space-evenly; */
+}
+.navs ol li {
+  padding: 20px;
+}
+
+.navbar {
+  background-color: #333;
+  color: #fff;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-links li {
+  margin: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-links {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav-links li {
+    margin: 5px 0;
+  }
+}
+.nav-items {
+  font-size: 15px;
+  font-weight: 500;
+  color: #333;
+}
+.pincode_text {
+  padding-left: 16px;
+}
+.pincode_text p {
+  font-size: 11px;
+  color: #333;
+  padding: 0px;
+  margin: 0px;
+}
+.pincode_text span {
+  font-size: 12px;
+  color: rgb(243, 10, 204);
+}
+.flag {
+  width: 35px;
+  height: 25px;
+  margin-left: 35px;
+  margin-top: 5px;
+}
+li {
+  list-style: none;
+}
+.nav_icons span {
+  margin-left: 30px;
+  font-size: 22px;
+  color: #333;
+}
+
+@media (max-width: 576px) {
+  #navbarScroll {
+    background-color: #fff;
+    padding-left: 24px;
+    margin-top: 10px;
+  }
+}
+@media (max-width: 768px) {
+  #navbarScroll {
+    background-color: #fff;
+    padding-left: 24px;
+    margin-top: 10px;
+  }
+}
+@media (max-width: 992px) {
+  #navbarScroll {
+    background-color: #fff;
+    padding-left: 24px;
+    margin-top: 10px;
+  }
+}
+.nav_items_category {
+  padding: 20px;
+  /* padding-bottom: 80px; */
+}
+.shop_underline {
+  display: inline-block;
+  border-bottom: 1px solid gray;
+  padding: 10px;
+}
+
+.shop_name h6 {
+  font-size: 14px;
+}
+.shop_list_flex img {
+  width: 40px;
+  height: 40px;
+}
+.shop_list_flex {
+  display: flex;
+}
+.shop_list_flex p {
+  font-size: 12px;
+
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  padding-top: 10px;
+  color: gray;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+.shop_list_flex p:hover {
+  font-weight: 500;
+}
+.shop_name .shop_name_content {
+  display: flex;
+}
+.shop_by_metal_stone .shop_list_flex img {
+  width: 20px;
+  height: 20px;
+  margin-top: 8px;
+}
+.shop_by_metal_stone {
+  padding-left: 30px;
+}
+.shop_category_name {
+  display: flex;
+  padding: 0px 10px 30px 30px;
+}
+.shop_by {
+  padding-left: 50px;
+}
+.shop_by p {
+  margin-bottom: 0px;
+}
+.shop_by h6 {
+  font-size: 14px;
+}
+.shop_nav_image {
+  padding-left: 40px;
+}
+.shop_nav_image img {
+  width: 90%;
+  height: 80%;
+}
+
+/* Style for showing the dropdown on hover */
+.show_items:hover .nav_items_category {
+  display: block;
+}
+/* Style for hiding the dropdown by default */
+.nav_items_category {
+  display: none;
+  background-color: #fff;
+  position: absolute;
+  top: calc(100% - 18px); /* Position slightly above the anchor link */
+  left: 0;
+  z-index: 1; /* Ensure the dropdown is above other elements */
+}
+.show_items:hover {
+  border-bottom: 3px solid rgb(78, 72, 153);
+}
+.pincode_hide_item {
+  display: none;
+  background-color: #fff;
+  position: absolute;
+  /* top: calc(100% - 18px); Position slightly above the anchor link */
+  /* left: 0; Align to the left edge */
+  right: 50px;
+  top: calc(100% - 18px);
+  width: 350px;
+  z-index: 1;
+}
+.pincode_text:hover .pincode_hide_item {
+  display: block;
+}
+.location_Content {
+  padding: 10px 20px;
+}
+.location_icon {
+  display: flex;
+  justify-content: center;
+}
+.location_icon span {
+  font-size: 50px;
+  color: rgb(211, 166, 200);
+}
+.location_Content h6 {
+  color: rgb(49, 46, 46);
+  font-size: 18px;
+  width: 70%;
+  text-align: center;
+  margin: auto;
+  word-spacing: normal;
+  padding-top: 20px;
+}
+.location_Content p {
+  font-size: 14px;
+  text-align: center;
+  color: gray;
+  padding-top: 10px;
+  width: 90%;
+  margin: auto;
+}
+.nav_flex_item {
+  display: flex;
+  padding-left: 45px;
+  flex-wrap: wrap;
+}
+.input-group {
+  /* height: 40px; */
+  /* width: fit-content; */
+}
+
+.location_search_btn {
+  padding: 10px 10px;
+  /* padding-bottom: 20px; */
+  background-color: rgb(248, 246, 246);
+  border-radius: 15px;
+
+  width: fit-content;
+  margin: auto;
+  margin-top: 20px;
+}
+.search_input {
+  outline: none;
+  border: none;
+  background-color: rgb(248, 246, 246);
+  margin-left: 5px;
+}
+/* input.search_input {
+  outline: none;
+} */
+.location_search_btn .location_btn_icon {
+  font-size: 16px;
+  margin-left: 5px;
+  color: #cf8eb9;
+}
+.arrow_btn_icon {
+  font-size: 22px;
+  background-color: #b4abab;
+  padding: 10px;
+  border-radius: 50%;
+  color: #cf8eb9;
+}
+.location_text {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+.search_input::placeholder {
+  font-size: 12px;
+}
+.hide_account {
+  display: none;
+  background-color: #fff;
+  position: absolute;
+  right: 50px;
+  top: calc(100% - 20px);
+  width: 350px;
+  z-index: 1;
+}
+
+.show_account:hover .hide_account {
+  display: block;
+}
+@media (max-width: 992px) {
+  .nav_items_category {
+    background-color: #fff;
+    position: absolute;
+    /* top: 20px; */
+    left: -150%;
+    width: 100%;
+    top: 70px;
+    display: block;
+
+    z-index: 1;
+    transition: all 1s;
+  }
+  .open {
+    left: 0px !important;
+    transition: all 1s;
+  }
+  .shop_category_name {
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: scroll;
+  }
+  .shop_by_metal_stone {
+    padding-left: 0px;
+  }
+  .shop_by {
+    padding-left: 0px;
+    margin-left: 10px;
+  }
+  .shop_nav_image {
+    padding-bottom: 20px;
+    padding-left: 0px;
+  }
+  .show_items:hover {
+    border-bottom: none;
+  }
+  .nav-items:hover:hover {
+    color: #333;
+    font-weight: 700;
+  }
+  .input-group {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .nav_flex_item {
+    padding-left: 0px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .nav_items_category {
+    background-color: #fff;
+    position: absolute;
+
+    left: -150%;
+    width: 100%;
+    top: 70px;
+    display: block;
+
+    z-index: 1;
+    transition: all 1s;
+  }
+  .open {
+    left: 0px !important;
+    transition: all 1s;
+  }
+  .shop_category_name {
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: scroll;
+  }
+  .shop_by_metal_stone {
+    padding-left: 0px;
+  }
+  .shop_by {
+    padding-left: 0px;
+    margin-left: 10px;
+  }
+  .shop_nav_image {
+    padding-bottom: 20px;
+    padding-left: 0px;
+  }
+  .show_items:hover {
+    border-bottom: none;
+  }
+  .nav-items:hover:hover {
+    color: #333;
+    font-weight: 700;
+  }
+  .input-group {
+    width: 100%;
+  }
+  .nav_flex_item {
+    padding-left: 0px;
+    margin-bottom: 10px;
+  }
+}
+.swistonLogo {
+  width: 100px;
+  height: 40px;
+}
