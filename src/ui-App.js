@@ -21,7 +21,7 @@ import ReferAndEarn from "./components/referAndEarn/ReferAndEarn.";
 import { GemstoneGuide } from "./components/GemstoneGuide/GemstoneGuide";
 import JewelleryBuyGuide from "./components/jewelleryBuyGuide/JewelleryBuyGuide";
 import GoldExchange from "./page/gold-exchange/Index";
-function App() {
+function UIApp() {
   const [show, setShow] = useState(false);
   return (
     <>
