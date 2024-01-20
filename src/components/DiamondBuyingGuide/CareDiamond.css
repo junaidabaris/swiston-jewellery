@@ -1,0 +1,30 @@
+.diamond-care-section {
+  padding: 70px 0px;
+  background-color: #fff;
+}
+.care-info-list {
+  margin: 0px;
+
+  padding: 20px 0px 0px 35px;
+}
+.transform-scal:hover{
+     transform:scale(1.1);
+     cursor: pointer;
+}
+.care-info-list li {
+  padding-bottom: 25px;
+  font-size: 15px;
+  font-family: sans-serif;
+
+  color: gray;
+  word-spacing: 1px;
+  font-weight: inherit;
+}
+.diamond-care-section h2 {
+  padding-top: 10px;
+  padding-left: 20px;
+  margin: 0px;
+  font-size: 30px;
+  font-family: emoji;
+  letter-spacing: 1px;
+}

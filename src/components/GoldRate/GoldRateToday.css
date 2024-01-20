@@ -1,0 +1,31 @@
+.wrapper_option{
+    height: 200px;
+    overflow: auto;
+}
+.curent-rate-row{
+    border-radius:20px;
+    padding: 30px 0px;
+    background-color: rgb(230, 210, 144);
+}
+.select-container{
+    display: flex;
+    width: 100%;
+    flex-wrap:wrap ;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-evenly
+}
+.select-container select{
+    
+    width: 200px;
+}
+.curentraet-heading{
+    color:rgb(35, 21, 53);
+}
+.card-img-overlay h5{
+    color:rgb(35, 21, 53);
+    padding: 20px 0px;
+}
+.card-img-overlay .btn{
+    background-color:rgb(35, 21, 53) ;
+}

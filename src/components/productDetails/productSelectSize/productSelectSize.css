@@ -1,0 +1,138 @@
+.right-side-modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 300px; /* Adjust the width as needed */
+  background-color: #fff;
+  outline: none;
+  padding: 20px;
+}
+.profileboxvisible {
+  display: block;
+}
+.profileboxhidden {
+  display: none;
+}
+
+.product_select_size {
+  background: white;
+  max-width: 90%;
+  overflow: hidden;
+  z-index: 10001;
+  transition: transform 0.3s linear 0s;
+  width: 566px;
+  height: 589px;
+  max-height: 100%;
+  position: absolute;
+  left: auto;
+  right: 0px;
+  border-radius: 24px 0px 0px 24px;
+  animation-duration: 500ms;
+  animation-fill-mode: both;
+}
+
+.product_select_rate {
+  display: flex;
+  position: sticky;
+  padding: 20px 25px;
+  top: 0px;
+  width: 100%;
+  height: 63px;
+  background-color: rgb(230, 223, 223);
+}
+.product_select_rate .rate {
+  display: flex;
+  align-items: center;
+  color: blueviolet;
+  font-size: 21px;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+.product_select_rate .deal_rate {
+  display: flex;
+  align-items: center;
+  text-decoration: line-through;
+  color: gray;
+  font-size: 21px;
+  font-weight: 500;
+  padding-left: 15px;
+  margin-bottom: 0px;
+}
+
+.product_select_category h3 {
+  padding: 20px 20px 10px 25px;
+  font-size: 16px;
+  font-weight: 600px;
+}
+.product_select_box_flex {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px 0px 8px 34px;
+  width: 100%;
+  border-bottom: 2px solid rgb(247, 242, 242);
+}
+.product_select_category .product_select_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 108px;
+  border-radius: 10px;
+  min-height: 56px;
+  margin: 0px 17px 12px 0px;
+  text-align: center;
+  color: blueviolet;
+  cursor: pointer;
+  padding: 13px 5px 5px;
+  background-color: #d1caca;
+  border: 1px solid rgb(150, 145, 145);
+}
+.metal_name {
+  width: 70%;
+  margin: 0 auto;
+  font-size: 12px;
+  height: 30px;
+  display: table;
+  min-width: 70px;
+  padding-bottom: 8px;
+  font-weight: 600;
+  /* letter-spacing: 1px; */
+}
+.metal_name .metal_num_bold {
+  font-size: 13px;
+  font-weight: 700;
+}
+.metal_btn {
+  width: 100%;
+  background-color: #fff;
+  font-size: 9px;
+  border-radius: 8px;
+  color: blueviolet;
+  padding: 4px 0px;
+}
+.product-select-outer {
+  height: 65%;
+  overflow: scroll;
+}
+.product_confirm_btn {
+  margin: 0px 34px;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  border: none;
+  padding: 8px 0px;
+  background-color: rgb(49, 49, 197);
+  border-radius: 10px;
+  font-size: 17px;
+  font-weight: 600;
+  color: #fff;
+}
+.select_close_modal {
+  display: flex;
+  justify-content: end;
+  font-size: 22px;
+  margin: auto;
+  font-weight: 700;
+  padding-left: 300px;
+}

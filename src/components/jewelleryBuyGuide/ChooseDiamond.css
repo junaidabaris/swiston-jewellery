@@ -1,0 +1,32 @@
+.choose-diamond {
+  background-color: beige;
+  width: 100%;
+  cursor: pointer;
+}
+.choose-heading{
+  font-size: 25px;
+}
+.choose-diamond img {
+  width: 100%;
+  height: 300px;
+}
+.choose-diamond img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.choose-text {
+  text-decoration: none;
+  color: darkgoldenrod;
+}
+.choose-diamond h2 {
+  margin: 0px;
+  font-size: 25px;
+  font-weight: 500;
+  color: rgb(35, 21, 53);
+  display: inline-block;
+}
+.choose-diamond p{
+    font-size: 15px;
+    color: rgb(35, 21, 53);
+    font-weight: 500;
+}

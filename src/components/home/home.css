@@ -1,0 +1,432 @@
+.home_slide_background {
+  z-index: -1;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.home_image {
+  background-image: url("https://media.istockphoto.com/id/515839162/photo/indian-traditional-jewellery-bangles-with-huldi-kumkum.jpg?s=612x612&w=0&k=20&c=vjjuBqlZpeypG3shO-iTS0kCAldru1WefDEkdh3_L7U= ");
+  width: 100%;
+  background-size: cover;
+  height: 600px;
+  /* object-fit: fill; */
+  /* background-repeat: no-repeat; */
+  /* background-position: center; */
+}
+.home_image1 {
+  background-image: url("https://t3.ftcdn.net/jpg/01/78/07/96/240_F_178079650_J6H1bEM6tuTWBCxxRsu3h6GSdqqberqn.jpg");
+  width: 100%;
+  /* background-color: black; */
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+  /* background-position: center; */
+  height: 600px;
+}
+.home_image2 {
+  background-image: url("https://img.freepik.com/free-photo/flat-lay-essentials-bead-working_23-2148815813.jpg?size=626&ext=jpg&ga=GA1.1.608086010.1693898209&semt=ais");
+  width: 100%;
+  /* background-color: black; */
+  background-size: cover;
+  height: 600px;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+}
+
+.design_container {
+  padding: 40px 0px;
+}
+.home1_image_background {
+  background-image: url("https://t3.ftcdn.net/jpg/06/24/50/14/240_F_624501445_scc8d8oS581rHZFzO9ffTNERowJufJhk.jpg");
+  border-radius: 30px;
+  height: 400px;
+  background-size: cover;
+  width: 100%;
+}
+.design_content {
+  padding: 40px;
+}
+.design_content h1 {
+  font-size: 60px;
+  color: #fff;
+  font-weight: 700;
+  text-align: end;
+  /* display: flex; */
+  /* justify-content: end; */
+
+  font-family: serif;
+  line-height: 49px;
+}
+.upgrade_deduction_flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin-top: 109px;
+}
+.many_design h1 {
+  font-size: 60px;
+  line-height: 49px;
+  color: #fff;
+  border-bottom: 2px solid white;
+  line-height: 23px;
+}
+.many_design span {
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  margin-right: 10px;
+}
+.many_design h2 {
+  font-size: 40;
+  color: blanchedalmond;
+  border-bottom: 2px solid white;
+  font-family: serif;
+}
+.arrow_design {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  padding: 10px;
+  /* text-align: center; */
+  background-color: #fff;
+}
+.arrow_design span {
+  display: flex;
+  font-size: 20px;
+  font-weight: 700;
+  justify-content: center;
+  align-items: center;
+}
+.visual_tab_container img {
+  width: 400px;
+  height: auto;
+  border-radius: 10px;
+  margin: 10px;
+}
+.exchange_image_background {
+  background-image: url("https://img.freepik.com/free-photo/shiny-gold-ornament-hanging-winter-branch-generated-by-ai_188544-40775.jpg?t=st=1704191013~exp=1704194613~hmac=acfcb10c35a8c528b14c0466d71920308dda3b1579fe2c4333c3d8d6d2508396&w=740");
+  border-radius: 30px;
+  height: 400px;
+  background-size: cover;
+  width: 100%;
+}
+.exchange_image_background p {
+  font-size: 22px;
+  font-weight: 500;
+  color: #fff;
+}
+.schedule_appointment {
+  background-color: aliceblue;
+  padding: 80px;
+  width: 100%;
+}
+.schedule_appointment_content {
+  /* display: flex; */
+  /* align-items: center; */
+  /* flex-direction: column; */
+}
+.schedule_appointment_content img {
+  width: 80%;
+  height: 80%;
+  border-radius: 10px;
+}
+.schedule_content {
+  /* margin-left: -70px; */
+}
+.schedule_content h3 {
+  font-size: 24px;
+  font-weight: 500;
+  /* width: 250px; */
+  color: #071d40;
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+.schedule_content p {
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+/* .schedule_btn {
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 20px;
+  color: #000;
+  background-color: rgb(255, 0, 221);
+  border-radius: 5px;
+} */
+.Schedule_btn {
+  /* width: 130px; */
+  width: auto;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+
+.btn-1 {
+  background: rgb(96, 9, 240);
+  background: linear-gradient(
+    0deg,
+    rgba(96, 9, 240, 1) 0%,
+    rgba(129, 5, 240, 1) 100%
+  );
+  border: none;
+}
+
+.btn-1:before {
+  height: 0%;
+  width: 2px;
+}
+
+.btn-1:hover {
+  box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.5),
+    -4px -4px 6px 0 rgba(116, 125, 136, 0.5),
+    inset -4px -4px 6px 0 rgba(255, 255, 255, 0.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, 0.4);
+}
+
+.schedule_visit_content img {
+  width: 80%;
+  height: 80%;
+  border-radius: 10px;
+}
+.search_visit_office {
+  border: 1px solid blueviolet;
+  width: 325px;
+  padding: 8px 15px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.locate_me {
+  font-size: 14px;
+  color: rgb(153, 51, 114);
+  font-weight: 600;
+}
+.search_visit_office input {
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding-left: 5px;
+}
+.search_visit_office input::placeholder {
+  font-size: 14px;
+  font-weight: 500;
+}
+.search_visit_office input:focus {
+  outline: none;
+}
+.visit_content h3 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #071d40;
+  margin-top: 5px;
+}
+.recently_viewed {
+  padding: 40px 0px;
+}
+.recently_viewed h3 {
+  font-size: 22px;
+  padding-bottom: 20px;
+}
+.view_product img {
+  width: 90%;
+  height: 90%;
+  /* margin-left: 20px; */
+  border: 1px solid rgb(199, 191, 191);
+  border-radius: 10px;
+}
+.home_sign_up {
+  background-color: rgb(43, 43, 77);
+  padding: 40px;
+}
+.view_all_collection {
+  padding: 40px 0px;
+}
+.view_all_collection .image_content img {
+  height: 400px;
+  width: 90%;
+  border-radius: 10px;
+}
+.view_all_collection .image_content .name {
+  position: relative;
+  bottom: 96px;
+  /* left: 40px; */
+}
+.view_all_collection .image_content .name h4 {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: Georgia, serif;
+  margin-bottom: 0px;
+  text-align: center;
+  color: #fff;
+}
+
+.view_all_collection .image_content .name p {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+  height: 20px;
+  color: white;
+}
+.many_design_flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+.signInNewsletter {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+@media (max-width: 992px) {
+  .many_design h1 {
+    margin-bottom: 0px;
+  }
+  .visual_tab_container img {
+    width: 90%;
+  }
+
+  .many_design h1 {
+    font-size: 40px;
+    line-height: 49px;
+    color: #fff;
+    border-bottom: 2px solid white;
+    line-height: 23px;
+  }
+  .many_design span {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    margin-right: 10px;
+  }
+  .many_design h2 {
+    font-size: 40;
+    color: blanchedalmond;
+    border-bottom: 2px solid white;
+    font-family: serif;
+  }
+  .design_content .style_upgrade {
+    font-size: 50px;
+  }
+  .schedule_appointment_content {
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 576px) {
+  .auto_container {
+    padding: 0px 17px;
+  }
+  .design_content {
+    padding: 20px;
+  }
+  .design_content h1 {
+    font-size: 33px;
+    line-height: 37px;
+  }
+  .many_design_flex {
+    padding-top: 20px;
+  }
+  .home1_image_background {
+    background-image: url(https://t3.ftcdn.net/jpg/06/24/50/14/240_F_624501445_scc8d8oS581rHZFzO9ffTNERowJufJhk.jpg);
+    border-radius: 10px;
+    height: auto;
+    background-size: cover;
+    width: 100%;
+  }
+  .view_all_collection .image_content img {
+    height: auto;
+    width: 100%;
+  }
+  .design_content .style_upgrade {
+    font-size: 31px;
+    line-height: 23px;
+  }
+  .design_content h1 {
+    font-size: 25px;
+    line-height: 33px;
+  }
+  .many_design span {
+    font-size: 17px;
+    font-weight: 600;
+    color: #fff;
+    margin-right: 5px;
+  }
+  .exchange_image_background p {
+    font-size: 16px;
+  }
+  .schedule_appointment {
+    /* background-color: aliceblue; */
+    padding: 20px;
+  }
+  .schedule_appointment_content img {
+    width: 100%;
+    height: 80%;
+    border-radius: 10px;
+  }
+  .schedule_content h3 {
+    font-size: 18px;
+    font-weight: 500;
+    /* width: 250px; */
+    color: #071d40;
+    margin-bottom: 0px;
+    margin-top: 5px;
+    line-height: 20px;
+  }
+  .schedule_visit_content img {
+    width: 100%;
+    height: 80%;
+    border-radius: 10px;
+  }
+  .schedule_appointment_content {
+    /* margin-bottom: 40px; */
+    padding-bottom: 10px;
+  }
+  .visit_content h3 {
+    font-size: 18px;
+  }
+  .work_content {
+    padding: 36px;
+  }
+  .signUp_section h1 {
+    font-size: 32px;
+  }
+  .signInNewsletter {
+    width: 100%;
+  }
+  .home1_overflow {
+    overflow: hidden;
+  }
+}

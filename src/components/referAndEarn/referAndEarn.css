@@ -1,0 +1,42 @@
+.banner_image_earn_background {
+  background-image: url("../../assets/img/banner_web_earn.png");
+  width: 100%;
+  height: 100vh;
+}
+.refer_earn_card {
+  max-width: 416px;
+  position: absolute;
+  left: 10%;
+  top: 50%;
+  min-height: 416px;
+  transform: translateY(-50%);
+  margin-top: 0;
+  width: 100%;
+  flex-direction: column;
+  padding: 45px;
+  background-color: #fff;
+  border-radius: 24px;
+  box-sizing: inherit;
+}
+.refer_earn_card h2 {
+  font-size: 2.2rem;
+  line-height: 36px;
+  margin-bottom: 20px;
+}
+.refer_earn_card .intro {
+  font-size: 22px;
+  font-weight: 600;
+}
+.refer_earn_card .refer_heading {
+  /* background-image: linear-gradient(90deg, #e56eeb -13.59%, #8863fb 111.41%); */
+  font-size: 2.2rem;
+  font-weight: 700;
+  display: block;
+  color: transparent;
+  color: #9892eb;
+}
+.refer_earn_card p {
+  font-size: 1.8rem;
+  line-height: 24px;
+  color: blueviolet;
+}

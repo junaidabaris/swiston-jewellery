@@ -1,0 +1,21 @@
+.trevel-service{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+.serfb-icon{
+    font-size: 100px;
+    line-height: 30px;
+    color:rgb(255, 255, 255);
+}
+.service-text{
+    padding-left: 50px;
+}
+.service-text h6{
+    color: rgb(255, 255, 255);
+}
+.service-text p{
+    font-size: 16px;
+    color: rgb(196, 173, 225);
+    
+ }
