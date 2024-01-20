@@ -89,7 +89,7 @@ function ProductDetails() {
       <section>
         <div className="row p-0 m-0">
           <div className="col-lg-5 slide_breadcrumb_image">
-            <div className="auto_container">
+            <div className="container">
               <div className="breadcrumbs">
                 <p>
                   Home{" "}
