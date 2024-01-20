@@ -21,6 +21,7 @@ import { GemstoneGuide } from "./components/ui-components/GemstoneGuide/Gemstone
 import JewelleryBuyGuide from "./components/ui-components/jewelleryBuyGuide/JewelleryBuyGuide";
 import GoldExchange from "./pages/gold-exchange/Index";
 import TrendingSearche from "./components/ui-components/TrendingSearches/TrendingSearche";
+import Cart from "./components/ui-components/cart/componants/Cart";
 function UIApp() {
   const [show, setShow] = useState(false);
   return (
@@ -46,6 +47,7 @@ function UIApp() {
             <Route path="/refer-and-earn" element={<ReferAndEarn />} />
             <Route path="/jewellery-guide" element={<JewelleryBuyGuide />} />
             <Route path="/gold-exchange" element={<GoldExchange />} />
+            <Route path="/cart" element={<Cart />} />
           </Routes>
           <Footer />
         </BrowserRouter>
