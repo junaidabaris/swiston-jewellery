@@ -1,0 +1,23 @@
+.world-best-diamond {
+  border-radius: 20px;
+  position: relative;
+}
+.world-diamond-contant {
+  width: 100%;
+  padding: 0px 20px;
+}
+.best-diamond {
+  /* background-color: rgb(176, 176, 176); */
+  padding: 60px 0px;
+  margin-top:100px;
+}
+.world-diamond-contant h2 {
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+.world-diamond-contant p {
+  padding: 30px 0px;
+  color: gray;
+  margin: 0px;
+}

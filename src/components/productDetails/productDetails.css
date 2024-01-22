@@ -1,0 +1,350 @@
+.product_content_details_background {
+  background-color: rgb(220, 213, 226);
+  padding: 40px 80px;
+  overflow: scroll;
+  height: 700px;
+}
+.slide_breadcrumb_image {
+  padding: 40px 0px;
+}
+.breadcrumbs {
+  display: flex;
+}
+.breadcrumbs p {
+  font-size: 11px;
+  padding-left: 5px;
+  font-weight: 500;
+}
+.slick1_image img {
+  width: 100%;
+  height: 100%;
+}
+.slick2_image img {
+  width: 100%;
+  height: 100%;
+  border: 1px solid rgb(240, 234, 234);
+  margin: 5px;
+}
+.slick_image_flex {
+  display: flex;
+  justify-content: space-between;
+}
+.slick_image_item {
+  display: flex;
+}
+.slick_image_item span {
+  padding-right: 5px;
+}
+.slick_image_item p {
+  font-size: 11px;
+  margin-top: 6px;
+}
+.rating_flex {
+  display: flex;
+}
+.content_item {
+  display: flex;
+  justify-content: space-between;
+}
+.rating_box {
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 0px 5px;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+}
+.rating_details_paragraph {
+  font-size: 11px;
+  text-decoration: underline;
+  margin-left: 10px;
+}
+.product_icon_flex .icon_box {
+  padding: 5px 10px;
+  background-color: #fff;
+  display: inline-block;
+  border-radius: 10px;
+  margin: 0px 10px;
+  /* border: 1px solid gray; */
+}
+.main_form {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.lebal {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form_input {
+  width: 40%;
+}
+.form_inp {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid gray;
+  padding: 10px;
+  background: #fff;
+  width: 100%;
+  border-radius: 12px;
+}
+.form_inp p {
+  margin: 0px;
+}
+.select {
+  font-family: "InterSemiBold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #4f3267;
+  padding-top: 12px;
+  padding-left: 12px;
+  margin-bottom: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 12px;
+}
+.lebal .size {
+  color: #4f3267;
+}
+/* .label .select {
+  font-size: 11px;
+  font-weight: 500;
+} */
+.form_inp input {
+  border: none;
+}
+.form_inp input:focus {
+  outline: none;
+}
+.bestseller {
+  padding: 5px 10px;
+  font-size: 11px;
+  background-color: rgb(224, 154, 154);
+  display: inline-block;
+  margin: 20px 0px 0px 0px;
+  border-radius: 10px;
+}
+.offer {
+  margin-top: 10px;
+  height: 20px;
+  overflow: auto;
+}
+.offer .flat {
+  color: red;
+  font-size: 600;
+}
+.offer .expires {
+  color: blue;
+  font-weight: 600;
+}
+.main_addcart {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.main_addcart div {
+  width: 40%;
+}
+
+.add_cart button {
+  width: 100%;
+  background-image: linear-gradient(90deg, rgb(247, 3, 255), blue);
+  font-size: 1.2em;
+  font-weight: 600;
+  padding: 10px;
+  border: none;
+  border-radius: 15px;
+  text-align: center;
+  color: #fff;
+}
+.add_cart p {
+  font-size: 13px;
+  color: #33363e;
+  margin-top: 5px;
+}
+.add_cart p a.notify {
+  color: #4f3267;
+}
+.find {
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  background-color: #aca4a4;
+  height: 50px;
+  line-height: 50px;
+  font-weight: 600;
+  color: #33363e;
+  border-radius: 15px;
+}
+.product_details {
+  padding: 40px 0px;
+}
+.product_details_content h3 {
+  font-size: 23px;
+  font-weight: 600;
+  /* color: ; */
+}
+.product_details_content p {
+  font-size: 15px;
+  font-weight: 400;
+
+  margin-bottom: 0px;
+}
+.product_details_content .sku_color {
+  color: #4f3267;
+  padding-left: 5px;
+}
+.jewellary_about {
+  width: 80%;
+}
+.product_details_box {
+  width: 150px;
+  height: 130px;
+  border: 1px solid rgb(204, 197, 197);
+  padding: 10px;
+  border-radius: 10px;
+  display: inline-block;
+  margin-left: 15px;
+  background-color: #f7f4f4;
+}
+.product_details_box h6 {
+  display: flex;
+  align-items: center;
+}
+.product_details_box h6 span {
+  padding-right: 5px;
+}
+.product_details_box1 {
+  width: 90%;
+  height: 80%;
+  border: 1px solid rgb(204, 197, 197);
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+  margin-left: 15px;
+  background-color: #f7f4f4;
+}
+.margin_right_one {
+  margin-right: 10px;
+}
+.product_details_box1 h5 {
+  font-size: 18px;
+  letter-spacing: 0px;
+}
+.text_align {
+  text-align: center;
+}
+.price_breakup_flex {
+  display: flex;
+  margin-top: 50px;
+}
+.price_breakup_flex h5 {
+  font-size: 22px;
+  font-weight: 600;
+}
+.price_breakup_flex .price_breakub_btn {
+  border: none;
+  border-radius: 10px;
+  padding: 0px 10px;
+  margin-left: 10px;
+}
+.price_breakub_btn p {
+  margin-bottom: 0px;
+  font-size: 11px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.price_breakup_details {
+  padding: 40px 40px 40px 0px;
+  width: 100%;
+}
+.price_breakup_heading_flex {
+  display: flex;
+  justify-content: space-between;
+  height: 38px;
+  border-bottom: 1px solid gray;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+}
+.price_breakup_heading_flex li {
+  font-size: 16px;
+  font-weight: 500;
+}
+.price_breakup_item {
+  font-size: 12px;
+  color: #4f3267;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+.price_breakup_item_flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom_border {
+  border-bottom: 1px solid gray;
+  padding-bottom: 10px;
+}
+.price_breakup_item_flex span {
+  text-decoration: line-through;
+}
+.profileboxvisible {
+  display: block;
+}
+/* .profileboxhidden {
+  display: none;
+} */
+.profileboxhidden {
+  position: absolute;
+  right: -150%;
+  width: 100%;
+  top: 70px;
+  display: block;
+  z-index: 1;
+  transition: all 1s;
+}
+.opened {
+  right: 0px !important;
+  transition: all 1s;
+}
+.modal-content-right {
+  position: fixed;
+  right: 0;
+  top: 50px;
+  bottom: 50px;
+  width: 600px;
+  z-index: 99;
+  /* background-color: #fff; */
+  outline: none;
+  /* padding: 20px; */
+  /* transform: "translateX(100%)"; */
+  transition: all 1s;
+}
+.modal-overlay {
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+}
+@media (max-width: 992px) {
+  .breadcrumbs {
+    display: none;
+  }
+  .slick_image_flex {
+    display: none;
+  }
+  .rating_flex {
+    display: flex;
+    flex-direction: column;
+    /* position: absolute; */
+  }
+  .rating_box {
+    width: fit-content;
+
+    margin-top: -60px;
+    position: absolute;
+  }
+}
+@media (max-width: 576px) {
+}

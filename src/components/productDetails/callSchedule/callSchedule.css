@@ -1,0 +1,57 @@
+.call_box {
+  width: 80%;
+  height: auto;
+  padding: 15px;
+  background-color: white;
+  border: 1px solid rgb(223, 216, 216);
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+.call_box .d_flex {
+  display: flex;
+}
+.video_call_icon {
+  background-color: green;
+  width: auto;
+  height: 40px;
+  /* border-radius: 50%; */
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  color: aliceblue;
+  font-size: 18px;
+  border-radius: 10px;
+}
+.call_box .call_content {
+  margin-left: 5px;
+}
+.call_box .call_content h6 {
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+
+.call_box .call_content p {
+  font-size: 12px;
+  /* width: 90%; */
+  line-height: 14px;
+  color: gray;
+  font-weight: 400;
+  /* margin-bottom: 0px; */
+}
+.call_schedule_btn {
+  border: none;
+  background-color: rgb(212, 228, 228);
+  color: rgb(4, 90, 61);
+  font-size: 16px;
+  font-weight: 500;
+  padding: 8px;
+  border-radius: 15px;
+}
+.homeColor {
+  background-color: rgb(218, 115, 218);
+}
+.btnColor {
+  color: brown;
+  background-color: rgb(233, 197, 197);
+}

@@ -1,0 +1,37 @@
+.exchange_product_box {
+  width: 90%;
+  height: auto;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: aliceblue;
+  border-left: 5px solid rgb(60, 62, 165);
+}
+.exchange_product_content h6 {
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+.exchange_product_content p {
+  font-size: 12px;
+  /* width: 90%; */
+  line-height: 14px;
+  color: gray;
+  font-weight: 400;
+}
+.see_more_content {
+  display: flex;
+  justify-content: space-between;
+}
+.see_more_content p {
+  font-size: 12px;
+  color: brown;
+  margin-bottom: 0px;
+}
+.see_more_content .next {
+  color: rgb(53, 52, 52);
+  background: rgb(158, 152, 152);
+  padding: 8px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
+}

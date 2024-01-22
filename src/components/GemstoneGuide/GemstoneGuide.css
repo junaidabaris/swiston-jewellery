@@ -1,0 +1,39 @@
+  
+.gemstonegarent-top{
+    width: 220px;
+    height: 300px;
+    margin: auto;
+    position: relative;
+    top: -40px;
+    display: block;
+}
+.gemstonegarent-top img{
+    width: 100%;
+    height: 100%;
+    transform: scale(1.1);
+}
+.garent-bg{
+    background-color: rgb(246, 246, 246);
+    margin: 20px 0px;
+    padding: 40px 0px;
+}
+.garent-top-contant h2{
+    padding-bottom: 30px;
+    margin: 0px;
+    font-size: 30px;
+    font-family: emoji;
+    letter-spacing: 1px;
+}
+.garent-top-contant p{
+    font-family: sans-serif;
+    font-size: 16px;
+    color: gray;
+    word-spacing: 1px;
+    font-weight: inherit;
+}
+.garent-top-contant{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    
+}
