@@ -1,13 +1,18 @@
 .banner_image_earn_background {
-  background-image: url("../../../assets/img/banner_web_earn.png");
+  position: relative;
+  padding-top: 45.4167%;
+}
+.banner_image_earn_background img {
+  position: absolute;
+  left: 0;
+  top: 0;
   width: 100%;
-  height: 100vh;
 }
 .refer_earn_card {
   max-width: 416px;
   position: absolute;
   left: 10%;
-  top: 50%;
+  top: 65%;
   min-height: 416px;
   transform: translateY(-50%);
   margin-top: 0;
@@ -19,24 +24,68 @@
   box-sizing: inherit;
 }
 .refer_earn_card h2 {
+  font-family: "InterSemiBold", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 2.2rem;
   line-height: 36px;
   margin-bottom: 20px;
+  font-weight: normal;
 }
 .refer_earn_card .intro {
   font-size: 22px;
   font-weight: 600;
 }
 .refer_earn_card .refer_heading {
-  /* background-image: linear-gradient(90deg, #e56eeb -13.59%, #8863fb 111.41%); */
-  font-size: 2.2rem;
-  font-weight: 700;
-  display: block;
+  background-image: linear-gradient(90deg, #e56eeb -13.59%, #8863fb 111.41%);
+  background-clip: text;
+  -webkit-background-clip: text;
   color: transparent;
-  color: #9892eb;
+  font-family: "InterBold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: block;
+  line-height: 40px;
 }
-.refer_earn_card p {
-  font-size: 1.8rem;
+.refer_earn_card .refer_about {
+  font-size: 18px;
   line-height: 24px;
-  color: blueviolet;
+  font-family: "InterRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #4f3267;
+}
+.refer_btn {
+  border: none;
+  margin-top: 86px;
+  /* font-size: 1.4rem; */
+  font-size: 16px;
+  line-height: 17px;
+  color: #fff;
+  padding: 10px 36px;
+  height: 48px;
+  border-radius: 12px;
+  background: linear-gradient(90deg, #e56eeb -13.59%, #8863fb 111.41%);
+  width: 100%;
+}
+@media (max-width: 992px) {
+  /* .banner_image_earn_background {
+    background-repeat: no-repeat;
+    background-position: cover;
+  } */
+  .refer_earn_card {
+    margin-top: -25px;
+    min-height: 360px;
+    position: relative;
+    max-width: 100%;
+    left: 0;
+    top: 0;
+    transform: none;
+    padding-bottom: 0;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .hide-md {
+    display: none !important;
+  }
+  .banner_image_earn_background .hide-lg {
+    display: block !important;
+  }
+}
+.hide-lg {
+  display: none !important;
 }
