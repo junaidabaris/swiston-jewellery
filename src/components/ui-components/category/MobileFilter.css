@@ -1,0 +1,97 @@
+
+@media (max-width: 925px) {
+    .mobile_filter{
+        display: block;
+        padding: 20px 40px;
+        background: rgb(133, 1, 133);
+        justify-content: space-between;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        flex-wrap: wrap;
+        z-index: 3;
+    }
+    .main_categories, .main_filterCase{
+        color: #fff;
+        font-size: 15px;
+        text-transform: uppercase;
+        position: relative;
+    }
+    .main_list{
+        position: relative;
+        width: 100%;
+    }
+    .case_list{
+        background: #f6f3f9;
+        width: 50%  ;
+        height: 400px;
+        overflow: auto;
+    }
+    .case_list li{
+        font-size: 15px;
+        padding: 6px 20px;
+        width: 100%;
+        border-top: 1px solid #c7c5c5;
+        text-transform: capitalize;
+        color: rgb(59, 59, 59);
+    }
+    /* .case_list li:hover .drop{
+        display: block;
+    } */
+    .drop{
+        width: 50%;
+        position: absolute;
+        display: none;
+        top: 0;
+        right: 0px;
+        padding: 10px;
+        height: 100%;
+        overflow: auto;
+        z-index: 2;
+        background: #f5f0f0 !important;
+    }
+    .drop li{
+        border: none;
+    }
+    .filterCase{
+        padding: 15px 20px;
+        display: flex;
+        justify-content: start;
+        background-color: #fff;
+        
+    }
+    .filterCase span{
+        font-size: 17px;
+    
+    }
+    .filterCase h2{
+        font-size: 17px;
+        margin: 3px 0px 0px 10px;
+        text-transform: capitalize;
+        font-weight: bold;
+
+    }
+    .show_more{
+        font-size: 14px;
+        color: rgb(230, 92, 161);
+        padding: 10px 20px;
+        display: inline-block;
+    }
+    .ActiveClass > span{
+        color: blue !important;
+        font-weight: 600;
+      }
+    .drop li span.tick{
+        font-size: 16px;
+    }
+    .wrapper_mobileFilter{
+        width: 100%;
+        z-index: 9;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        display: none;
+    }
+}
