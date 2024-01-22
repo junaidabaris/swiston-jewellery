@@ -23,7 +23,7 @@ import { Link } from "react-router-dom";
 import ProductSelectSize from "./productSelectSize/ProductSelectSize";
 import Modal from "react-modal";
 import Sidebar from "./sidebar/Sidebar";
-import Backdrop from "./backdrop/Backdrop";
+
 import CallSchedule from "./callSchedule/CallSchedule";
 import ExchangeProduct from "./exchangeProduct/ExchangeProduct";
 import ProductRelatedCategories from "./productRelatedCategories/ProductRelatedCategories";
@@ -59,17 +59,6 @@ function ProductDetails() {
     setNav1(slider1.current);
     setNav2(slider2.current);
   }, []);
-
-  // const [isProfileBoxOpen, setIsProfileBoxOpen] = useState(null);
-  // const toggleProfileBox = (index) => {
-  //   setIsProfileBoxOpen((preIndex) => (preIndex === index ? null : index));
-  //   console.log("Toggling profile box");
-  // setIsProfileBoxOpen(!isProfileBoxOpen);
-  // };
-  // const [items, setItems] = useState(null);
-  // const openItems = (index) => {
-  //   setItems((prevTndex) => (prevTndex === index ? null : index));
-  // };
 
   const [isModalOpen, setModalOpen] = useState(false);
 
@@ -239,9 +228,7 @@ function ProductDetails() {
                     <FaDownload />
                   </span>
                 </div>
-                {/* <div className="icon_box"> */}
-                {/* <span><PiCopySimpleDuotone /></span> */}
-                {/* </div> */}
+
                 <Sidebar />
               </div>
             </div>
@@ -250,11 +237,7 @@ function ProductDetails() {
                 <div className="labal">
                   <div className="select">Select Size</div>
                 </div>
-                <div
-                  className="form_inp "
-                  // onClick={toggleProfileBox}
-                  // onClick={() => toggleProfileBox(0)}
-                  onClick={openModal}>
+                <div className="form_inp " onClick={openModal}>
                   <p>
                     12(51.8mm) - <small>in sock</small>
                   </p>
@@ -262,14 +245,6 @@ function ProductDetails() {
                     <IoIosArrowDown />
                   </span>
                 </div>
-                {/* <div
-                // className={
-                //   isProfileBoxOpen ? "profileboxvisible" : "profileboxhidden"
-                // }
-                // className={`profileboxhidden  ${
-                //   isProfileBoxOpen === 0 ? "opened" : " "
-                //   }`}
-                ></div> */}
                 <Modal
                   isOpen={isModalOpen}
                   onRequestClose={closeModal}

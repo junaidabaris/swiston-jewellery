@@ -16,12 +16,13 @@ import DiamondBuyGuide from "./components/ui-components/DiamondBuyingGuide/Diamo
 import ProductSelectSize from "./components/ui-components/productDetails/productSelectSize/ProductSelectSize";
 import Category from "./components/ui-components/category/Category";
 // import GemstoneGuide from "./components/ui-components/GemstoneGuide/GemstoneGuide";
-import ReferAndEarn from "./components/ui-components/referAndEarn/ReferAndEarn.";
+
 import { GemstoneGuide } from "./components/ui-components/GemstoneGuide/GemstoneGuide";
 import JewelleryBuyGuide from "./components/ui-components/jewelleryBuyGuide/JewelleryBuyGuide";
 import GoldExchange from "./pages/gold-exchange/Index";
 import TrendingSearche from "./components/ui-components/TrendingSearches/TrendingSearche";
 import Cart from "./components/ui-components/cart/componants/Cart";
+import ReferandEarn from "./pages/ui-pages/referandEarn/ReferandEarn";
 function UIApp() {
   const [show, setShow] = useState(false);
   return (
@@ -44,7 +45,7 @@ function UIApp() {
               path="/product-select-size"
               element={<ProductSelectSize />}
             />
-            <Route path="/refer-and-earn" element={<ReferAndEarn />} />
+            <Route path="/refer-and-earn" element={<ReferandEarn />} />
             <Route path="/jewellery-guide" element={<JewelleryBuyGuide />} />
             <Route path="/gold-exchange" element={<GoldExchange />} />
             <Route path="/cart" element={<Cart />} />

@@ -19,7 +19,7 @@
     width: 50%;
   }
   .p-5 {
-    padding: 20px;
+    padding: 10px !important;
   }
   .wrapper_product {
     padding: 0px;
@@ -58,5 +58,12 @@
   .n-2 {
     width: 100%;
     overflow: auto;
+  }
+}
+@media (max-width: 955px){
+  .video a,
+  .tried a {
+    font-size: 12px;
+    padding: 9px;
   }
 }

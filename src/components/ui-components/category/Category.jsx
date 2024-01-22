@@ -6,6 +6,7 @@ import Card from "./Card";
 import { GiStoneBlock } from "react-icons/gi";
 import { AiFillGolden } from "react-icons/ai";
 import { GiJewelCrown } from "react-icons/gi";
+import "../category/category.css"
 // import imgg1 from '../../src/assets/img/image1.png'
 import imgg1 from "../../../assets/img/image1.png";
 import imgg2 from "../../../assets/img/image2.png";
@@ -521,7 +522,7 @@ export default function Category() {
         </div>
 
         <div className="wrapper_product">
-          <div className="d-flex wrapper_card_item">
+          <div className="wrapper_card_item">
             <ul className="d-flex main_item">
               <li className="item">
                 <a href="#">
@@ -534,7 +535,7 @@ export default function Category() {
             </ul>
             <div className="item_showen">
               {" "}
-              Sort :
+             <span>Sort :</span> 
               <ul className="d-flex">
                 {shotBY.map((item, i) => (
                   <li value="1" key={i}>
