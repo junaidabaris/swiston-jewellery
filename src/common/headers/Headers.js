@@ -62,9 +62,8 @@ function Headers({ setShow }) {
                     <span className="nav-items "> Rings</span>
                   </Link>
                   <div
-                    className={`nav_items_category hide_items ${
-                      items === 0 ? "open" : " "
-                    }`}>
+                    className={`nav_items_category hide_items ${items === 0 ? "open" : " "
+                      }`}>
                     <span>
                       <IoClose onClick={closeModal} />
                     </span>
@@ -236,9 +235,8 @@ function Headers({ setShow }) {
                   onClick={() => openItems(1)}>
                   <span className="nav-items ">Earrings</span>
                   <div
-                    className={`nav_items_category hide_items ${
-                      items === 1 ? "open" : " "
-                    }`}>
+                    className={`nav_items_category hide_items ${items === 1 ? "open" : " "
+                      }`}>
                     <span>
                       <IoClose onClick={closeModal} />
                     </span>
@@ -412,9 +410,8 @@ function Headers({ setShow }) {
                   onClick={() => openItems(2)}>
                   <span className="nav-items"> Bracelets & Bangles </span>
                   <div
-                    className={`nav_items_category hide_items ${
-                      items === 2 ? "open" : " "
-                    }`}>
+                    className={`nav_items_category hide_items ${items === 2 ? "open" : " "
+                      }`}>
                     <span>
                       <IoClose onClick={closeModal} />
                     </span>
@@ -587,9 +584,8 @@ function Headers({ setShow }) {
                   onClick={() => openItems(3)}>
                   <span className="nav-items"> Solitaries </span>
                   <div
-                    className={`nav_items_category hide_items ${
-                      items === 3 ? "open" : " "
-                    }`}>
+                    className={`nav_items_category hide_items ${items === 3 ? "open" : " "
+                      }`}>
                     <span>
                       <IoClose onClick={closeModal} />
                     </span>
@@ -843,7 +839,7 @@ function Headers({ setShow }) {
                   </li>
                   <li className="nav_icons">
                     <span>
-                      <FaCartArrowDown />
+                      <Link to='/cart'> <FaCartArrowDown /></Link>
                     </span>
                   </li>
                 </div>
