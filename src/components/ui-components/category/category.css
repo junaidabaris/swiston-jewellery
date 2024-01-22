@@ -192,6 +192,7 @@
   }
   .p-5 {
     padding: 30px;
+    padding-top: 0px ;
   }
   .platinum {
     width: 14px;
@@ -406,7 +407,7 @@
     font-size: 16px;
   }
   .item_showen span{
-    margin: 10px;
+    margin: 3px;
     font-size: 1.2rem;
     color: #4e555e;
     text-transform: capitalize;
@@ -423,7 +424,7 @@
     padding-bottom: 20px;
   }
   .item_showen li a {
-    padding: 10px;
+    padding: 5px 10px; 
     font-size: 12px;
     border: 1px solid #ccc;
     color: #8863fb;
@@ -552,7 +553,9 @@
     margin-left: 10px;
     justify-content: center;
   }
-  
+  .mobile_filter{
+    display: none;
+}
   .add {
     display: none;
   }
@@ -630,6 +633,7 @@
     .s-media {
       display: flex;
     }
+    
   }
     
   
