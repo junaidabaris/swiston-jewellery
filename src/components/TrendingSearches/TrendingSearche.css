@@ -1,0 +1,110 @@
+.wrapper-trending {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.main {
+  width: 400px;
+  /* height: 200px; */
+  margin-top: 3px;
+  overflow: hidden;
+  padding: 15px 14px 15px 14px;
+  border-bottom: 1px solid #ddd9d9;
+  line-height: 48px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+.treanding-image {
+  border-radius: 10px;
+}
+.main span {
+  font-size: 16px;
+  color: rgb(79, 50, 103);
+}
+.main a {
+  text-decoration: none;
+}
+.treand-icon {
+  font-size: 25px;
+  font-weight: 800px;
+  color: rgb(79, 50, 103);
+}
+.trending-heading {
+  font-size: 25px;
+  font-weight: 700;
+  color: rgb(79, 50, 103);
+}
+/* .continue-images-number{
+    width: 100px;
+    height: 100px;
+    border-radius:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    padding: 10px;
+} */
+.main-continue {
+  display: flex;
+  align-items: center;
+  height: 30%;
+  justify-content: space-around;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.continue-browsing {
+  background-color: rgb(255, 243, 231);
+  border-radius: 10px;
+  padding: 15px 0px 15px 0px;
+  width: 100%;
+}
+.browsing-prf {
+  overflow: hidden;
+  padding-left: 25px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding-top: 25px;
+  color: rgb(79, 50, 103);
+  width: 63%;
+  font-size: 16px;
+  margin: 0px;
+  font-weight: 700;
+}
+.continue-images {
+  width: 100px;
+  height: 100px;
+}
+.continue-images img {
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  padding: 10px;
+}
+.continue-heading {
+  font-size: 25px;
+  /* margin: 50px 0px; */
+  font-weight: 700px;
+  color: rgb(79, 50, 103);
+}
+.black_section {
+  width: 20%;
+  background: rgba(0, 0, 0, 0.5);
+  background-attachment: fixed;
+}
+.color_section {
+  width: 80%;
+}
+
+.offcanvas,
+.offcanvas-xxl,
+.offcanvas-xl,
+.offcanvas-lg,
+.offcanvas-md,
+.offcanvas-sm {
+  width: auto !important;
+}
+.offcanvas.offcanvas-start {
+  top: 91px;
+}

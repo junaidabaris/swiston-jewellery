@@ -1,0 +1,27 @@
+.bracelet-container {
+  margin-bottom: 100px;
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+.bracelet-store {
+  text-align: center;
+
+  padding: 10px;
+  width: 250px;
+}
+.bracelet-img {
+  width: 100%;
+  height: 250px;
+}
+.bracelet-img img {
+  width: 100%;
+  height: 100%;
+}
+.bracelet-store p {
+  font-size: 15px;
+  color: gray;
+}
+.bracelet-img:hover {
+  cursor: pointer;
+}
