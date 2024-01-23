@@ -9,15 +9,15 @@ function ReferAndEarn() {
   return (
     <>
       <div className="refer_and_earn">
-        <div className="banner_image_earn_background">
-          <img className="hide-md" src={banner1} alt="" />
+        <div className="banner_image_earn_background1">
+          <img className="hide-lg" src={banner1} alt="" />
           <img
-            className="hide-lg"
+            className="hide-sm"
             src="https://cdn.caratlane.com/media/static/images/referral/26thsep/header-image.png"
             alt=""
           />
         </div>
-        <div className="refer_earn_card">
+        <div className="refer_earn_card1">
           <h2>
             <span className="intro">Introducing,</span>{" "}
             <span className="refer_heading"> Refer and Earn </span>
