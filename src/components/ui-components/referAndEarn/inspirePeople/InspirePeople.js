@@ -14,8 +14,8 @@ function InspirePeople() {
           Get a chance to inspire{" "}
           <h2 className="inspire_heading_heading">900K+ people</h2>
         </h2>
-        <div className="inspire_people_content">
-          <div className="peoplebox">
+        <div className="inspire_people_content ">
+          <div className="peoplebox ">
             <div className="people_img_flex">
               {imageUrls.map((imageUrls, index) => (
                 <div className="img_box">
