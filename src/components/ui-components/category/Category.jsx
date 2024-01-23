@@ -559,7 +559,7 @@ export default function Category() {
           </div>
         </div>
       </div>
-      <MobileFilter />
+      <MobileFilter/>
     </section>
   );
 }
