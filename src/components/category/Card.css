@@ -35,17 +35,6 @@ img {
   border-radius: 13px;
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.13);
 }
-.card_wrap:hover .card_text {
-  position: absolute;
-  background-color: white;
-  padding: 0px 17px 30px 20px;
-  left: 0px;
-  bottom: -50px !important;
-  border-radius: 0px 0px 13px 13px;
-  width: 100%;
-  box-sizing: border-box;
-  box-sizing: 0px 0px 20px 0px black !important;
-}
 .copy {
   position: fixed;
   left: 10px;
@@ -111,33 +100,15 @@ img {
   background: red;
   z-index: 2;
 }
-.tried a {
+/* .tried a {
   font-size: 1rem;
   text-transform: uppercase;
   color: #333;
   padding: 10px 14px;
   border: 1px solid #4e555e;
   border-radius: 15px;
-}
-.video a {
-  font-size: 1rem;
-  padding: 10px 15px;
-  border-radius: 15px;
-  border: 1px solid #4e555e;
-  color: green;
-}
-.w-100 {
-  width: 100%;
-}
-.price_filter {
-  background: rgba(179, 212, 252, 0.5);
-  width: 50%;
-  border-radius: 13px;
-  padding: 20px 0px;
-  max-width: 100%;
-  box-sizing: border-box;
-  text-align: left;
-}
+} */
+
 .filter_case {
   display: flex;
   flex-wrap: wrap;
@@ -163,24 +134,3 @@ img {
   margin-left: 20px;
 }
 
-@media (max-with: 1264px) {
-  .card_wrap {
-    width: 33.3333%;
-  }
-  .wrapper_filter {
-    display: none;
-  }
-  .price_filter {
-    flex: 1;
-  }
-  .wrapper_product {
-    width: 100%;
-  }
-  .card_wrap {
-    max-width: 50%;
-    flex: 0.5;
-  }
-  .price_filter {
-    width: 100%;
-  }
-}
