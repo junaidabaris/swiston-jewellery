@@ -60,7 +60,8 @@ function Carriers() {
                         title="YouTube video player"
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen></iframe>
+                        allowfullscreen
+                      ></iframe>
                     </div>
                     <div className="slide_content">
                       <p>Mohit</p>
@@ -77,7 +78,8 @@ function Carriers() {
                         title="YouTube video player"
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen></iframe>
+                        allowfullscreen
+                      ></iframe>
                     </div>
                     <div className="slide_content">
                       <p>Mohit</p>
@@ -94,7 +96,8 @@ function Carriers() {
                         title="YouTube video player"
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen></iframe>
+                        allowfullscreen
+                      ></iframe>
                     </div>
                     <div className="slide_content">
                       <p>Zulfiquar</p>
@@ -111,7 +114,8 @@ function Carriers() {
                         title="YouTube video player"
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen></iframe>
+                        allowfullscreen
+                      ></iframe>
                     </div>
                     <div className="slide_content">
                       <p>Mohan</p>
@@ -128,7 +132,8 @@ function Carriers() {
                         title="YouTube video player"
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen></iframe>
+                        allowfullscreen
+                      ></iframe>
                     </div>
                     <div className="slide_content">
                       <p>Mohit</p>
@@ -145,7 +150,8 @@ function Carriers() {
                         title="YouTube video player"
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen></iframe>
+                        allowfullscreen
+                      ></iframe>
                     </div>
                     <div className="slide_content">
                       <p>Mohit</p>
@@ -240,7 +246,8 @@ function Carriers() {
                   display: "flex",
                   justifyContent: "center",
                   margin: "auto",
-                }}>
+                }}
+              >
                 <input
                   type="text"
                   className="form-control "
