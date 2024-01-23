@@ -22,6 +22,7 @@ import JewelleryBuyGuide from "./components/ui-components/jewelleryBuyGuide/Jewe
 import GoldExchange from "./pages/gold-exchange/Index";
 import TrendingSearche from "./components/ui-components/TrendingSearches/TrendingSearche";
 import Cart from "./components/ui-components/cart/componants/Cart";
+import RegisterPage from "./components/ui-components/register/registerPage/RegisterPage";
 function UIApp() {
   const [show, setShow] = useState(false);
   return (
@@ -48,6 +49,7 @@ function UIApp() {
             <Route path="/jewellery-guide" element={<JewelleryBuyGuide />} />
             <Route path="/gold-exchange" element={<GoldExchange />} />
             <Route path="/cart" element={<Cart />} />
+            <Route path="/register" element={<RegisterPage/>}/>
           </Routes>
           <Footer />
         </BrowserRouter>
