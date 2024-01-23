@@ -23,7 +23,6 @@ import GoldExchange from "./pages/gold-exchange/Index";
 import TrendingSearche from "./components/TrendingSearches/TrendingSearche";
 import Cart from "./components/cart/componants/Cart";
 import CategoryPage from "./pages/category";
-import {  useGetCategoriesQuery } from "./apiConfig/jwellerySlice";
 function App() {
     const [show, setShow] = useState(false)
     return (

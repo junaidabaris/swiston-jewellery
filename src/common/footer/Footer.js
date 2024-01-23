@@ -165,7 +165,7 @@ export default function Footer() {
               </li>
               <li className="c-listitem">
                 <a href="/">
-                  grievance : <span>Click here</span>
+                  Grievance : <span>Click here</span>
                 </a>
               </li>
             </ul>

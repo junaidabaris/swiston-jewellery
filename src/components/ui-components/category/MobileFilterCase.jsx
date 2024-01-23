@@ -1,3 +1,4 @@
+import { use } from "i18next";
 import React from "react";
 import { useState } from "react";
 import { RxCross2 } from "react-icons/rx";
@@ -45,7 +46,7 @@ const Filter = [
     { id: "11", title: "ring style", subTitle: ["casual ring", "bands", "cocktail", "cluster", "midi", "halo"] },
 ]
 
-export default function MobileFilterCase() {
+export default function MobileFilterCase({Click, setClick,ClickEvent }) {
     const [showAll, setshowAll] = React.useState(8)
     const [showText, setshowText] = useState("Show More")
     const handleMoreClick = () => {
@@ -53,9 +54,12 @@ export default function MobileFilterCase() {
         setshowText(" ")
     };
     const [state, setState] = useState(0)
+    const bbbb=()=>{
+        setClick(null)
+    }
     return (
         <div className="wrapp_case">
-            <div className="filterCase"><span><RxCross2 /></span> <h2>filter</h2></div>
+            <div className="filterCase" onClick={()=>{ClickEvent(0)}}><span><RxCross2 /></span> <h2>filter</h2></div>
             <div className="main_list">
             <ul className="case_list">
                 {Filter?.slice(0, showAll).map((item) => {
