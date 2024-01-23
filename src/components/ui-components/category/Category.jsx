@@ -27,6 +27,8 @@ import imgg16 from "../../../assets/img/image 16.png";
 import PriceFilter from "./PriceFilter";
 // import "../../src/assets/css/category_responsive.css";
 import "../category/category_responsive.css";
+import  Nav from "./Nav";
+import MobileFilter from "./MobleFilter";
 
 const mockData = [
   {
@@ -328,8 +330,9 @@ export default function Category() {
   };
 
   return (
-    <section className="p-5">
-      <div className="d-flex">
+    <section>
+      <div className="main_nav"><Nav /></div>
+      <div className="d-flex p-5">
         <div className="wrapper_filter">
           <div className="main-filter">
             <p className="filter-heading">
@@ -556,6 +559,7 @@ export default function Category() {
           </div>
         </div>
       </div>
+      <MobileFilter/>
     </section>
   );
 }
