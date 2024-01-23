@@ -7,6 +7,7 @@ import { FaMinus } from "react-icons/fa";
 import { useState } from "react";
 import "../footer/footer.css";
 
+
 import { Link } from "react-router-dom";
 export default function Footer() {
   const [openAccordion, setOpenAccordion] = useState(null);
@@ -59,7 +60,7 @@ export default function Footer() {
             </h3>
             <ul className={openAccordion === 1 ? "block" : ""}>
               <li className="listitem">
-                <a href="/">15-day returns</a>
+               <a href="/">15-day returns</a>
               </li>
               <li className="listitem">
                 <a href="/">free shipping</a>
