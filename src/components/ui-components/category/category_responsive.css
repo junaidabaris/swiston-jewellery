@@ -1,5 +1,5 @@
 @media (max-width: 1208px) {
-  .card_wrap {
+  .main-card .card_wrap {
     width: 33.333%;
   }
   .price_filter {
@@ -15,7 +15,7 @@
   }
 }
 @media (max-width: 686px) {
-  .card_wrap {
+  .main-card .card_wrap {
     width: 50%;
   }
   .p-5 {
@@ -65,5 +65,15 @@
   .tried a {
     font-size: 12px;
     padding: 9px;
+  }
+}
+@media  (min-width: 683px) and (max-width: 762px) {
+  .video a,
+  .tried a {
+    font-size: 9px !important;
+    padding: 10px !important;
+  }
+  .rate span{
+    display: block;
   }
 }
