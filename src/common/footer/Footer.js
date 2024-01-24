@@ -11,7 +11,6 @@ import "../footer/footer.css";
 import { Link } from "react-router-dom";
 export default function Footer() {
   const [openAccordion, setOpenAccordion   ] = useState(null);
-
   const handleAccordionClick = (index) => {
     setOpenAccordion((prevIndex) => (prevIndex === index ? null : index));
   };
@@ -60,7 +59,7 @@ export default function Footer() {
             </h3>
             <ul className={openAccordion === 1 ? "block" : ""}>
               <li className="listitem">
-               <a href="/">15-day returns</a>
+                 <Link to="/returnpolicy" >15-day returns</Link>
               </li>
               <li className="listitem">
                 <a href="/">free shipping</a>

@@ -29,6 +29,7 @@ import Jewellaryedit from "./pages/ui-pages/jewellaryEDit";
 import NewsTab from "./components/ui-components/press/newsTab/NewsTab";
 import EditPressProfile from "./components/ui-components/editPressProfile/EditPressProfile";
 import Webstories from "./pages/ui-pages/webStories";
+import Returnpolicy from "./components/ui-components/15DayReturns/ReturnPolicy";
 function UIApp() {
   const [show, setShow] = useState(false);
   return (
@@ -56,6 +57,7 @@ function UIApp() {
             <Route path="/gold-exchange" element={<GoldExchange />} />
             <Route path="/cart" element={<Cart />} />
             <Route path="/register" element={<RegisterPage />} />
+            <Route path="/returnpolicy" element={<Returnpolicy />} />
 
             <Route path="/press" element={<EditPressProfile />}>
               <Route path="" element={<PRess />} />
