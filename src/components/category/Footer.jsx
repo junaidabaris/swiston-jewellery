@@ -55,7 +55,7 @@ export default function Footer(){
                         <li className="listitem"><a href="/">press</a></li>
                        
                         <li className="listitem"><Link to='/blog'>Blog</Link></li>
-                        <li className="listitem"><a href="/">careers</a></li>
+                        <li className="listitem"><a href="#">careers</a></li>
                     </ul>
                 </li>
                 <li className="f_list">
