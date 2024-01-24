@@ -10,7 +10,7 @@ import "../footer/footer.css";
 
 import { Link } from "react-router-dom";
 export default function Footer() {
-  const [openAccordion, setOpenAccordion] = useState(null);
+  const [openAccordion, setOpenAccordion   ] = useState(null);
 
   const handleAccordionClick = (index) => {
     setOpenAccordion((prevIndex) => (prevIndex === index ? null : index));
