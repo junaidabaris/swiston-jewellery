@@ -827,9 +827,12 @@ function Headers({ setShow }) {
                       <IoIosContact />
                     </span>
                     <div className="hide_account">
-                      <div>
-                        <h3>Your Account</h3>
-                      </div>
+                    <div className="your-account">
+              <h4>Your Account</h4>
+              <p>Access account & manage your orders.</p>
+              <button> <a href="#">SignUp</a></button>
+             <button>  <a href="#">Login In</a></button>
+       </div>
                     </div>
                   </li>
                   <li className="nav_icons">
