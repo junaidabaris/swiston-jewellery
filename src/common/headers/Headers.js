@@ -834,7 +834,8 @@ function Headers({ setShow }) {
                   </li>
                   <li className="nav_icons">
                     <span>
-                      <FaHeart />
+                      
+                      <Link to='/wishList'><FaHeart /></Link>
                     </span>
                   </li>
                   <li className="nav_icons">

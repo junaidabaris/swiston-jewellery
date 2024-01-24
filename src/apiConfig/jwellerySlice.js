@@ -1,9 +1,10 @@
 
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
+import { baseUrl } from './serverUrl';
 
 export const jwelleryApi = createApi({
     reducerPath: 'jwelleryApi',
-    baseQuery: fetchBaseQuery({ baseUrl: 'https://onlineparttimejobs.in/api/' }),
+    baseQuery: fetchBaseQuery({ baseUrl: baseUrl }),
     tagTypes: [''],
     endpoints: (builder) => ({
         getProductType: builder.query({
@@ -48,6 +49,13 @@ export const jwelleryApi = createApi({
                 method: 'GET',
             }),
         }),
+        getProduct: builder.mutation({
+            query: (pay) => ({
+                url: `product/filter`,
+                method: 'POST',
+                body:pay
+            }),
+        }),
 
 
     })
@@ -61,5 +69,6 @@ export const {
     useGetshopforQuery,
     useGetRingsizeQuery,
     useGetGemstonQuery,
+    useGetProductMutation,
     useGetThemesQuery
 } = jwelleryApi

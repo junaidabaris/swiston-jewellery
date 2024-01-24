@@ -27,6 +27,7 @@ import EditPressProfile from "./components/editPressProfile/EditPressProfile";
 import PRess from "./pages/referandEarn/pRess";
 import Jewellaryedit from "./pages/jewellaryEDit";
 import Webstories from "./pages/webStories";
+import WishList from "./pages/wishlist";
 function App() {
     const [show, setShow] = useState(false)
     return (
@@ -53,6 +54,7 @@ function App() {
                         <Route path="/jewellery-guide" element={<JewelleryBuyGuide />} />
                         <Route path="/gold-exchange" element={<GoldExchange />} />
                         <Route path="/cart" element={<Cart />} />
+                        <Route path="/wishList" element={<WishList />} />
                         <Route path="/press" element={<EditPressProfile />}>
                             <Route path="" element={<PRess />} />
                             <Route path="edit-jewellery" element={<Jewellaryedit />} />

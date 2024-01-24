@@ -8,6 +8,7 @@ import { useState } from "react";
 import "../footer/footer.css";
 
 import { Link } from "react-router-dom";
+import ReactWhatsapp from "react-whatsapp";
 export default function Footer() {
   const [openAccordion, setOpenAccordion] = useState(null);
 
@@ -106,9 +107,9 @@ export default function Footer() {
               <li className="listitem">
                 <Link to="/press">press</Link>
               </li>
-              <li className="listitem">
+              {/* <li className="listitem">
                 <a href="/">blog</a>
-              </li>
+              </li> */}
               <li className="listitem">
                 <a href="/">blog</a>
               </li>
@@ -140,8 +141,9 @@ export default function Footer() {
                     </a>
                   </li>
                   <li>
-                    <a href="/"></a>
-                    <FaWhatsapp />
+                    <a href="#"></a>
+
+                    <ReactWhatsapp style={{ border: "none", backgroundColor: "transparent", padding: '0' }} number='+97 466362210' massage="Hello Mamass Tycoon"><FaWhatsapp /></ReactWhatsapp>
                   </li>
                 </ul>
               </li>
@@ -176,11 +178,15 @@ export default function Footer() {
         </div>
         <div>
           <ul className="social_icon">
-            <li className="facebook"></li>
-            <li className="insta"></li>
+            <a href="https://www.facebook.com/swistonjewellery" target="blank"> <li className="facebook">
+
+            </li></a>
+            <a href="https://www.instagram.com/swistonjewellery/" target="blank"> <li className="insta"></li></a>
+            <a href="https://www.linkedin.com/in/swiston-jewellery-953a182ab/" target="blank"> <li className="in"></li></a>
+
+
             <li className="p"></li>
             <li className="twetter"></li>
-            <li className="in"></li>
           </ul>
         </div>
         <div className="app_store">
