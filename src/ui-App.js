@@ -28,6 +28,7 @@ import NewsTab from "./components/ui-components/press/newsTab/NewsTab";
 import EditPressProfile from "./components/ui-components/editPressProfile/EditPressProfile";
 import Webstories from "./pages/ui-pages/webStories";
 import JewellaryEdit from "./components/press/jewellaryEdit/JewellaryEdit";
+import DigGold from "./components/ui-components/digi_gold/page/DigGold";
 function UIApp() {
   const [show, setShow] = useState(false);
   return (
@@ -59,8 +60,9 @@ function UIApp() {
               <Route path="" element={<PRess />} />
               <Route path="edit-jewellery" element={<JewellaryEdit />} />
               <Route path="web-stories" element={<Webstories />} />
-            <Route path="/blog" element={<BlogPage/>}/>
             </Route>
+            <Route path="/blog" element={<BlogPage/>}/>
+            <Route path="/digi_gold" element={<DigGold/>}/>
           </Routes>
           <Footer />
         </BrowserRouter>
