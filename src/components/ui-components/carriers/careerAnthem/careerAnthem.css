@@ -1,0 +1,30 @@
+.career_anthem_section {
+  width: 100%;
+  padding-top: 47%;
+  position: relative;
+}
+.career_video_container {
+  position: absolute;
+  inset: 0;
+}
+.career_video_text {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  max-width: 1083px;
+  padding: 0 20px;
+  margin: 0 auto;
+  text-align: center;
+}
+.career_video_text h4 {
+  font-size: 3.2rem;
+  color: #ffffff;
+  margin-bottom: 26px;
+}
+.career_video_text p {
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+  margin-bottom: 38px;
+}
