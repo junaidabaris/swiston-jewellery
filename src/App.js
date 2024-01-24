@@ -23,7 +23,10 @@ import GoldExchange from "./pages/gold-exchange/Index";
 import TrendingSearche from "./components/TrendingSearches/TrendingSearche";
 import Cart from "./components/cart/componants/Cart";
 import CategoryPage from "./pages/category";
-import {  useGetCategoriesQuery } from "./apiConfig/jwellerySlice";
+import EditPressProfile from "./components/editPressProfile/EditPressProfile";
+import PRess from "./pages/referandEarn/pRess";
+import Jewellaryedit from "./pages/jewellaryEDit";
+import Webstories from "./pages/webStories";
 function App() {
     const [show, setShow] = useState(false)
     return (
@@ -50,6 +53,11 @@ function App() {
                         <Route path="/jewellery-guide" element={<JewelleryBuyGuide />} />
                         <Route path="/gold-exchange" element={<GoldExchange />} />
                         <Route path="/cart" element={<Cart />} />
+                        <Route path="/press" element={<EditPressProfile />}>
+                            <Route path="" element={<PRess />} />
+                            <Route path="edit-jewellery" element={<Jewellaryedit />} />
+                            <Route path="web-stories" element={<Webstories />} />
+                        </Route>
                     </Routes>
                     <Footer />
                 </BrowserRouter>

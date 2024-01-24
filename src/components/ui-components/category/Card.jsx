@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 import { MdOutlineNavigateNext } from "react-icons/md";
-import "../category/Card.css";
+// import "../category/Card.css";
 import { GrFormPrevious } from "react-icons/gr";
 import { FaVideo } from "react-icons/fa6";
 import { FaRegCopy } from "react-icons/fa6";
