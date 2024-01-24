@@ -24,6 +24,11 @@ import TrendingSearche from "./components/ui-components/TrendingSearches/Trendin
 import Cart from "./components/ui-components/cart/componants/Cart";
 import RegisterPage from "./components/ui-components/register/registerPage/RegisterPage";
 import ReferandEarn from "./pages/ui-pages/referandEarn/ReferandEarn";
+import PRess from "./pages/ui-pages/referandEarn/pRess";
+import Jewellaryedit from "./pages/ui-pages/jewellaryEDit";
+import NewsTab from "./components/ui-components/press/newsTab/NewsTab";
+import EditPressProfile from "./components/ui-components/editPressProfile/EditPressProfile";
+import Webstories from "./pages/ui-pages/webStories";
 function UIApp() {
   const [show, setShow] = useState(false);
   return (
@@ -50,7 +55,13 @@ function UIApp() {
             <Route path="/jewellery-guide" element={<JewelleryBuyGuide />} />
             <Route path="/gold-exchange" element={<GoldExchange />} />
             <Route path="/cart" element={<Cart />} />
-            <Route path="/register" element={<RegisterPage/>}/>
+            <Route path="/register" element={<RegisterPage />} />
+
+            <Route path="/press" element={<EditPressProfile />}>
+              <Route path="" element={<PRess />} />
+              <Route path="edit-jewellery" element={<Jewellaryedit />} />
+              <Route path="web-stories" element={<Webstories />} />
+            </Route>
           </Routes>
           <Footer />
         </BrowserRouter>

@@ -105,7 +105,7 @@ export default function Footer() {
                 <a href="/">our story</a>
               </li>
               <li className="listitem">
-                <a href="/">press</a>
+                <Link to="/press">press</Link>
               </li>
               <li className="listitem">
                 <a href="/">blog</a>
