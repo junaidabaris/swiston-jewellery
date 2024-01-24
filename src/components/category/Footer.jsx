@@ -5,6 +5,7 @@ import { MdOutlineTextsms } from "react-icons/md";
 import { FaPlus } from "react-icons/fa6";
 import { FaMinus } from "react-icons/fa";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function Footer(){
     const [openAccordion, setOpenAccordion] = useState(null);
@@ -52,8 +53,8 @@ export default function Footer(){
         <ul className={openAccordion === 3 ? 'block' : ''}>
                         <li className="listitem"><a href="/">our story</a></li>
                         <li className="listitem"><a href="/">press</a></li>
-                        <li className="listitem"><a href="/">blog</a></li>
-                        <li className="listitem"><a href="/">blog</a></li>
+                       
+                        <li className="listitem"><Link to='/blog'>Blog</Link></li>
                         <li className="listitem"><a href="/">careers</a></li>
                     </ul>
                 </li>
