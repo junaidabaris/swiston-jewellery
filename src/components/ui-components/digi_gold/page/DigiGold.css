@@ -1,0 +1,16 @@
+.knowmoreP{
+    background: #FFFFFF;
+    font-family: Inter,sans-serif;
+}
+.knowMore{
+     max-width: 1202px;
+     margin: 0 auto;
+     padding: 48px 0 92px;
+}
+.redeemNowP{
+    background: rgb(249,249,250);
+}
+.dailCall{
+    width:100px;
+    height: 100px;
+}
