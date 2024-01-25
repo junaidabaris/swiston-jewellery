@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import { FaGreaterThan } from "react-icons/fa";
 
-export default function Nav(){
+export default function NavCat(){
     const [openClass, setClass] = useState(null);
 
 const colerEffect = (color) => {

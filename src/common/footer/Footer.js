@@ -9,6 +9,7 @@ import "../footer/footer.css";
 
 
 import { Link } from "react-router-dom";
+import ReactWhatsapp from "react-whatsapp";
 export default function Footer() {
   const [openAccordion, setOpenAccordion   ] = useState(null);
   const handleAccordionClick = (index) => {
@@ -41,7 +42,7 @@ export default function Footer() {
                 <Link to="/gold-rate">Gold Rate </Link>
               </li>
               <li className="listitem">
-                <Link to="/">digital gold </Link>
+                <Link to="/digi_gold">digital gold </Link>
               </li>
               <li className="listitem">
                 <Link to="/">ear piercing </Link>
@@ -106,14 +107,20 @@ export default function Footer() {
               <li className="listitem">
                 <Link to="/press">press</Link>
               </li>
-              <li className="listitem">
+              {/* <li className="listitem">
                 <a href="/">blog</a>
-              </li>
+              </li> */}
               <li className="listitem">
-                <a href="/">blog</a>
+                <Link to="/blog">blog</Link>
               </li>
               <li className="listitem">
                 <Link to="/carriers">careers</Link>
+              </li>
+              <li className="listitem">
+                <Link to="/testimonial">testimonial</Link>
+              </li>
+              <li className="listitem">
+                <Link to="/vedio-gallery">vedio gallery</Link>
               </li>
             </ul>
           </li>
@@ -140,8 +147,9 @@ export default function Footer() {
                     </a>
                   </li>
                   <li>
-                    <a href="/"></a>
-                    <FaWhatsapp />
+                    <a href="#"></a>
+
+                    <ReactWhatsapp style={{ border: "none", backgroundColor: "transparent", padding: '0' }} number='+97 466362210' massage="Hello Mamass Tycoon"><FaWhatsapp /></ReactWhatsapp>
                   </li>
                 </ul>
               </li>
@@ -172,15 +180,19 @@ export default function Footer() {
           </li>
         </ul>
         <div className="store">
-          <a href="/">find a store</a>
+          <Link to="/stors">find a store</Link>
         </div>
         <div>
           <ul className="social_icon">
-            <li className="facebook"></li>
-            <li className="insta"></li>
+            <a href="https://www.facebook.com/swistonjewellery" target="blank"> <li className="facebook">
+
+            </li></a>
+            <a href="https://www.instagram.com/swistonjewellery/" target="blank"> <li className="insta"></li></a>
+            <a href="https://www.linkedin.com/in/swiston-jewellery-953a182ab/" target="blank"> <li className="in"></li></a>
+
+
             <li className="p"></li>
             <li className="twetter"></li>
-            <li className="in"></li>
           </ul>
         </div>
         <div className="app_store">

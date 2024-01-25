@@ -1,0 +1,85 @@
+.frontDiscrption {
+  max-width: 727px;
+  margin: 0 auto;
+  /* border: 1px solid black; */
+}
+.fingerPrint_showcase {
+  /* background: url('./assets/download.png'); */
+  width: 76px;
+  height: 76px;
+  background-image: url('./assets/download.png');
+}
+.finger_icon {
+  background: transparent;
+}
+.Signup_text {
+  padding-top: 21px;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 18px;
+  color: rgb(79, 50, 103);
+}
+.ptext {
+  max-width: 349px;
+  margin: auto;
+  padding-top: 11px;
+  padding-bottom: 32px;
+  color: rgb(79, 50, 103);
+  font-weight: 400;
+  line-height: 18px;
+  font-size: 12px;
+}
+.icon_placeholder {
+  border: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 52px;
+  height: 52px;
+  border-radius: 100%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+.img_size {
+  width: 36px;
+  height: 35px;
+  border-radius: 100%;
+}
+.icon_place button {
+  border: 0;
+  background: transparent;
+}
+.icon_place {
+  margin-bottom: 20px;
+}
+.seprator_line{
+    margin-bottom: 55px;
+}
+.seprator_line span {
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 18px;
+  color: rgb(79, 50, 103);
+  position: relative;
+}
+.seprator_line span::before{
+    content: "";
+    width: 132px;
+    height: 3px;
+    position: absolute;
+    top: 50%;
+    left: -146px;
+    background: linear-gradient(269.97deg, rgb(248, 154, 238) 4.18%, rgba(196, 196, 196, 0) 77.28%);
+  
+}
+.seprator_line span::after{
+    content: "";
+    width: 132px;
+    height: 3px;
+    position: absolute;
+    top: 50%;
+    background: linear-gradient(269.97deg, rgb(248, 154, 238) 4.18%, rgba(196, 196, 196, 0) 77.28%);
+    transform: rotate(-180deg);
+    right: -146px;
+   
+}
+

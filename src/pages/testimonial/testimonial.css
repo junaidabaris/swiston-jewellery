@@ -1,0 +1,54 @@
+.bredcrum {
+    height: 97px;
+    background-color: #f6f3f9;
+    padding: 15px 0;
+}
+
+.bredcrum h4 {
+    font-size: 18px !important;
+    font-weight: 600;
+    font-family: Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(79, 50, 103);
+    margin: 0px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.bredcrum p {
+    font-size: 10px;
+    padding: 7px 0;
+    font-weight: 400;
+}
+
+.testimonial {
+    padding: 20px 0;
+}
+
+.testimonial button {
+    background-color: #e3d38a !important;
+}
+
+.testimonial .topsec {
+    /* border: 1px solid black; */
+    margin: 0 7px;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: #f1f1f1;
+    color: #7a7e9a;
+}
+
+.silktestimonial .slick-next {
+    right: -15px !important;
+}
+
+.testimonialcrd>.bottm {
+    margin: 10px;
+    padding: 10px;
+}
+.bottm  .left{
+    margin-right: 16px;
+    width: 90px;
+    overflow: hidden;
+    border-radius: 100%;
+    height: 90px;
+}
