@@ -1,0 +1,17 @@
+._blogsCards{
+    padding: 5px 80px;
+}
+.view_more {
+ position: relative;
+}
+.view_more:hover{
+    color: #DE57E5;
+}
+.view_more span{
+    position: absolute;
+    transform: rotate(90deg);
+}
+.view_more span:hover{
+    color: #DE57E5;
+    scale: 1.1;
+}
