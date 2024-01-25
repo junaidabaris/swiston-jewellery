@@ -1,0 +1,98 @@
+/* Input.css */
+.custom_input {
+    color: #743b70;
+    border: 0;
+    line-height: 48px;
+    background: transparent;
+    outline: 0;
+
+  }
+  .custom_input[type="number"] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+    margin: 0; 
+  }
+  
+  
+  .custom_input[type="number"]::-webkit-inner-spin-button,
+  .custom_input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0; /* Remove the default inner and outer spin button margin */
+  }
+  
+  /* Firefox */
+  .custom_input[type="number"] {
+    -moz-appearance: textfield;
+  }
+
+  
+  .input_placeholder {
+    background: #f6f3f9;
+    width: 351px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    text-align: left;
+    padding-left: 10px;
+    display: flex;
+    align-items: center; /* Center the content vertically */
+  }
+  
+  .input_placeholder select {
+    border: 0;
+    background: transparent;
+    border-right: 1px solid gray;
+    margin-right: 10px;
+  }
+  
+  .form-assemble {
+    max-width: 727px;
+    margin: 0 auto;
+  }
+  
+  .input_align {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center  !important;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 24px;
+    justify-content: left;
+  }
+  
+  /* Add a new class for the input addon */
+  .input-addon {
+    padding: 0 10px;
+    border-right: 1px solid gray;
+    display: flex;
+    align-items: center; /* Center the content vertically */
+    color: #743b70;
+  }
+  
+  /* FromAssemble.js */
+  .input_align select {
+    max-width: 100px; /* Adjust the max-width of the select element */
+  }
+  .password_icon{
+    margin-left: 126px;
+  }
+  .discStyle{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+
+   
+  }
+  .discStyle li{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 10px;
+  }
+  
+  .discStyle .disc{
+       width: 10px;
+       height: 10px;
+       border-radius: 100%;
+       background: gray;
+  }
+ 

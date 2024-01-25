@@ -5,6 +5,7 @@ import CategoryFilter from "../../components/category/CategoryFilter"
 import CategorySort from "../../components/category/CategorySort"
 import PriceFilter from "../../components/category/PriceFilter"
 import { filerCase, mockData } from "./mockData"
+import MobileFilter from "../../components/category/MobleFilter"
 
 function CategoryPage() {
     const { data } = useGetProductTypeQuery()
@@ -44,7 +45,7 @@ function CategoryPage() {
                 </div>
             </div>
         </div>
-
+<MobileFilter/>
     </section>
 }
 export default CategoryPage

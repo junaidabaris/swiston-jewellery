@@ -28,6 +28,10 @@ import PRess from "./pages/referandEarn/pRess";
 import Jewellaryedit from "./pages/jewellaryEDit";
 import Webstories from "./pages/webStories";
 import WishList from "./pages/wishlist";
+import RegisterPage from "./components/register/registerPage/RegisterPage";
+import Returnpolicy from "./components/15DayReturns/ReturnPolicy";
+import BlogPage from "./components/blogPost/blogPage/BlogPage";
+import DigGold from "./components/digi_gold/page/DigGold";
 function App() {
     const [show, setShow] = useState(false)
     return (
@@ -60,6 +64,11 @@ function App() {
                             <Route path="edit-jewellery" element={<Jewellaryedit />} />
                             <Route path="web-stories" element={<Webstories />} />
                         </Route>
+
+                        <Route path="/register" element={<RegisterPage />} />
+                        <Route path="/returnpolicy" element={<Returnpolicy/>} />
+                        <Route path="/blog" element={<BlogPage />} />
+                        <Route path="/digi_gold" element={<DigGold />} />
                     </Routes>
                     <Footer />
                 </BrowserRouter>

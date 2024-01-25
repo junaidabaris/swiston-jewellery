@@ -7,11 +7,11 @@ import { FaMinus } from "react-icons/fa";
 import { useState } from "react";
 import "../footer/footer.css";
 
+
 import { Link } from "react-router-dom";
 import ReactWhatsapp from "react-whatsapp";
 export default function Footer() {
-  const [openAccordion, setOpenAccordion] = useState(null);
-
+  const [openAccordion, setOpenAccordion   ] = useState(null);
   const handleAccordionClick = (index) => {
     setOpenAccordion((prevIndex) => (prevIndex === index ? null : index));
   };
@@ -42,7 +42,7 @@ export default function Footer() {
                 <Link to="/gold-rate">Gold Rate </Link>
               </li>
               <li className="listitem">
-                <Link to="/">digital gold </Link>
+                <Link to="/digi_gold">digital gold </Link>
               </li>
               <li className="listitem">
                 <Link to="/">ear piercing </Link>
@@ -60,7 +60,7 @@ export default function Footer() {
             </h3>
             <ul className={openAccordion === 1 ? "block" : ""}>
               <li className="listitem">
-                <a href="/">15-day returns</a>
+                 <Link to="/returnpolicy" >15-day returns</Link>
               </li>
               <li className="listitem">
                 <a href="/">free shipping</a>
@@ -111,7 +111,7 @@ export default function Footer() {
                 <a href="/">blog</a>
               </li> */}
               <li className="listitem">
-                <a href="/">blog</a>
+                <Link to="/blog">blog</Link>
               </li>
               <li className="listitem">
                 <Link to="/carriers">careers</Link>
