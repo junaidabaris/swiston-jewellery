@@ -34,6 +34,9 @@ import Login from "./components/ui-components/loginForm/Login";
 import JewellaryEdit from "./components/press/jewellaryEdit/JewellaryEdit";
 import DigGold from "./components/ui-components/digi_gold/page/DigGold";
 import Returnpolicy from "./components/ui-components/15DayReturns/ReturnPolicy";
+import Faq from "./components/ui-components/faqSwiston/Faq";
+ 
+import PhotoGallery from "./components/ui-components/ourPhotoGallery/PhotoGallery";
 function UIApp() {
   const [show, setShow] = useState(false);
   return (
@@ -73,6 +76,8 @@ function UIApp() {
 
             <Route path="/blog" element={<BlogPage/>}/>
             <Route path="/digi_gold" element={<DigGold/>}/>
+            <Route path="/faq" element={<Faq/>}/>
+            <Route path="/photo-gallery" element={<PhotoGallery/>}/>
           </Routes>
           <Footer />
         </BrowserRouter>
