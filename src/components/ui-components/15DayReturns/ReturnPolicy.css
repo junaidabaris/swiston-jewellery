@@ -45,8 +45,9 @@
     float: right;
     color: black;
 }
-.container{
-    width: 80%;
+.main_box{
+    max-width: 80%;
+    margin: 10px auto;
 }
 .seeT_C{
     text-align: end;
@@ -103,3 +104,56 @@
 .remark{
     color: pink;
 }
+.text_contact{
+    font-size: 15px;
+    color: dimgrey;
+}
+.btn_contact{
+    justify-content: center;
+}
+.btn_contact div{
+    width: 150px;
+    margin: 10px;
+}
+.btn_contact div a{
+    display: inline-block;
+    padding: 8px 10px;
+    width: 100%;
+    border: 1px solid blue;
+    text-transform: capitalize;
+    font-size: 1rem;
+    border-radius: 13px;
+    background: #f1f1f1;
+    font-weight: 700;
+    color: #141414;
+    transition: all .5s;
+}
+.btn_contact div a:hover{
+    background: linear-gradient(90deg, rgb(252, 50, 83), purple, blue);
+    color: #fff;
+    transition: all .5s;
+}
+.moneyexchange{
+    width: 90%;
+    margin: 10px auto;
+} 
+.note_list{
+    padding: 30px 50px;
+    background: #f8f8f8;
+    padding-bottom: 100px;
+}
+.note_list li{
+    list-style-type:disc;
+    font-size: 16px;
+    margin: 10px 0px;
+}
+
+@media (max-width: 965px){
+    .main_box{
+        max-width: 99%;
+    }
+    .moneyexchange{
+        width: 99%;
+    }
+}
+

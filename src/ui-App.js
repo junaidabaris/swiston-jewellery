@@ -1,11 +1,11 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import Headers from "./common/headers/Headers";
 import "bootstrap/dist/css/bootstrap.css";
 import Footer from "./common/footer/Footer";
 import "../src/assets/css/style.css";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes, useFetcher } from "react-router-dom";
 import Carriers from "./components/ui-components/carriers/Carriers";
 import Home from "./components/ui-components/home/Home";
 import ProductDetails from "./components/ui-components/productDetails/ProductDetails";
@@ -27,15 +27,26 @@ import Jewellaryedit from "./pages/ui-pages/jewellaryEDit";
 import NewsTab from "./components/ui-components/press/newsTab/NewsTab";
 import EditPressProfile from "./components/ui-components/editPressProfile/EditPressProfile";
 import Webstories from "./pages/ui-pages/webStories";
-import ShippingPolicy from "./components/ui-components/shippingPolicy/ShippingPolicy";
-import Login from "./components/ui-components/loginForm/Login";
 
-
+import Returnpolicy from "./components/ui-components/15DayReturns/ReturnPolicy";
 import JewellaryEdit from "./components/press/jewellaryEdit/JewellaryEdit";
 import DigGold from "./components/ui-components/digi_gold/page/DigGold";
-import Returnpolicy from "./components/ui-components/15DayReturns/ReturnPolicy";
+
+import ShippingPolicy from "./components/ui-components/shippingPolicy/ShippingPolicy";
+import Login from "./components/ui-components/loginForm/Login";
+import FinancialOption from "./components/ui-components/financialOption/FinancialOption";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 function UIApp() {
   const [show, setShow] = useState(false);
+  useEffect(()=>{
+    AOS.init({
+      delay: 200,
+      duration: 800, 
+      easing: 'ease-in-out',
+    });
+  },[])
   return (
     <>
       <div>
@@ -61,6 +72,7 @@ function UIApp() {
             <Route path="/cart" element={<Cart />} />
             <Route path="/register" element={<RegisterPage />} />
             <Route path="/returnpolicy" element={<Returnpolicy />} />
+            <Route path="/financialoption" element={<FinancialOption />} />
 
             <Route path="/press" element={<EditPressProfile />}>
               <Route path="" element={<PRess />} />

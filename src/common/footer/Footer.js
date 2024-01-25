@@ -66,7 +66,7 @@ export default function Footer() {
                 <Link to ="/shipping-policy">free shipping</Link>
               </li>
               <li className="listitem">
-                <a href="/">financing options</a>
+                <Link to="/financialoption">financing options</Link>
               </li>
               <li className="listitem">
                 <Link to="/gold-exchange">old gold exchange</Link>
@@ -84,7 +84,7 @@ export default function Footer() {
             </h3>
             <ul className={openAccordion === 2 ? "block" : ""}>
               <li className="listitem">
-                <Link to="login">returns policy</Link>
+                <Link to="/returnpolicy">returns policy</Link>
               </li>
               <li className="listitem">
                 <a href="/">order status</a>
