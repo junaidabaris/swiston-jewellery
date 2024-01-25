@@ -44,3 +44,6 @@
     padding: 0 110px;
 
 }
+.signupbutton:hover{
+    background: linear-gradient(to right, rgb(233, 50, 243), rgb(75, 23, 232));
+}

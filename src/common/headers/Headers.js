@@ -37,7 +37,8 @@ function Headers({ setShow }) {
         <Navbar
           expand="lg"
           className="bg-body-tertiary"
-          style={{ padding: "25px 0px" }}>
+          style={{ padding: "25px 0px" }}
+        >
           <Container fluid>
             <Navbar.Brand href="#">
               <Link to="/">
@@ -53,17 +54,21 @@ function Headers({ setShow }) {
               <Nav
                 className="me-auto my-2 my-lg-0"
                 style={{ maxHeight: "500px" }}
-                navbarScroll>
+                navbarScroll
+              >
                 <Nav.Link
                   href="#action1"
                   className="show_items"
-                  onClick={() => openItems(0)}>
+                  onClick={() => openItems(0)}
+                >
                   <Link to="/category">
                     <span className="nav-items "> Rings</span>
                   </Link>
                   <div
-                    className={`nav_items_category hide_items ${items === 0 ? "open" : " "
-                      }`}>
+                    className={`nav_items_category hide_items ${
+                      items === 0 ? "open" : " "
+                    }`}
+                  >
                     <span>
                       <IoClose onClick={closeModal} />
                     </span>
@@ -232,11 +237,14 @@ function Headers({ setShow }) {
                 <Nav.Link
                   href="#action2"
                   className="show_items"
-                  onClick={() => openItems(1)}>
+                  onClick={() => openItems(1)}
+                >
                   <span className="nav-items ">Earrings</span>
                   <div
-                    className={`nav_items_category hide_items ${items === 1 ? "open" : " "
-                      }`}>
+                    className={`nav_items_category hide_items ${
+                      items === 1 ? "open" : " "
+                    }`}
+                  >
                     <span>
                       <IoClose onClick={closeModal} />
                     </span>
@@ -329,7 +337,8 @@ function Headers({ setShow }) {
                       </div>
                       <div
                         className="shop_by_metal_stone "
-                        style={{ paddingLeft: "30px" }}>
+                        style={{ paddingLeft: "30px" }}
+                      >
                         <div className="shop_name">
                           <h6 className="shop_underline">
                             SHOP BY METAL & STONE
@@ -407,11 +416,14 @@ function Headers({ setShow }) {
                 <Nav.Link
                   href="#"
                   className="show_items"
-                  onClick={() => openItems(2)}>
+                  onClick={() => openItems(2)}
+                >
                   <span className="nav-items"> Bracelets & Bangles </span>
                   <div
-                    className={`nav_items_category hide_items ${items === 2 ? "open" : " "
-                      }`}>
+                    className={`nav_items_category hide_items ${
+                      items === 2 ? "open" : " "
+                    }`}
+                  >
                     <span>
                       <IoClose onClick={closeModal} />
                     </span>
@@ -504,7 +516,8 @@ function Headers({ setShow }) {
                       </div>
                       <div
                         className="shop_by_metal_stone "
-                        style={{ paddingLeft: "30px" }}>
+                        style={{ paddingLeft: "30px" }}
+                      >
                         <div className="shop_name">
                           <h6 className="shop_underline">
                             SHOP BY METAL & STONE
@@ -581,11 +594,14 @@ function Headers({ setShow }) {
                 <Nav.Link
                   href="#action2"
                   className="show_items"
-                  onClick={() => openItems(3)}>
+                  onClick={() => openItems(3)}
+                >
                   <span className="nav-items"> Solitaries </span>
                   <div
-                    className={`nav_items_category hide_items ${items === 3 ? "open" : " "
-                      }`}>
+                    className={`nav_items_category hide_items ${
+                      items === 3 ? "open" : " "
+                    }`}
+                  >
                     <span>
                       <IoClose onClick={closeModal} />
                     </span>
@@ -678,7 +694,8 @@ function Headers({ setShow }) {
                       </div>
                       <div
                         className="shop_by_metal_stone "
-                        style={{ paddingLeft: "30px" }}>
+                        style={{ paddingLeft: "30px" }}
+                      >
                         <div className="shop_name">
                           <h6 className="shop_underline">
                             SHOP BY METAL & STONE
@@ -827,12 +844,18 @@ function Headers({ setShow }) {
                       <IoIosContact />
                     </span>
                     <div className="hide_account">
-                    <div className="your-account">
-              <h4>Your Account</h4>
-              <p>Access account & manage your orders.</p>
-              <button> <a href="#">SignUp</a></button>
-             <button>  <a href="#">Login In</a></button>
-       </div>
+                      <div className="your-account">
+                        <h4>Your Account</h4>
+                        <p>Access account & manage your orders.</p>
+                        <button>
+                          {" "}
+                          <Link to="/register">SignUp</Link>
+                        </button>
+                        <button>
+                          {" "}
+                          <Link to="/login">Login In</Link>
+                        </button>
+                      </div>
                     </div>
                   </li>
                   <li className="nav_icons">
@@ -842,7 +865,10 @@ function Headers({ setShow }) {
                   </li>
                   <li className="nav_icons">
                     <span>
-                      <Link to='/cart'> <FaCartArrowDown /></Link>
+                      <Link to="/cart">
+                        {" "}
+                        <FaCartArrowDown />
+                      </Link>
                     </span>
                   </li>
                 </div>
