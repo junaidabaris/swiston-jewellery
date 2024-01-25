@@ -2,7 +2,9 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FaPlus } from "react-icons/fa";
 import { FaAngleDown } from "react-icons/fa";
+import { FaMinus } from "react-icons/fa";
 import Offer from "./Offer";
+import { FaAngleUp } from "react-icons/fa";
 
 const TermCondition = [
     { id: "0", title: "Diamond and Gemstone Studded/ Gold/ Platinum", open: true },
@@ -28,14 +30,14 @@ export default function TermConditon() {
         setState(maped)
     }
     return (
-        <div className="container">
+        <div className="main_box">
             <div className="mt-3">
                 <div className="seeT_C"><Link to="/" className="t-c">See detailed Terms & Conditions</Link></div>
                 <div>
                     <ul className="term-condition-list">
                         {state?.map((text) => {
                             return (
-                                <li onClick={() => { changeIndex(text.id) }}> <div className="header_title"><span><FaPlus /></span> {text.title} <span className="down-icon"><FaAngleDown /></span></div>
+                                <li onClick={() => { changeIndex(text.id) }}> <div className="header_title"><span>{text.open === true ? <FaMinus /> : <FaPlus />}</span> {text.title} <span className="down-icon">{text.open === true ? <FaAngleUp /> : <FaAngleDown />}</span></div>
                                     {text.open && <Offer />}
                                 </li>
                             )

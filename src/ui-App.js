@@ -27,14 +27,17 @@ import Jewellaryedit from "./pages/ui-pages/jewellaryEDit";
 import NewsTab from "./components/ui-components/press/newsTab/NewsTab";
 import EditPressProfile from "./components/ui-components/editPressProfile/EditPressProfile";
 import Webstories from "./pages/ui-pages/webStories";
+
+import Returnpolicy from "./components/ui-components/15DayReturns/ReturnPolicy";
+import JewellaryEdit from "./components/press/jewellaryEdit/JewellaryEdit";
+import DigGold from "./components/ui-components/digi_gold/page/DigGold";
+
 import ShippingPolicy from "./components/ui-components/shippingPolicy/ShippingPolicy";
 import Login from "./components/ui-components/loginForm/Login";
+import FinancialOption from "./components/ui-components/financialOption/FinancialOption";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-import JewellaryEdit from "./components/press/jewellaryEdit/JewellaryEdit";
-import DigGold from "./components/ui-components/digi_gold/page/DigGold";
-import Returnpolicy from "./components/ui-components/15DayReturns/ReturnPolicy";
 function UIApp() {
   const [show, setShow] = useState(false);
   useEffect(()=>{
@@ -69,6 +72,7 @@ function UIApp() {
             <Route path="/cart" element={<Cart />} />
             <Route path="/register" element={<RegisterPage />} />
             <Route path="/returnpolicy" element={<Returnpolicy />} />
+            <Route path="/financialoption" element={<FinancialOption />} />
 
             <Route path="/press" element={<EditPressProfile />}>
               <Route path="" element={<PRess />} />
