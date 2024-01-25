@@ -1,0 +1,31 @@
+.carrier_review1 {
+  background-color: rgb(245, 240, 233);
+  width: 100%;
+}
+.carrier_review_content1 {
+  padding: 80px 0px;
+}
+.carrier_review_content1 h1 {
+  font-size: 40px;
+  word-spacing: 2px;
+  /* letter-spacing: 1px; */
+  font-weight: 700;
+  text-align: center;
+  color: #4f3267;
+  text-transform: capitalize;
+}
+.carrier_review_content1 p {
+  font-size: 16px;
+  font-weight: 500;
+  width: 60%;
+  text-align: center;
+  margin: auto;
+  /* line-height: ; */
+}
+.review_button {
+  text-align: center;
+}
+.review_button button {
+  font-weight: 500;
+  margin: 20px;
+}

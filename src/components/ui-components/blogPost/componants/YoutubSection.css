@@ -1,0 +1,61 @@
+.youtubeSection{
+    width: 100%;
+    color: beige;
+    text-align: center;
+    overflow: hidden;
+}
+.youtubeSection .imgPlaceholder{
+    margin: 0 180px;
+    border-radius: 0;
+    padding: 40px;
+    position: relative;
+}
+
+.borderwhite{
+
+}
+.borderwhite .vlog{
+    color: rgb(94, 94, 94) ;
+    font-family: Inter, sans-serif;
+    line-height: 15.6px;
+    font-size: 13px;
+    font-weight:  400;
+    padding-top: 10px;
+
+}
+.borderwhite .vlog_heading{
+    font-family: Lora, sans-serif;
+    font-size:  36px;
+    font-weight: 400;
+    line-height: 46.8px;
+    color:  rgb(255, 255, 255);
+}
+.borderwhite 
+.videoPlaceholder{
+    text-align: -webkit-center;
+}
+.sujestion{
+    max-width:997px;
+    margin: auto;
+}
+.bordergray{
+    border-top: 2px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bordergray a{
+    color: white;
+    font-size: 30px;
+}
+.bordergray a:hover{
+    color: red;
+}
+.bordergray:hover{
+    border-top: 2px solid red;
+  
+}
+    
+
+
+
