@@ -24,17 +24,19 @@ const GoldRateToday = () => {
           <div className="row curent-rate-row">
             <div className="col-lg-6 justify-content-center d-flex  ">
               <div className="select-container">
+              <label>Select state</label><br/>
                 <select
                   className="form-select"
-                  aria-label=".form-select-lg example">
-                  <span>Select state</span>
+                  aria-label=".form-select-lg example"
+                >
                   {slectState.map((item1) => (
                     <option key={item1}> {item1}</option>
                   ))}
                 </select>
                 <select
                   className="form-select"
-                  aria-label=".form-select-lg example">
+                  aria-label=".form-select-lg example"
+                >
                   <span>Select city</span>
                   {selectCity.map((item2) => (
                     <option key={item2}> {item2}</option>

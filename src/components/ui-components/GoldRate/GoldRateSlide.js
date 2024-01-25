@@ -37,7 +37,14 @@ export default function GoldRateSlide() {
   };
   return (
     <>
+     <div className="d-flex explore-button-contant py-4">
+          <h4>Invest in Gold Jewellery</h4>
+          <button className="explore-button">
+            <a href="#"> Explore Gold Jewellery</a>
+          </button>
+        </div>
       <div className="container">
+        
         <Slider {...settings}>
           <div>
             <GoldRateCard />

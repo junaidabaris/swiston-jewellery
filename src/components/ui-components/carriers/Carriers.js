@@ -25,6 +25,120 @@ function Carriers() {
                 our leaders drive the creation of new and innovative solutions
                 to enhance the customer journey.
               </p>
+<<<<<<< HEAD
+              <div className="carrier_slide">
+                <Slider {...settings}>
+                  <div className="sweaper_slide">
+                    <div className="slide_video">
+                      <iframe
+                        width="560"
+                        height="300"
+                        className="banner_slide_video"
+                        src="https://www.youtube.com/embed/PpklFQm5ZF0?si=erPZs0YAiQ7FdhZy"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen
+                      ></iframe>
+                    </div>
+                    <div className="slide_content">
+                      <p>Mohit</p>
+                      <span>Associate Product Manager</span>
+                    </div>
+                  </div>
+                  <div className="sweaper_slide">
+                    <div className="slide_video">
+                      <iframe
+                        width="560"
+                        height="300"
+                        className="banner_slide_video"
+                        src="https://www.youtube.com/embed/PpklFQm5ZF0?si=erPZs0YAiQ7FdhZy"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen
+                      ></iframe>
+                    </div>
+                    <div className="slide_content">
+                      <p>Mohit</p>
+                      <span>Associate Product Manager</span>
+                    </div>
+                  </div>
+                  <div className="sweaper_slide">
+                    <div className="slide_video">
+                      <iframe
+                        width="560"
+                        height="300"
+                        className="banner_slide_video"
+                        src="https://www.youtube.com/embed/PpklFQm5ZF0?si=erPZs0YAiQ7FdhZy"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen
+                      ></iframe>
+                    </div>
+                    <div className="slide_content">
+                      <p>Zulfiquar</p>
+                      <span>Machine Learning Engineer</span>
+                    </div>
+                  </div>
+                  <div className="sweaper_slide">
+                    <div className="slide_video">
+                      <iframe
+                        width="560"
+                        height="300"
+                        className="banner_slide_video"
+                        src="https://www.youtube.com/embed/PpklFQm5ZF0?si=erPZs0YAiQ7FdhZy"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen
+                      ></iframe>
+                    </div>
+                    <div className="slide_content">
+                      <p>Mohan</p>
+                      <span>Team Lead</span>
+                    </div>
+                  </div>
+                  <div className="sweaper_slide">
+                    <div className="slide_video">
+                      <iframe
+                        width="560"
+                        height="300"
+                        className="banner_slide_video"
+                        src="https://www.youtube.com/embed/PpklFQm5ZF0?si=erPZs0YAiQ7FdhZy"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen
+                      ></iframe>
+                    </div>
+                    <div className="slide_content">
+                      <p>Mohit</p>
+                      <span>Associate Product Manager</span>
+                    </div>
+                  </div>
+                  <div className="sweaper_slide">
+                    <div className="slide_video">
+                      <iframe
+                        width="560"
+                        height="300"
+                        className="banner_slide_video"
+                        src="https://www.youtube.com/embed/PpklFQm5ZF0?si=erPZs0YAiQ7FdhZy"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen
+                      ></iframe>
+                    </div>
+                    <div className="slide_content">
+                      <p>Mohit</p>
+                      <span>Associate Product Manager</span>
+                    </div>
+                  </div>
+                </Slider>
+              </div>
+=======
             </div>
             <div className="careers_slide_video">
               <Slider {...settings} className="careers_slide">
@@ -61,6 +175,7 @@ function Carriers() {
                   <h3>8</h3>
                 </div>
               </Slider>
+>>>>>>> 88151a31aaf34a0edf5b8cce254b59673c460d19
             </div>
           </div>
         </section> */}
@@ -97,7 +212,8 @@ function Carriers() {
                   display: "flex",
                   justifyContent: "center",
                   margin: "auto",
-                }}>
+                }}
+              >
                 <input
                   type="text"
                   className="form-control "
