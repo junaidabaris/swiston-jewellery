@@ -7,7 +7,6 @@ import GoldRateSlide from "./GoldRateSlide";
 import GoldRateCard from "./GoldRateCard";
 import GoldRateToday from "./GoldRateToday";
 export default function GoldRate() {
-  // let City = [];
   return (
     <>
       <GoldRateToday />
@@ -16,7 +15,7 @@ export default function GoldRate() {
       <section className="py-5">
         <div className="container">
           <div className="row">
-            <div className="col-7">
+            <div className="col-7 determin-contant">
               <h4>Determining Gold Rate</h4>
               <p className="py-3">
                 Determining Gold Rate Gold has remained one of the most valued
@@ -51,14 +50,15 @@ export default function GoldRate() {
                 high-quality gold. And to make sure of its quality, it is better
                 to stick to the BIS hallmarked gold products.
               </p>
-              <div className="d-flex explore-button-contant py-4">
+              {/* <div className="d-flex explore-button-contant py-4">
                 <h4>Invest in Gold Jewellery</h4>
                 <button className="explore-button">
-                  Explore Gold Jewellery
+                  <a href="#"> Explore Gold Jewellery</a>
                 </button>
-              </div>
+              </div> */}
               {/* start gold slider */}
-              <GoldRateSlide />
+              <GoldRateSlide /> 
+              {/* <GoldRateSlide /> */}
               {/* end gold slider  */}
             </div>
             <div className="col-5">
@@ -190,16 +190,11 @@ export default function GoldRate() {
         </div>
       </section>
       {/* Explore our Stores */}
-      <section
-        className="pincod-explore"
-        style={{ backgroundColor: "rgb(249, 249, 250)" }}>
-        <div className="container-fluid">
+      <section className="pincod-explore ">
+        <div className="container-fluid py-5">
           <div className="row">
-            <div className="col-5 py-4">
-              <h4>
-                Explore <br />
-                our Stores
-              </h4>
+            <div className="col-5 pt-5">
+              <h4>Explore our Stores</h4>
               <p className="explore-prf">
                 We have 123 retail stores across 40+ Indian cities.You can also
                 buy online & pickup from the store anytime!
@@ -209,7 +204,7 @@ export default function GoldRate() {
                   <span>Enter Pincode</span>
                   <span>Locate Me</span>
                 </div>
-                <input type="text" className="w-100 py-2" />
+                <input type="text" className="w-100" placeholder="Enter Pincode" />
               </div>
             </div>
             <div className="col-7">

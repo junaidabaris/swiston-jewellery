@@ -27,6 +27,9 @@ import Jewellaryedit from "./pages/ui-pages/jewellaryEDit";
 import NewsTab from "./components/ui-components/press/newsTab/NewsTab";
 import EditPressProfile from "./components/ui-components/editPressProfile/EditPressProfile";
 import Webstories from "./pages/ui-pages/webStories";
+import ShippingPolicy from "./components/ui-components/shippingPolicy/ShippingPolicy";
+import Login from "./components/ui-components/loginForm/Login";
+
 
 import JewellaryEdit from "./components/press/jewellaryEdit/JewellaryEdit";
 import DigGold from "./components/ui-components/digi_gold/page/DigGold";
@@ -63,7 +66,11 @@ function UIApp() {
               <Route path="" element={<PRess />} />
               <Route path="edit-jewellery" element={<JewellaryEdit />} />
               <Route path="web-stories" element={<Webstories />} />
+             
             </Route>
+            <Route path="/shipping-policy" element={<ShippingPolicy/>} /> 
+            <Route path="/login" element={<Login/>} /> 
+
             <Route path="/blog" element={<BlogPage/>}/>
             <Route path="/digi_gold" element={<DigGold/>}/>
           </Routes>

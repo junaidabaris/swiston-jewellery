@@ -56,6 +56,27 @@ export const jwelleryApi = createApi({
                 body:pay
             }),
         }),
+        getJwellLength: builder.query({
+            query: (pay) => ({
+                url: `length/public`,
+                method: 'GET',
+                body:pay
+            }),
+        }),
+        getcurateby: builder.query({
+            query: (pay) => ({
+                url: `curatedBy/public`,
+                method: 'GET',
+                body:pay
+            }),
+        }),
+        getAlphabetic: builder.query({
+            query: (pay) => ({
+                url: `alphabetic/public`,
+                method: 'GET',
+                body:pay
+            }),
+        }),
 
 
     })
@@ -63,12 +84,15 @@ export const jwelleryApi = createApi({
 })
 
 export const {
+    useGetAlphabeticQuery,
     useGetProductTypeQuery,
     useGetMaterialQuery,
     useGetMetalTypeQuery,
     useGetshopforQuery,
     useGetRingsizeQuery,
     useGetGemstonQuery,
+    useGetJwellLengthQuery,
     useGetProductMutation,
+    useGetcuratebyQuery,
     useGetThemesQuery
 } = jwelleryApi

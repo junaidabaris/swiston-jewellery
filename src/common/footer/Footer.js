@@ -63,7 +63,7 @@ export default function Footer() {
                  <Link to="/returnpolicy" >15-day returns</Link>
               </li>
               <li className="listitem">
-                <a href="/">free shipping</a>
+                <Link to ="/shipping-policy">free shipping</Link>
               </li>
               <li className="listitem">
                 <a href="/">financing options</a>
@@ -84,7 +84,7 @@ export default function Footer() {
             </h3>
             <ul className={openAccordion === 2 ? "block" : ""}>
               <li className="listitem">
-                <a href="/">returns policy</a>
+                <Link to="login">returns policy</Link>
               </li>
               <li className="listitem">
                 <a href="/">order status</a>
@@ -115,6 +115,12 @@ export default function Footer() {
               </li>
               <li className="listitem">
                 <Link to="/carriers">careers</Link>
+              </li>
+              <li className="listitem">
+                <Link to="/testimonial">testimonial</Link>
+              </li>
+              <li className="listitem">
+                <Link to="/vedio-gallery">vedio gallery</Link>
               </li>
             </ul>
           </li>
@@ -174,7 +180,7 @@ export default function Footer() {
           </li>
         </ul>
         <div className="store">
-          <a href="/">find a store</a>
+          <Link to="/stors">find a store</Link>
         </div>
         <div>
           <ul className="social_icon">

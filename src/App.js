@@ -32,6 +32,10 @@ import RegisterPage from "./components/register/registerPage/RegisterPage";
 import Returnpolicy from "./components/15DayReturns/ReturnPolicy";
 import BlogPage from "./components/blogPost/blogPage/BlogPage";
 import DigGold from "./components/digi_gold/page/DigGold";
+import Login from "./components/loginForm/Login";
+import TestimonialPage from "./pages/testimonial/Index";
+import VedioGallerypage from "./pages/vedio-gallery/Index";
+import StorePage from "./pages/storePage";
 function App() {
     const [show, setShow] = useState(false)
     return (
@@ -64,11 +68,14 @@ function App() {
                             <Route path="edit-jewellery" element={<Jewellaryedit />} />
                             <Route path="web-stories" element={<Webstories />} />
                         </Route>
-
+                        <Route path="/login" element={<Login/>} /> 
                         <Route path="/register" element={<RegisterPage />} />
                         <Route path="/returnpolicy" element={<Returnpolicy/>} />
                         <Route path="/blog" element={<BlogPage />} />
                         <Route path="/digi_gold" element={<DigGold />} />
+                        <Route path="/testimonial" element={<TestimonialPage />} />
+                        <Route path="/vedio-gallery" element={<VedioGallerypage />} />
+                        <Route path="/stors" element={<StorePage/>} />
                     </Routes>
                     <Footer />
                 </BrowserRouter>
