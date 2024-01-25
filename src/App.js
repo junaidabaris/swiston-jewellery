@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import Headers from "./common/headers/Headers";
@@ -36,8 +36,18 @@ import Login from "./components/loginForm/Login";
 import TestimonialPage from "./pages/testimonial/Index";
 import VedioGallerypage from "./pages/vedio-gallery/Index";
 import StorePage from "./pages/storePage";
+import Aos from "aos";
+import 'aos/dist/aos.css';
+import FinancialOptionS from "./components/financialOption/FinancialOption";
 function App() {
     const [show, setShow] = useState(false)
+    useEffect(()=>{
+        Aos.init({
+          delay: 200,
+          duration: 800, 
+          easing: 'ease-in-out',
+        });
+      },[])
     return (
         <>
             <div>
@@ -76,6 +86,7 @@ function App() {
                         <Route path="/testimonial" element={<TestimonialPage />} />
                         <Route path="/vedio-gallery" element={<VedioGallerypage />} />
                         <Route path="/stors" element={<StorePage/>} />
+                        <Route path="/financialoption" element={<FinancialOptionS />} />
                     </Routes>
                     <Footer />
                 </BrowserRouter>

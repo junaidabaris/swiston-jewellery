@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../../../assets/img/digi.png";
+// import img from "../../../../assets/img/digi.png";
 import Bannar from "../componants/Bannar";
 import KnowMore from "../componants/KnowMore";
 import "./DigiGold.css";
@@ -37,7 +37,7 @@ const genralData =[
   heading:'Is the Physical Vault Insured?',
   description:' Yes. The secure storage provider (BVC) has a comprehensive, global insurance policy that includes the insurance cover on your gold stored in their vaults.'
 }
-];
+]
 const DigGold = () => {
   return (
     <div className="bannar" >
