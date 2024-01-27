@@ -77,9 +77,7 @@ function UIApp() {
             <Route path="/press" element={<EditPressProfile />}>
               <Route path="" element={<PRess />} />
               <Route path="edit-jewellery" element={<JewellaryEdit />} />
-              <Route path="web-stories" element={<Webstories />} />
-             
-            </Route>
+              <Route path="web-stories" element={<Webstories />} /> </Route>
             <Route path="/shipping-policy" element={<ShippingPolicy/>} /> 
             <Route path="/login" element={<Login/>} /> 
 
