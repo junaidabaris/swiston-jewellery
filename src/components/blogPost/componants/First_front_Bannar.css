@@ -1,0 +1,89 @@
+._bannar_c{
+   width: 100%;
+   height: 84vh;
+   border-bottom: 3px solid #F1F1F1;
+   background-color: #FFFFFF;
+}
+._baracelate_image{
+    width: 1034px;
+    height: 400px;
+    background-image: url('../blog_assets/baracelate.webp');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+._baracelate_image ._caratlane{
+    position: absolute;
+    right: -26px;
+    top: 34px;
+    transform: rotate(270deg);
+   
+}
+._baracelate_image ._caratlane ._link{
+    color:  rgb(25, 25, 25);
+    line-height: 12.1px;
+    font-size: 11px;
+    font-weight: 400px;
+    font-family: Inter, sans-serif;
+}
+._baracelate_image::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(245,245,249,0.7);
+
+}
+._baracelate_image ._thrown_pic{
+    background-image: url('../blog_assets/thrown.webp');
+    width: 316px;
+    height: 252px;
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    right: 130px;
+    bottom: -88px;
+}
+/* left side work  */
+._heading_baraclate{
+    position: relative;
+}
+._heading_baraclate ._heading_position{
+     color: red;
+     position: absolute;
+     width: 1026px;
+     top: 86px;
+     left: 114px;
+     z-index: 2;
+}
+._heading_baraclate ._heading_position h1{
+    padding-left:47px;
+    font-family: Lora, sans-serif;
+    font-size: 99.84px;
+    font-weight: 200;
+    line-height: 109.824px;
+    color:black;
+}
+._heading_baraclate ._heading_position h1:hover{
+    color:  rgb(94, 94, 94);
+}
+._heading_baraclate ._latest{
+    position: absolute;
+    font-family: Inter,sans-serif;
+    top: 196px;
+    left: 64px;
+     transform: rotate(270deg);
+}
+._heading_baraclate ._latest ._latest_link{
+  display: flex;
+  gap: 10px;
+}
+._heading_baraclate ._latest span{
+    font-size: 12px;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    line-height: 16px;
+    color: #000;
+}
+

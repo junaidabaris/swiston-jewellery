@@ -5,7 +5,7 @@ import { useState } from "react";
 import { Material, ProductType, price } from "../../pages/category/mockData";
 
 function CategoryFilter({ data }) {
-    const [showMore, setShowMore] = useState({ price: 8, type: 8, materials: 8, metalType: 8 ,ringsize:4,gemstone:5,themes:4});
+    const [showMore, setShowMore] = useState({ price: 8, type: 8, materials: 8, metalType: 8 ,ringsize:4,gemstone:5,themes:4,lengthjwe:3,curate:3,alfalist:4});
     const [text, setText] = useState("Show All");
     const handleMoreClick = (filter, foruse) => {
         if (foruse == 'type') {
@@ -199,6 +199,48 @@ function CategoryFilter({ data }) {
 
                 </ul>
                     <p className="more" onClick={() =>  handleMoreClick(data?.themes, 'themes')}>
+                        <FaAnglesDown className="down" />  {text}
+                    </p>
+                </ul>
+            </div>
+            <div className="types ring-size">
+                <div className="filter-title">Jweller length </div>
+                <ul className="filter_type">
+                    <ul className="filter_type">
+                    {data?.lengthJwell && data?.lengthJwell?.slice(0, showMore.lengthjwe).map((item) => {
+                        return <FilterItem key={item._id} value1={item?.name} str={false} />
+                    })}
+
+                </ul>
+                    <p className="more" onClick={() =>  handleMoreClick(data?.lengthJwell, 'lengthJwell')}>
+                        <FaAnglesDown className="down" />  {text}
+                    </p>
+                </ul>
+            </div>
+            <div className="types ring-size">
+                <div className="filter-title">CuratedBy</div>
+                <ul className="filter_type">
+                    <ul className="filter_type">
+                    {data?.curatedBy && data?.curatedBy?.slice(0, showMore.curate).map((item) => {
+                        return <FilterItem key={item._id} value1={item?.name} str={false} />
+                    })}
+
+                </ul>
+                    <p className="more" onClick={() =>  handleMoreClick(data?.curatedBy, 'curatedBy')}>
+                        <FaAnglesDown className="down" />  {text}
+                    </p>
+                </ul>
+            </div>
+            <div className="types ring-size">
+                <div className="filter-title">Alphabetic</div>
+                <ul className="filter_type">
+                    <ul className="filter_type">
+                    {data?.alfalist && data?.curatedBy?.slice(0, showMore.alfalist).map((item) => {
+                        return <FilterItem key={item._id} value1={item?.name} str={false} />
+                    })}
+
+                </ul>
+                    <p className="more" onClick={() =>  handleMoreClick(data?.alfalist, 'alfalist')}>
                         <FaAnglesDown className="down" />  {text}
                     </p>
                 </ul>

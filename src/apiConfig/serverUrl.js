@@ -1,0 +1,1 @@
+export const baseUrl = 'https://onlineparttimejobs.in/api/'

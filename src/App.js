@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import Headers from "./common/headers/Headers";
@@ -27,8 +27,27 @@ import EditPressProfile from "./components/editPressProfile/EditPressProfile";
 import PRess from "./pages/referandEarn/pRess";
 import Jewellaryedit from "./pages/jewellaryEDit";
 import Webstories from "./pages/webStories";
+import WishList from "./pages/wishlist";
+import RegisterPage from "./components/register/registerPage/RegisterPage";
+import Returnpolicy from "./components/15DayReturns/ReturnPolicy";
+import BlogPage from "./components/blogPost/blogPage/BlogPage";
+import DigGold from "./components/digi_gold/page/DigGold";
+import Login from "./components/loginForm/Login";
+import TestimonialPage from "./pages/testimonial/Index";
+import VedioGallerypage from "./pages/vedio-gallery/Index";
+import StorePage from "./pages/storePage";
+import Aos from "aos";
+import 'aos/dist/aos.css';
+import FinancialOptionS from "./components/financialOption/FinancialOption";
 function App() {
     const [show, setShow] = useState(false)
+    useEffect(()=>{
+        Aos.init({
+          delay: 200,
+          duration: 800, 
+          easing: 'ease-in-out',
+        });
+      },[])
     return (
         <>
             <div>
@@ -53,11 +72,21 @@ function App() {
                         <Route path="/jewellery-guide" element={<JewelleryBuyGuide />} />
                         <Route path="/gold-exchange" element={<GoldExchange />} />
                         <Route path="/cart" element={<Cart />} />
+                        <Route path="/wishList" element={<WishList />} />
                         <Route path="/press" element={<EditPressProfile />}>
                             <Route path="" element={<PRess />} />
                             <Route path="edit-jewellery" element={<Jewellaryedit />} />
                             <Route path="web-stories" element={<Webstories />} />
                         </Route>
+                        <Route path="/login" element={<Login/>} /> 
+                        <Route path="/register" element={<RegisterPage />} />
+                        <Route path="/returnpolicy" element={<Returnpolicy/>} />
+                        <Route path="/blog" element={<BlogPage />} />
+                        <Route path="/digi_gold" element={<DigGold />} />
+                        <Route path="/testimonial" element={<TestimonialPage />} />
+                        <Route path="/vedio-gallery" element={<VedioGallerypage />} />
+                        <Route path="/stors" element={<StorePage/>} />
+                        <Route path="/financialoption" element={<FinancialOptionS />} />
                     </Routes>
                     <Footer />
                 </BrowserRouter>
