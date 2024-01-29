@@ -102,7 +102,7 @@ export default function Footer() {
             </h3>
             <ul className={openAccordion === 3 ? "block" : ""}>
               <li className="listitem">
-                <a href="/">our story</a>
+                <Link to="/our-story">our story</Link>
               </li>
               <li className="listitem">
                 <Link to="/press">press</Link>
@@ -121,6 +121,9 @@ export default function Footer() {
               </li>
               <li className="listitem">
                 <Link to="/vedio-gallery">vedio gallery</Link>
+              </li>
+              <li className="listitem">
+                <Link to="/photo-gallery">photo gallery</Link>
               </li>
             </ul>
           </li>

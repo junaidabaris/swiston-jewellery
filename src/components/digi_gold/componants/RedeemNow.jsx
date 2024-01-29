@@ -43,7 +43,7 @@ const RedeemNow = () => {
             <div className="d-flex align-items-center">
               <LeftBannarIconImage
                 image={hand}
-                description={"Redeem your Caratlane DigiGld at checkout"}
+                description={"Redeem your Swiston DigiGld at checkout"}
               />
               <div>
                 <img src={Arrow} alt="arrow"  />

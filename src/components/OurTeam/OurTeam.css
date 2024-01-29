@@ -18,3 +18,16 @@
     color: rgb(35, 21, 53);
     line-height: 20px;
  }
+ .css-rbca22 span::before {
+   content: "";
+   display: inline-block;
+   width: 92px;
+   height: 1px;
+   position: absolute;
+   bottom: -10px;
+   left: 0px;
+   background: linear-gradient(to right, rgb(222, 87, 229), rgb(136, 99, 251) 76%, rgb(255, 255, 255) 76%, rgb(255, 255, 255) 86%, rgb(136, 99, 251) 86%, rgb(136, 99, 251) 100%);
+}
+.ourtem p {
+   font-size: 16px;
+}

@@ -30,11 +30,11 @@ const KnowMore = () => {
             />
            </div>
           <div data-aos="fade-left">
-          <LeftBannarIconImage image={Hand} description={'No carrying cost or hidden charges. Every gram of Caratlane DigiGld you buy online is backed by real gold deposits worth the same.'} heading={'What you buy is what you get'} />
+          <LeftBannarIconImage image={Hand} description={'No carrying cost or hidden charges. Every gram of Swiston DigiGld you buy online is backed by real gold deposits worth the same.'} heading={'What you buy is what you get'} />
             <LeftBannarIconImage
               image={Price}
               description={
-                "Redeem your Caratlane DigiGld balance across our 150+ online stores and physical outlets."
+                "Redeem your Swiston DigiGld balance across our 150+ online stores and physical outlets."
               }
               heading={"100% guaranteed buyback"}
             />

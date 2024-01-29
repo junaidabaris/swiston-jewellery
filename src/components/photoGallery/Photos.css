@@ -1,0 +1,23 @@
+.photos-gallery{
+    width: 310px;
+    height: 325px;
+    position: relative;
+
+}
+.photos-gallery img{
+    object-fit: cover;
+    border-radius: 12px;
+    width: 100%;
+    height: 100%;
+}
+.KUCH_BHI{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 1.2rem;
+    color: #fff;
+    display: none;
+}
+.photos-gallery img:hover + .KUCH_BHI{
+    display: block;
+}

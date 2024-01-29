@@ -16,7 +16,7 @@ const First_front_Bannar = () => {
       <div className="flex-1  _baracelate_image">
         <div className="_thrown_pic"></div>
         <span className="_caratlane">
-          <Link className="_link">#CARATLANE</Link>
+          <Link className="_link">#SWISTON</Link>
         </span>
         <div className="mobile_headline">
         <h1>6 Pongal <br/> Jewellery  <br/>  Inspirations for   <br/> This Festive  <br/>  Season</h1>
