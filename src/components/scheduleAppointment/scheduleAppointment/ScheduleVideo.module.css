@@ -1,0 +1,85 @@
+.videoBackground {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Adjust the height accordingly */
+  overflow: hidden;
+  background: rgb(0, 0, 0);
+  /* opacity: 0.4; */
+}
+video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.videoContant {
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  z-index: 1;
+  /* background-color: aqua; */
+  
+}
+.h1{
+    font-size: 3rem;
+    font-family: InterRegular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.videoInput {
+  width: 303px;
+  height: 50px;
+  margin: 10px auto;
+  position: relative;
+  display: inline-block;
+}
+.input {
+  width: 100%;
+  height: 45px;
+  padding: 8px 125px 8px 15px;
+  border-radius: 0px 5px 5px 0px;
+
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  font-family: InterSemiBold, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border-color: rgb(255, 255, 255);
+}
+.button {
+  outline: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  border-radius: 0px 5px 5px 0px;
+  box-sizing: border-box;
+  background: linear-gradient(to right, rgb(222, 87, 229), rgb(136, 99, 251))
+    transparent;
+  border: 1px solid rgb(136, 99, 251);
+  /* width: 20%; */
+  height: 45px;
+  color: rgb(255, 255, 255);
+  font-family: InterSemiBold, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  margin: 0px;
+  cursor: not-allowed;
+}
+.videoIcon {
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+  display: block;
+  margin: 20px auto;
+   background-color: #ffffff;
+   border-radius: 50%;
+}
+.videoIcon svg{
+    width: 100%;
+    height: max-content;
+    color: rgb(222, 87, 229);
+
+}

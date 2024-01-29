@@ -1,0 +1,35 @@
+.ourcustomer-title {
+  font-size:2rem;;
+
+  margin: 1rem 0rem;
+}
+
+.custummer-star svg {
+  width: 20px;
+  height: 20px;
+  margin-bottom: 1rem;
+   color: rgb(248, 190, 44);
+}
+
+.customer-icon svg {
+  width: 70px;
+  height: 70px;
+}
+.comments p {
+  color: #595959;
+  padding: 10px;
+  font-size: 18px;
+  word-spacing: 1px;
+}
+.our-comentes {
+  margin: 0 auto;
+
+  width: 50%;
+
+  border-color: white;
+}
+
+.content {
+  text-align: center;
+  margin-bottom: 30px;
+}

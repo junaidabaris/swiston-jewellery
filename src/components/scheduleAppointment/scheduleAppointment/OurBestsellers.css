@@ -1,0 +1,100 @@
+.our-pick {
+  background-color: rgb(246, 246, 246);
+}
+.our-bestellers {
+  width: 50%;
+
+  text-align: center;
+  margin: 0px auto;
+  padding: 24px 0px 0px;
+}
+.our-bestellers h3 {
+  font-size: 2rem;
+
+  color: rgb(35, 21, 53);
+  display: inline-block;
+}
+.top-input {
+  width: 14rem;
+  position: relative;
+  margin: 0px auto;
+}
+.icon-contant {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+}
+.icon-contant svg {
+  font-size: 19px;
+  padding-right: 5px;
+}
+.icon-contant small {
+  font-size: 14px;
+  color: rgb(35, 21, 53);
+  display: inline-block;
+}
+.ourbest-input {
+  position: relative;
+  display: flex;
+  -webkit-box-align: center;
+  margin-top: 10px;
+  align-items: center;
+  border: 1px solid transparent;
+  background: linear-gradient(white, white) padding-box padding-box,
+    linear-gradient(to right, rgb(222, 87, 229), rgb(136, 99, 251)) border-box
+      border-box;
+}
+.ourbest-input input {
+  font-family: sans-serif;
+
+  /* background-color: aqua; */
+  color: rgb(79, 50, 103);
+  padding: 10px 0px;
+  margin: 0px;
+
+  border: none;
+  border-radius: 4px;
+  cursor: text;
+  outline: none;
+}
+.our-bestbutton {
+  border-radius: 0.4rem;
+  color: rgb(255, 255, 255);
+  width: 14rem;
+  padding: 10px 0px;
+  border: none;
+  outline: none;
+  text-align: center;
+  margin: 1.6rem auto;
+  background: linear-gradient(
+    to right,
+    rgb(222, 87, 229) -95%,
+    rgb(136, 99, 251) 100%
+  );
+  cursor: pointer;
+}
+.top-input span {
+  color: rgb(157, 159, 164);
+  text-align: center;
+  position: relative;
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  max-width: 14rem;
+  margin: 0px auto;
+}
+.locetme-button {
+  border-radius: 0.4rem;
+
+  color: rgb(222, 87, 229);
+  width: 8.3rem;
+  height: 2.5rem;
+  line-height: -0.5rem;
+  border: none;
+  outline: none;
+  background-color: rgb(246, 239, 246);
+  margin: 0.6rem auto 1.2rem;
+}
