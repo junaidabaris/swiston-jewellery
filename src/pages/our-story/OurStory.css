@@ -1,0 +1,292 @@
+.story_main {
+    /* z-index: 12; */
+    font-size: 1.6rem;
+    /* padding-top: 12.5rem; */
+    background-color: #fff;
+}
+
+.top-story>h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    line-height: 64px;
+    letter-spacing: normal;
+    color: rgb(35, 21, 53);
+    font-family: InterMedium, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 50px auto 10px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.banner-story {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.css-rbca22 {
+    text-align: center;
+    font-size: 2.4rem;
+    line-height: normal;
+    letter-spacing: normal;
+    color: rgb(35, 21, 53);
+    font-family: InterMedium, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0px auto 34px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.css-1cka0bv {
+    width: 80%;
+    text-align: center;
+    font-size: 1rem;
+    font-family: InterRegular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0px auto 100px;
+    line-height: 24px;
+}
+
+.css-1cka0bv span {
+    display: block;
+    font-family: InterSemiBold, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+}
+
+.css-rbca22 {
+    text-align: center;
+    font-size: 2rem;
+    line-height: normal;
+    letter-spacing: normal;
+    color: rgb(35, 21, 53);
+    font-family: InterMedium, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0px auto 34px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.css-e9q2w5 {
+    background: rgb(246, 246, 246);
+}
+
+.css-e9q2w5 ul {
+    list-style: none;
+    text-align: center;
+    white-space: nowrap;
+    overflow-x: auto;
+    padding: 78px 0px;
+}
+
+.css-e9q2w5 li {
+    display: inline-block;
+    padding: 0px 50px;
+}
+
+.css-gn2s6c {
+    padding: 100px 30px 100px 42px;
+}
+
+.css-1rbx9fh {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    vertical-align: top;
+}
+
+.css-1rbx9fh div {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.css-24mcvk {
+    padding-right: 30px;
+}
+
+.css-bjy4b3 {
+    font-size: 2rem;
+    line-height: normal;
+    letter-spacing: normal;
+    color: rgb(35, 21, 53);
+    font-family: InterMedium, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0px auto 34px;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+.css-bjy4b3 span {
+    display: inline-block;
+    padding-left: 24px;
+    position: relative;
+}
+
+.css-1rbx9fh div {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.css-bjy4b3 {
+    font-size: 2rem;
+    line-height: normal;
+    letter-spacing: normal;
+    color: rgb(35, 21, 53);
+    font-family: InterMedium, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0px auto 34px;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+.css-1y0z0jn ul {
+    list-style: none;
+    padding-left: 42px;
+}
+
+.css-1y0z0jn ul li {
+    display: block;
+    position: relative;
+    font-size: 1rem;
+    line-height: 24px;
+}
+
+.css-bjy4b3 span::before {
+    content: "";
+    display: inline-block;
+    width: 92px;
+    height: 1px;
+    position: absolute;
+    bottom: -10px;
+    left: 0px;
+    background: linear-gradient(to right, rgb(222, 87, 229), rgb(136, 99, 251) 76%, rgb(255, 255, 255) 76%, rgb(255, 255, 255) 86%, rgb(136, 99, 251) 86%, rgb(136, 99, 251) 100%);
+}
+
+.css-1y0z0jn ul li::before {
+    content: "-";
+    position: absolute;
+    left: -16px;
+    top: 1px;
+}
+
+.css-ype3f5 {
+    width: 100%;
+    min-height: 30rem;
+}
+
+.css-158ycgb {
+    width: 100%;
+    background: rgb(35, 21, 53);
+    min-height: 30rem;
+}
+
+@media screen and (min-width: 993px) {
+    .css-158ycgb {
+        min-height: 26rem;
+    }
+}.css-efntk {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    padding: 50px 100px;
+    flex-flow: wrap;
+    -webkit-box-align: center;
+    align-items: center;
+    font-size: 1rem;
+    -webkit-box-pack: center;
+    justify-content: center;
+}.css-w7pchr {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 20px 0px;
+}.css-w7pchr > div, .css-w7pchr a {
+    display: flex;
+    flex: 0 0 100%;
+    flex-flow: row;
+    -webkit-box-pack: center;
+    justify-content: center;
+}.css-c5h7a5 {
+    animation: 0.2s ease-in-out 0s 1 normal none running animation-3o966d;
+}.css-w7pchr > div, .css-w7pchr a {
+    display: flex;
+    flex: 0 0 100%;
+    flex-flow: row;
+    -webkit-box-pack: center;
+    justify-content: center;
+}.css-1qw442r {
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    text-decoration: none;
+    outline: 0px;
+    cursor: pointer;
+    font-family: InterRegular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: inherit;
+}.css-1122yjz {
+    flex: 1 0 auto;
+}.css-14ra7tv {
+    display: block;
+    cursor: pointer;
+    background: url(https://assets.cltstatic.com/images/responsive/common-sprite.png) -19px -19px / 600px no-repeat;
+    margin: 0px auto;
+    width: 123px;
+    height: 123px;
+}.css-6ahmm9 {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 65%;
+    font-family: InterRegular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-left: 20px;
+}.css-1qvd1ve {
+    color: rgb(255, 255, 255);
+    padding: 8px 0px;
+    margin: 0px;
+}.css-rzvkdu {
+    color: rgb(196, 173, 225);
+    max-width: 224px;
+}.css-1aeh1e8 {
+    padding: 120px 10% 100px;
+    position: relative;
+}.css-1aeh1e8::before {
+    content: "";
+    position: absolute;
+    background: rgb(245, 245, 245);
+    width: 98%;
+    height: 2px;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+}.css-1um5ctw {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}body.fontLoaded .css-15kuc5l {
+    font-family: InterRegular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}.css-1um5ctw div:first-child {
+    width: 570px;
+    padding-right: 100px;
+}.css-1um5ctw div {
+    vertical-align: middle;
+}.css-15kuc5l {
+    font-size: 1rem;
+    line-height: 20px;
+    color: rgb(35, 21, 53);
+}.css-1aeh1e8 ul li {
+    display: inline-block;
+    padding-right: 35px;
+    position: relative;
+}.css-1aeh1e8 ul li::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 2px;
+    background: rgb(135, 118, 157);
+    left: -27px;
+    top: 8px;
+}.css-1um5ctw div {
+    display: table-cell;
+    vertical-align: top;
+}.css-150vdf1 {
+    color: rgb(222, 87, 229);
+}

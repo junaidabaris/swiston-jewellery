@@ -17,7 +17,7 @@ export default function TermsConditions() {
                 </li>
                 <li>
                   The jewellery that you exchange it for can be any jewellery
-                  item from CaratLane designs belonging to plain gold jewellery,
+                  item from Swiston designs belonging to plain gold jewellery,
                   diamond and gemstone jewellery and platinum jewellery
                   categories.
                 </li>
@@ -30,7 +30,7 @@ export default function TermsConditions() {
                 </li>
                 <li>
                   Once your exchange value is computed, you can buy any
-                  CaratLane jewellery of similar or higher value by paying the
+                  Swiston jewellery of similar or higher value by paying the
                   excess in cash or card.
                 </li>
                 <li>
@@ -44,7 +44,7 @@ export default function TermsConditions() {
                 <li>
                   In this exchange programme, you will not be eligible for 15
                   day Money-Back guarantee unlike regular purchases made from
-                  CaratLane. Lifetime Exchange policy will be applicable.
+                  Swiston. Lifetime Exchange policy will be applicable.
                 </li>
                 <li>
                   The gold jewellery you bring for exchange must be either 14Kt,
