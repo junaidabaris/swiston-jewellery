@@ -58,7 +58,7 @@ function App() {
                         <Route path="/" element={<Home />} />
                         <Route path="/category" element={<CategoryPage />} />
 
-                        <Route path="/carriers" element={<Carriers />} />
+                        <Route path="/career" element={<Carriers />} />
                         <Route path="/product-details" element={<ProductDetails />} />
                         {/* <Route path="/trending-search" element={<TrendingSearche />} /> */}
                         <Route path="/gold-rate" element={<GoldRate />} />

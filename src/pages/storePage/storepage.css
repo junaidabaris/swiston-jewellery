@@ -1,0 +1,227 @@
+.banner-store {
+    width: 100%;
+    background: url('https://cdn.caratlane.com/media/static/images/Find_In_Store/1.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+
+.store-local {
+    font-family: 'InterMedium', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-align: center;
+    color: #ffffff;
+    font-size: 2.4rem;
+    line-height: 24px;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.param-store {
+    font-family: 'InterRegular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-align: center;
+    max-width: 411px;
+    color: #ffffff;
+    font-size: 1rem;
+    margin: 0px auto;
+}
+
+.input-store {
+    margin-top: 48px;
+    margin-bottom: 0px;
+}
+
+.search-fileds {
+    width: 435px;
+    margin: 0px auto;
+    max-height: 48px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-family: 'InterSemiBold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 1.2rem;
+    padding: 12px 12px 12px 10px;
+    border: double 1px transparent;
+    border-radius: 12px;
+    background-image: linear-gradient(white, white), radial-gradient(circle at top left, #e56eeb, #8863fb);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+}
+
+.css-1ndgegt {
+    background: url('https://assets.cltstatic.com/images/responsive/pdp-sprite.png') top left no-repeat;
+    background-size: 600px auto;
+    background-position: -519px -53px;
+    width: 16px;
+    height: 16px;
+    display: block;
+    margin: 0 4px;
+}
+
+.css-j4ee64 {
+    width: 250px;
+    height: 42px;
+    line-height: 42px;
+    margin: 0 4px;
+    font-family: 'InterSemiBold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    color: #4f3267;
+    border: none;
+}
+
+.css-rel85p {
+    height: 42px;
+    line-height: 42px;
+    cursor: pointer;
+    background: #ffffff;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #de57e5;
+    font-family: 'InterSemiBold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 0.8rem;
+    text-align: right;
+    -webkit-letter-spacing: 0.1px;
+    -moz-letter-spacing: 0.1px;
+    -ms-letter-spacing: 0.1px;
+    letter-spacing: 0.1px;
+    margin-left: auto;
+    border: none;
+}
+
+.store-main {
+    margin-bottom: 48px;
+}
+
+.store-main>div {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.card-holder {
+    margin: 0px auto;
+    width: 1200px;
+}
+
+.cardpera {
+    color: rgb(79, 50, 103);
+    font-family: InterBold, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.3rem;
+    line-height: 73px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.cardpera>span {
+    color: rgb(222 87 229);
+}
+
+.carslists {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px 16px;
+    flex-wrap: wrap;
+}
+
+.sec-store {
+    width: 100%;
+    padding: 96px 24px 24px;
+    padding-top: 96px;
+    background: #f6f3f9;
+}
+
+.box-store {
+    padding: 24px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.boxstore-1 {
+    padding: 0 50px;
+    -webkit-flex: 1 1 50%;
+    -ms-flex: 1 1 50%;
+    flex: 1 1 50%;
+}
+
+.boxstore-1>h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
+    margin: 0;
+    color: #000000;
+}
+
+.css-f8sw22 {
+    width: 310px;
+    height: 100px;
+    background-color: #ffffff;
+    padding: 20px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 20px;
+    position: relative;
+}
+
+.css-f8sw22::before {
+    content: '';
+    width: 40px;
+    height: 40px;
+    border-top: 40px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 40px solid #fff;
+    position: absolute;
+    top: -29px;
+    left: 0;
+}
+
+.css-9san2c {
+    background: url('https://assets.cltstatic.com/images/responsive/clive-sprite.png') no-repeat;
+    background-size: 400px auto;
+    background-position: -10px -85px;
+    width: 57px;
+    height: 57px;
+    margin-right: 17px;
+}
+
+.css-f8sw22 p {
+    font-family: 'InterRegular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    color: #000000;
+}
+
+.css-f8sw22 a {
+    font-family: 'InterRegular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    color: #8863fb;
+}
+
+.boxstore-2 {
+    -webkit-flex: 1 1 50%;
+    -ms-flex: 1 1 50%;
+    flex: 1 1 50%;
+}

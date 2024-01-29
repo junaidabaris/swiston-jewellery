@@ -12,7 +12,7 @@ const FrontDiscription = () => {
         <div className='d-flex justify-content-center' >
         <div className='fingerPrint_showcase' ><img src={Fingerprint} alt="fingerprint" /></div>
         </div>
-        <div className='Signup_text'><strong>Signup with CaratLane</strong></div>
+        <div className='Signup_text'><strong>Signup with Swiston</strong></div>
         <p className='ptext'>Unlock Best prices and become an insider for our exclusive launches & offers. Complete your profile and get ₹250 worth of xCLusive Points.</p>
         <div className='d-flex justify-content-center gap-4 icon_place'>
             <button><img src={googleImage} alt="googlepicture" className='icon_placeholder' /></button>

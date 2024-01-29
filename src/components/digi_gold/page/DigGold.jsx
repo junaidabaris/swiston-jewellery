@@ -10,27 +10,27 @@ import thinkingsvg from '../digi_gold_assets/man-thinking-while-doing-work-in-la
 import Loan from '../digi_gold_assets/loan.png';
 import Sell from '../digi_gold_assets/sell.png'
 const genralData =[
-{id:1,description:'Digital Gold is an organised and transparent method of buying 24-Carat gold in compliance with all applicable laws and regulations.Digital Gold is neither a financial product nor a deposit but a method of purchasing gold for your personal needs.Digital Gold gives the flexibility for customers to accumulate gold in any denomination, say as low as Rs. 10.Physical gold will be bought by service providers and stored in very safe vaults for the customer. Customers need not go through the hassle of storing and securing the gold.At the same time, customers have the flexibility to sell the gold at any time, convert to physical gold and ask for delivery or exchange digital gold for physical jewellery at a CaratLane website or store.' , heading:'What is digital gold?'},
-{id:2,description:'CaratLane Digital Gold is a service offered by CaratLane to enable customers to accumulate digital gold, sell at any time, or exchange for physical Jewellery on the CaratLane website or at Caratlane outlets.CaratLane takes care of selling gold to the customers, storing, and buyback from customers, while providing a seamless experience for customers to buy any jewellery from CaratLane through the sale proceeds of customers gold balance.' , heading:'What is CaratLane Digital Gold?'},
-{id:3 ,heading:'How to buy CaratLane Digital Gold?', description:'Gold can be accumulated under the CaratLane Digital Gold Program by buying through:'},
+{id:1,description:'Digital Gold is an organised and transparent method of buying 24-Carat gold in compliance with all applicable laws and regulations.Digital Gold is neither a financial product nor a deposit but a method of purchasing gold for your personal needs.Digital Gold gives the flexibility for customers to accumulate gold in any denomination, say as low as Rs. 10.Physical gold will be bought by service providers and stored in very safe vaults for the customer. Customers need not go through the hassle of storing and securing the gold.At the same time, customers have the flexibility to sell the gold at any time, convert to physical gold and ask for delivery or exchange digital gold for physical jewellery at a  website or store.' , heading:'What is digital gold?'},
+{id:2,description:' Digital Gold is a service offered by  to enable customers to accumulate digital gold, sell at any time, or exchange for physical Jewellery on the  website or at Caratlane outlets. takes care of selling gold to the customers, storing, and buyback from customers, while providing a seamless experience for customers to buy any jewellery from  through the sale proceeds of customers gold balance.' , heading:'What is  Digital Gold?'},
+{id:3 ,heading:'How to buy  Digital Gold?', description:'Gold can be accumulated under the  Digital Gold Program by buying through:'},
 {
   id:4,
-  heading:'What is the purity of gold bought under CaratLane Digital Gold?',
-  description:'CaratLane Digital Gold offers 24-Carat gold of 995 fineness (99.99% pure) or higher.CaratLane sources “good delivery” bars from trusted sources for the digital gold offered to you.'
+  heading:'What is the purity of gold bought under  Digital Gold?',
+  description:' Digital Gold offers 24-Carat gold of 995 fineness (99.99% pure) or higher. sources “good delivery” bars from trusted sources for the digital gold offered to you.'
 },
 {
   id:5,
-  heading:'Why are the CaratLane Digital Gold rates different from CaratLane Jewellery gold rates?',
-  description:'CaratLane Digital Gold is in bullion form and is safely stored in a central vault.There is no movement for this gold. But for jewellery, the gold has to travel between multiple entities to get the product manufactured.The logistics costs incurred by the jewellery gold are substantially different from the gold stored in the central vault. Hence, the jewellery gold rate will always be higher than the digital gold.'
+  heading:'Why are the  Digital Gold rates different from  Jewellery gold rates?',
+  description:' Digital Gold is in bullion form and is safely stored in a central vault.There is no movement for this gold. But for jewellery, the gold has to travel between multiple entities to get the product manufactured.The logistics costs incurred by the jewellery gold are substantially different from the gold stored in the central vault. Hence, the jewellery gold rate will always be higher than the digital gold.'
 },
 {
   id:6,
-  heading:'I have some other queries about my CaratLane Digital Gold Account. Who can I get in touch with?',
+  heading:'I have some other queries about my  Digital Gold Account. Who can I get in touch with?',
   description:'You can write to contactus@caratlane.com or call us at +91-44-42935000 or WhatsApp at +91 69000 86000'
 },
 {
   id:7,
-  heading:'Is my CaratLane Digital Gold kept in safe custody?',
+  heading:'Is my  Digital Gold kept in safe custody?',
   description:'Yes. The gold purchased on your behalf is stored with BVC, one of the leading safe keepers of precious metals across the world.The gold is insured, both for storage and transit when being delivered to you. Further, the external administrator has a charge on all gold stored in the vault in your favourThis ensures that your gold is protected at all times regardless of any external events'
 },{
   id:8,
@@ -63,7 +63,7 @@ const DigGold = () => {
                   Got questions? We have all the answers!
                 </p>
                 <h2 className="knowmoreheading">
-                  If you have any questions regarding CaratLane DigiGld, give us
+                  If you have any questions regarding  DigiGld, give us
                   your phone number and we will call you back to answer your
                   questions.
                 </h2>
