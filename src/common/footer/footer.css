@@ -405,3 +405,66 @@ footer .footer-bottom {
   color: blue;
   font-weight: 600;
 }
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media (max-width: 977px) {
+  .f_list ul{
+    display: none;
+  }
+  .footer_blocks{
+    display: block;
+  }
+  .f_list{
+    border-bottom: 1px solid rgb(233, 233, 233);
+  }
+  .visa{
+    display: none;
+  }
+ .social_icon{
+  justify-content: center;
+  margin-top: 10px;
+ }
+ .app_store{
+  justify-content: center;
+ }
+ .store{
+ justify-content: center;
+ }
+ .add{
+  display: block;
+ }
+ h3.list_title{
+  display: flex;
+  justify-content: space-between;
+ }
+ .block{
+  display: block !important;
+ }
+ .s-media{
+  display: flex;
+ }
+}
