@@ -154,7 +154,7 @@ export default function Footer() {
                 </ul>
               </li>
               <li className="c-listitem">
-                <a href="/">24X7 Enquiry Support ( ALL Days )</a>
+                <Link to="/enquiry-support">24X7 Enquiry Support ( ALL Days )</Link>
               </li>
               <li className="c-listitem">
                 <a href="/">
