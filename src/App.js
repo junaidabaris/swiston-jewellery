@@ -59,7 +59,6 @@ function App() {
                         <Route path="/" element={<Home />} />
                         <Route path="/schedule_appointment" element={<ScheduleMain />} />
                         <Route path="/category" element={<CategoryPage />} />
-
                         <Route path="/career" element={<Carriers />} />
                         <Route path="/product-details" element={<ProductDetails />} />
                         {/* <Route path="/trending-search" element={<TrendingSearche />} /> */}
