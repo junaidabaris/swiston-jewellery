@@ -1,0 +1,26 @@
+.get-easier img{
+    width: 150px;
+    height: 150px;
+}
+.geteasier-title{
+    padding: 12px 0px;
+    display: block;
+    font-family: InterMedium, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(35, 21, 53);
+}
+.geteasier-text{
+    font-size:15px;
+    font-family:Arial, sans-serif;
+    color: rgb(51, 54, 62);
+}
+.geteasir-heading h3{
+    font-size: 2rem;
+    display: block;
+    font-family: InterMedium, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(35, 21, 53);
+}
+.geteasir-heading p{
+    font-size: 1.2rem;
+    font-family: InterRegular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(51, 54, 62);
+}

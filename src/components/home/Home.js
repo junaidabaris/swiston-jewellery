@@ -11,6 +11,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import { Navigation, Autoplay, Pagination } from "swiper/modules";
+import { Link } from "react-router-dom";
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
   return (
@@ -248,9 +249,8 @@ function Home() {
               <div className="schedule_content">
                 <h3>Unsure Which Design To Pick?</h3>
                 <p>Book a Free Home Trail!</p>
-                <button className="Schedule_btn btn-1">
-                  Schedule Appointment
-                </button>
+                <Link className="Schedule_btn btn-1" to='/schedule_appointment'> Schedule Appointment</Link>
+             
               </div>
             </div>
             <div className="col-lg-6 schedule_visit_content">

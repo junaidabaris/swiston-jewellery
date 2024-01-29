@@ -39,6 +39,7 @@ import StorePage from "./pages/storePage";
 import Aos from "aos";
 import 'aos/dist/aos.css';
 import FinancialOptionS from "./components/financialOption/FinancialOption";
+import ScheduleMain from "./components/scheduleAppointment/scheduleAppointment/ScheduleMain";
 function App() {
     const [show, setShow] = useState(false)
     useEffect(()=>{
@@ -56,8 +57,8 @@ function App() {
                     <TrendingSearche show={show} setShow={setShow} />
                     <Routes>
                         <Route path="/" element={<Home />} />
+                        <Route path="/schedule_appointment" element={<ScheduleMain />} />
                         <Route path="/category" element={<CategoryPage />} />
-
                         <Route path="/career" element={<Carriers />} />
                         <Route path="/product-details" element={<ProductDetails />} />
                         {/* <Route path="/trending-search" element={<TrendingSearche />} /> */}
