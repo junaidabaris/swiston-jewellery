@@ -15,7 +15,7 @@ const KnowMore = () => {
             <p className="knowmoreP">Know More</p>
             <h2 className="knowmoreheading">
               Invest in a high-payoff digital gold. Buy, sell, or redeem your
-              CaratLane DigiGld in exchange for beautiful jewellery.
+               DigiGld in exchange for beautiful jewellery.
             </h2>
             <ButtonAndKnow />
           </div>
