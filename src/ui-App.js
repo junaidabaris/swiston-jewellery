@@ -27,14 +27,18 @@ import Jewellaryedit from "./pages/ui-pages/jewellaryEDit";
 import NewsTab from "./components/ui-components/press/newsTab/NewsTab";
 import EditPressProfile from "./components/ui-components/editPressProfile/EditPressProfile";
 import Webstories from "./pages/ui-pages/webStories";
-import ShippingPolicy from "./components/ui-components/shippingPolicy/ShippingPolicy";
-import Login from "./components/ui-components/loginForm/Login";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 
+import Returnpolicy from "./components/ui-components/15DayReturns/ReturnPolicy";
 import JewellaryEdit from "./components/press/jewellaryEdit/JewellaryEdit";
 import DigGold from "./components/ui-components/digi_gold/page/DigGold";
-import Returnpolicy from "./components/ui-components/15DayReturns/ReturnPolicy";
+
+import ShippingPolicy from "./components/ui-components/shippingPolicy/ShippingPolicy";
+import Login from "./components/ui-components/loginForm/Login";
+import FinancialOption from "./components/ui-components/financialOption/FinancialOption";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import EnquirySupport from "./components/ui-components/enquitySupport/EnquirySupport";
+
 function UIApp() {
   const [show, setShow] = useState(false);
   useEffect(()=>{
@@ -69,13 +73,13 @@ function UIApp() {
             <Route path="/cart" element={<Cart />} />
             <Route path="/register" element={<RegisterPage />} />
             <Route path="/returnpolicy" element={<Returnpolicy />} />
+            <Route path="/financialoption" element={<FinancialOption />} />
+            <Route path="/enquiry-support" element={<EnquirySupport />}/>
 
-            <Route path="/press" element={<EditPressProfile />}>
+            <Route path="/press" element={<EditPressProfile />}/>
               <Route path="" element={<PRess />} />
               <Route path="edit-jewellery" element={<JewellaryEdit />} />
               <Route path="web-stories" element={<Webstories />} />
-             
-            </Route>
             <Route path="/shipping-policy" element={<ShippingPolicy/>} /> 
             <Route path="/login" element={<Login/>} /> 
 

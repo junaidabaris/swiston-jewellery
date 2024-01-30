@@ -32,9 +32,9 @@ const blogPostData = [
   },
   {
     id: 4,
-    title: "Lohri Luxury: Exclusive CaratLane Pieces to Celebrate in Style ",
+    title: "Lohri Luxury: Exclusive Swiston Pieces to Celebrate in Style ",
     discription:
-      "Lohri, the vibrant festival heralding the end of winter and the onset of spring, is a time for joyous celebrations. What better way to add a touch of glamour and tradition to your festivities than with exquisite jewellery from CaratLane? Known for its luxurious and unique designs, CaratLane offers a",
+      "Lohri, the vibrant festival heralding the end of winter and the onset of spring, is a time for joyous celebrations. What better way to add a touch of glamour and tradition to your festivities than with exquisite jewellery from Swiston? Known for its luxurious and unique designs, Swiston offers a",
     image: girl_mirror,
   },
   {

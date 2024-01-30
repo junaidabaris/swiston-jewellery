@@ -533,6 +533,7 @@ a {
   -webkit-box-align: center;
   align-items: center;
   white-space: nowrap;
+  border: none;
   cursor: pointer;
 }
 .css-qtjfy2 {

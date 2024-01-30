@@ -1,9 +1,10 @@
 
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
+import { baseUrl } from './serverUrl';
 
 export const jwelleryApi = createApi({
     reducerPath: 'jwelleryApi',
-    baseQuery: fetchBaseQuery({ baseUrl: 'https://onlineparttimejobs.in/api/' }),
+    baseQuery: fetchBaseQuery({ baseUrl: baseUrl }),
     tagTypes: [''],
     endpoints: (builder) => ({
         getProductType: builder.query({
@@ -48,6 +49,34 @@ export const jwelleryApi = createApi({
                 method: 'GET',
             }),
         }),
+        getProduct: builder.mutation({
+            query: (pay) => ({
+                url: `product/filter`,
+                method: 'POST',
+                body:pay
+            }),
+        }),
+        getJwellLength: builder.query({
+            query: (pay) => ({
+                url: `length/public`,
+                method: 'GET',
+                body:pay
+            }),
+        }),
+        getcurateby: builder.query({
+            query: (pay) => ({
+                url: `curatedBy/public`,
+                method: 'GET',
+                body:pay
+            }),
+        }),
+        getAlphabetic: builder.query({
+            query: (pay) => ({
+                url: `alphabetic/public`,
+                method: 'GET',
+                body:pay
+            }),
+        }),
 
 
     })
@@ -55,11 +84,15 @@ export const jwelleryApi = createApi({
 })
 
 export const {
+    useGetAlphabeticQuery,
     useGetProductTypeQuery,
     useGetMaterialQuery,
     useGetMetalTypeQuery,
     useGetshopforQuery,
     useGetRingsizeQuery,
     useGetGemstonQuery,
+    useGetJwellLengthQuery,
+    useGetProductMutation,
+    useGetcuratebyQuery,
     useGetThemesQuery
 } = jwelleryApi

@@ -1,0 +1,91 @@
+.bredcrum {
+    height: 97px;
+    background-color: #f6f3f9;
+    padding: 15px 0;
+}
+
+.bredcrum h4 {
+    font-size: 18px !important;
+    font-weight: 600;
+    font-family: Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(79, 50, 103);
+    margin: 0px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.bredcrum p {
+    font-size: 10px;
+    padding: 7px 0;
+    font-weight: 400;
+}
+
+.wistop {
+    height: 330px;
+    width: 330px;
+    background-color: #f9f9fb;
+    position: relative;
+}
+
+.wishRow {
+    padding: 10px 0;
+}
+
+.btmWish {
+    padding: 8px;
+}
+
+.btmWish p {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 13px;
+    font-family: InterRegular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    max-width: calc(100% - 50px);
+    color: rgb(157, 159, 164);
+    margin-bottom: 14px;
+}
+
+.btmWish>h6>span {
+    text-decoration: line-through;
+}
+
+.tryno {
+    /* padding: 10px; */
+    margin-right: 16px;
+    position: relative;
+    outline: none;
+    cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: border-box;
+    font-family: inherit;
+    /* margin: 5px 0px; */
+    font-size: small;
+    background: transparent;
+    color: rgb(35, 21, 53);
+    border: 1px solid rgb(123, 96, 211);
+    border-radius: 10px;
+    width: 142px;
+    font-weight: 600;
+    color: #231535;
+    height: 36px;
+}
+
+.addcart_wish {
+    width: 36px;
+    height: 36px;
+    border: none;
+    border-radius: 5px;
+}
+
+.wishRow>div {
+    margin: 10px;
+}
+
+.croswish {
+    position: absolute;
+    font-size: 17px;
+    top: 7px;
+    right: 12px;
+}

@@ -163,7 +163,7 @@ function Carriers() {
               <div className="Carrier_feature_content">
                 <h1>About Us</h1>
                 <p>
-                  Discover CaratLane's mission to express emotions through
+                  Discover Swiston's mission to express emotions through
                   jewelry. Journey with us from our humble beginnings in 2008 to
                   a leading jewelry brand in 2023.
                 </p>
@@ -217,7 +217,7 @@ function Carriers() {
             <div className="work_content">
               <h1 className="">Let's Work Together</h1>
               <p>
-                Check out the open roles we have available at CaratLane along
+                Check out the open roles we have available at Swiston along
                 with a brief overview of our employer benefits and the expected
                 process we would go through together.
               </p>

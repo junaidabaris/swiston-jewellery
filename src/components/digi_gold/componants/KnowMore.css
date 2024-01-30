@@ -1,0 +1,27 @@
+.knowmoreP {
+  color: rgb(136, 99, 251);
+  font-family: Helvetica Neue Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  background-color: inherit;
+}
+.knowmoreheading {
+  font-family: Inter, "Arial Narrow Bold", sans-serif;
+  font-weight: 400;
+  line-height: 42px;
+  color: rgb(35, 21, 53);
+}
+.headingIcon h2 {
+  font-family: Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: rgb(35, 21, 53);
+}
+.headingIcon p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: rgb(35, 21, 53);
+}
