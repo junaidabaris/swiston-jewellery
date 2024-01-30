@@ -1,5 +1,5 @@
 import React from "react";
-import "../../Components/OurTeam/OurTeam.css";
+import "./OurTeam.css";
 import ourtem1 from "../../images/OurTeamImages/mithun.png";
 import ourtem2 from "../../images/OurTeamImages/guru.png";
 import ourtem3 from "../../images/OurTeamImages/avnish.png";
@@ -58,9 +58,9 @@ export default function OurTeam() {
         style={{ backgroundColor: "rgb(246, 246, 246)" }}
       >
         <div className="container m-auto  text-center ">
-          <h4 className="py-4">CaratLane Advantage</h4>
-          <p style={{ color: "rgb(135, 118, 157)" }}>
-            When you shop at CaratLane, you can always be assured of the highest
+          <h4 className="py-4">Swiston Advantage</h4>
+          <p style={{ color: "rgb(135, 118, 157)", fontSize: '17px' }}>
+            When you shop at Swiston, you can always be assured of the highest
             quality standards. Every piece of jewellery is meticulously crafted
             with the utmost care. It goes through a thorough quality check and
             is then taken through certification.
@@ -71,16 +71,18 @@ export default function OurTeam() {
         <div className="conatiner">
           <div className="row">
             <div className="col-6">
-              <img src={drowing} className="w-100"/>
+              <img src={drowing} className="w-100" />
             </div>
-            <div className="col-6">
-              <h4>Making Process</h4>
-              <p>
-                Our designs always come with a unique CaratLane touch through
-                innovative designs or techniques, or both. Uncover our
-                jewellery-making process, from the inspiration to the final
-                outcome.
-              </p>
+            <div className="col-6" style={{display:"flex",alignItems:"center"}}>
+              <div>
+                <h4>Making Process</h4>
+                <p style={{ fontSize: "17px" }}>
+                  Our designs always come with a unique Swiston touch through
+                  innovative designs or techniques, or both. Uncover our
+                  jewellery-making process, from the inspiration to the final
+                  outcome.
+                </p>
+              </div>
             </div>
           </div>
         </div>

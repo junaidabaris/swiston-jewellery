@@ -11,6 +11,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import { Navigation, Autoplay, Pagination } from "swiper/modules";
+import { Link, useNavigate } from "react-router-dom";
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
   return (
@@ -70,6 +71,13 @@ function Home() {
       },
     ],
   };
+  const navigater = useNavigate()
+  const sendCategory = ()=>{
+    navigater('/category')
+  }
+  const goDetails = ()=>{
+    navigater('/product-details')
+  }
   return (
     <>
       <div style={{ zIndex: -1 }} className="home1_overflow">
@@ -110,7 +118,7 @@ function Home() {
         <section className="design_container">
           <div className="auto_container">
             <div className="home1_image_background">
-              <div className="design_content">
+              <div className="design_content" onClick={sendCategory}>
                 <h1>
                   EVERYDAY <br /> VOWS
                 </h1>
@@ -142,36 +150,42 @@ function Home() {
                 <img
                   src="https://cdn.caratlane.com/media/static/images/V4/2023/CL/11_NOV/HPBanner/6tile_2/For-The-New-Age-Bride_Desktop.jpg"
                   alt=""
+                  onClick={sendCategory}
                 />
               </div>
               <div className="col-lg-4 col-md-6 ">
                 <img
                   src="https://cdn.caratlane.com/media/static/images/V4/2023/CL/11_NOV/HPBanner/6tile_2/Ace-Your-Workwear-Game_Desktop.jpg"
                   alt=""
+                  onClick={sendCategory}
                 />
               </div>
               <div className="col-lg-4 col-md-6 ">
                 <img
                   src="https://cdn.caratlane.com/media/static/images/V4/2023/CL/11_NOV/HPBanner/6tile_2/Mark-Your-Success-with-a-Diamond_Desktop.jpg"
                   alt=""
+                  onClick={sendCategory}
                 />
               </div>
               <div className="col-lg-4 col-md-6">
                 <img
                   src="https://cdn.caratlane.com/media/static/images/V4/2023/CL/11_NOV/HPBanner/6tile_2/Seal-It-With-Wedding-Bands_Desktop.jpg"
                   alt=""
+                  onClick={sendCategory}
                 />
               </div>
               <div className="col-lg-4 col-md-6">
                 <img
                   src="https://cdn.caratlane.com/media/static/images/V4/2023/CL/11_NOV/HPBanner/6tile_2/Sway-In-Style-At-Every-Party_Desktop.jpg"
                   alt=""
+                  onClick={sendCategory}
                 />
               </div>
               <div className="col-lg-4 col-md-6">
                 <img
                   src="https://cdn.caratlane.com/media/static/images/V4/2023/CL/11_NOV/HPBanner/6tile_2/Anniversary-Gifts-for-Her_Desktop.jpg"
                   alt=""
+                  onClick={sendCategory}
                 />
               </div>
             </div>
@@ -184,6 +198,7 @@ function Home() {
                 <img
                   src="https://img.freepik.com/free-photo/still-life-aesthetic-earrings_23-2149649160.jpg?size=626&ext=jpg&ga=GA1.1.608086010.1693898209&semt=ais"
                   alt=""
+                  onClick={sendCategory}
                 />
                 <div className="name">
                   <h4>ADAA</h4>
@@ -194,6 +209,7 @@ function Home() {
                 <img
                   src="https://img.freepik.com/premium-photo/small-pirate-treasure-chest_752237-8681.jpg?size=626&ext=jpg&ga=GA1.1.608086010.1693898209&semt=ais"
                   alt=""
+                  onClick={sendCategory}
                 />
                 <div className="name">
                   <h4>ALPHONA</h4>
@@ -204,6 +220,7 @@ function Home() {
                 <img
                   src="https://img.freepik.com/free-photo/top-view-essentials-bead-working-with-magnifying-glass_23-2148815801.jpg?size=626&ext=jpg&ga=GA1.1.608086010.1693898209&semt=ais"
                   alt=""
+                  onClick={sendCategory}
                 />
                 <div className="name">
                   <h4>SWITCH</h4>
@@ -244,13 +261,13 @@ function Home() {
               <img
                 src="https://img.freepik.com/free-photo/man-using-external-storage-used_23-2149388511.jpg?size=626&ext=jpg&ga=GA1.2.608086010.1693898209&semt=ais"
                 alt=""
+                onClick={sendCategory}
               />
               <div className="schedule_content">
                 <h3>Unsure Which Design To Pick?</h3>
                 <p>Book a Free Home Trail!</p>
-                <button className="Schedule_btn btn-1">
-                  Schedule Appointment
-                </button>
+                <Link className="Schedule_btn btn-1" to='/schedule_appointment'> Schedule Appointment</Link>
+             
               </div>
             </div>
             <div className="col-lg-6 schedule_visit_content">
@@ -283,6 +300,7 @@ function Home() {
                   <img
                     src="https://cdn.caratlane.com/media/catalog/product/cache/6/image/480x480/9df78eab33525d08d6e5fb8d27136e95/J/R/JR08153-1YP9RS_12_listhover.jpg"
                     alt=""
+                    onClick={goDetails}
                   />
                   <div className="rate_flex">
                     <p>₹14,256 </p>
@@ -296,6 +314,7 @@ function Home() {
                   <img
                     src="https://cdn.caratlane.com/media/catalog/product/cache/6/image/480x480/9df78eab33525d08d6e5fb8d27136e95/J/E/JE08319-1RP9P0_11_listfront.jpg"
                     alt=""
+                    onClick={goDetails}
                   />
                   <div className="rate_flex">
                     <p>₹14,256 </p>
@@ -309,6 +328,7 @@ function Home() {
                   <img
                     src="https://cdn.caratlane.com/media/catalog/product/cache/6/image/480x480/9df78eab33525d08d6e5fb8d27136e95/J/E/JE08319-1RP9P0_11_listfront.jpg"
                     alt=""
+                    onClick={goDetails}
                   />
                   <div className="rate_flex">
                     <p>₹14,256 </p>
@@ -322,6 +342,7 @@ function Home() {
                   <img
                     src="https://cdn.caratlane.com/media/catalog/product/cache/6/image/480x480/9df78eab33525d08d6e5fb8d27136e95/J/E/JE08319-1RP9P0_11_listfront.jpg"
                     alt=""
+                    onClick={goDetails}
                   />
                   <div className="rate_flex">
                     <p>₹14,256 </p>
@@ -335,6 +356,7 @@ function Home() {
                   <img
                     src="https://cdn.caratlane.com/media/catalog/product/cache/6/image/480x480/9df78eab33525d08d6e5fb8d27136e95/J/E/JE08319-1RP9P0_11_listfront.jpg"
                     alt=""
+                    onClick={goDetails}
                   />
                   <div className="rate_flex">
                     <p>₹14,256 </p>
@@ -348,6 +370,7 @@ function Home() {
                   <img
                     src="https://cdn.caratlane.com/media/catalog/product/cache/6/image/480x480/9df78eab33525d08d6e5fb8d27136e95/J/E/JE08319-1RP9P0_11_listfront.jpg"
                     alt=""
+                    onClick={goDetails}
                   />
                   <div className="rate_flex">
                     <p>₹14,256 </p>

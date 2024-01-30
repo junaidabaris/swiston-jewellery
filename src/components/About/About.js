@@ -6,7 +6,7 @@ function About() {
         <section>
                 <div className='container'>
                     <div className='m-auto'>
-                        <h6>The CaratLane Story</h6>
+                        <h6>The Swiston Jewellery Story</h6>
                     </div>
                 </div>
         </section>

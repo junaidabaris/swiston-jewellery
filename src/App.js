@@ -39,6 +39,10 @@ import StorePage from "./pages/storePage";
 import Aos from "aos";
 import 'aos/dist/aos.css';
 import FinancialOptionS from "./components/financialOption/FinancialOption";
+import ScheduleMain from "./components/scheduleAppointment/scheduleAppointment/ScheduleMain";
+import ShippingPolicy from "./components/shippingPolicy/ShippingPolicy";
+import OurStory from "./pages/our-story";
+import PhotoMain from "./components/photoGallery/PhotoMain";
 function App() {
     const [show, setShow] = useState(false)
     useEffect(()=>{
@@ -56,9 +60,9 @@ function App() {
                     <TrendingSearche show={show} setShow={setShow} />
                     <Routes>
                         <Route path="/" element={<Home />} />
+                        <Route path="/schedule_appointment" element={<ScheduleMain />} />
                         <Route path="/category" element={<CategoryPage />} />
-
-                        <Route path="/carriers" element={<Carriers />} />
+                        <Route path="/career" element={<Carriers />} />
                         <Route path="/product-details" element={<ProductDetails />} />
                         {/* <Route path="/trending-search" element={<TrendingSearche />} /> */}
                         <Route path="/gold-rate" element={<GoldRate />} />
@@ -85,8 +89,11 @@ function App() {
                         <Route path="/digi_gold" element={<DigGold />} />
                         <Route path="/testimonial" element={<TestimonialPage />} />
                         <Route path="/vedio-gallery" element={<VedioGallerypage />} />
+                        <Route path="/photo-gallery" element={<PhotoMain />} />
                         <Route path="/stors" element={<StorePage/>} />
                         <Route path="/financialoption" element={<FinancialOptionS />} />
+                        <Route path="/shipping-policy" element={<ShippingPolicy/>} /> 
+                        <Route path="/our-story" element={<OurStory/>} /> 
                     </Routes>
                     <Footer />
                 </BrowserRouter>

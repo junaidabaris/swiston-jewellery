@@ -15,7 +15,7 @@ const KnowMore = () => {
             <p className="knowmoreP">Know More</p>
             <h2 className="knowmoreheading">
               Invest in a high-payoff digital gold. Buy, sell, or redeem your
-              CaratLane DigiGld in exchange for beautiful jewellery.
+               DigiGld in exchange for beautiful jewellery.
             </h2>
             <ButtonAndKnow />
           </div>
@@ -30,11 +30,11 @@ const KnowMore = () => {
             />
            </div>
           <div data-aos="fade-left">
-          <LeftBannarIconImage image={Hand} description={'No carrying cost or hidden charges. Every gram of Caratlane DigiGld you buy online is backed by real gold deposits worth the same.'} heading={'What you buy is what you get'} />
+          <LeftBannarIconImage image={Hand} description={'No carrying cost or hidden charges. Every gram of Swiston DigiGld you buy online is backed by real gold deposits worth the same.'} heading={'What you buy is what you get'} />
             <LeftBannarIconImage
               image={Price}
               description={
-                "Redeem your Caratlane DigiGld balance across our 150+ online stores and physical outlets."
+                "Redeem your Swiston DigiGld balance across our 150+ online stores and physical outlets."
               }
               heading={"100% guaranteed buyback"}
             />

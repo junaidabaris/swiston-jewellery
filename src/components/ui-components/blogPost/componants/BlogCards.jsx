@@ -32,9 +32,9 @@ const blogPostData = [
   },
   {
     id: 4,
-    title: "Lohri Luxury: Exclusive CaratLane Pieces to Celebrate in Style ",
+    title: "Lohri Luxury: Exclusive Swiston Pieces to Celebrate in Style ",
     discription:
-      "Lohri, the vibrant festival heralding the end of winter and the onset of spring, is a time for joyous celebrations. What better way to add a touch of glamour and tradition to your festivities than with exquisite jewellery from CaratLane? Known for its luxurious and unique designs, CaratLane offers a",
+      "Lohri, the vibrant festival heralding the end of winter and the onset of spring, is a time for joyous celebrations. What better way to add a touch of glamour and tradition to your festivities than with exquisite jewellery from Swiston? Known for its luxurious and unique designs, Swiston offers a",
     image: girl_mirror,
   },
   {
@@ -56,19 +56,19 @@ const blogPostData = [
 
 const BlogCards = () => {
   return (
-    <div className="container">
-      <div className="row ">
-        {blogPostData.map((item) => (
-          <div key={item.id} className="col-md-4">
-            <Blog_Single_CardCompo
-              image={item.image}
-              title={item.title}
-              description={item.discription}
-            />
-          </div>
-        ))}
-      </div>
+    <div className="container container-fluid">
+    <div className="row justify-content-start justify-sm-content-center">
+      {blogPostData.map((item) => (
+        <div className="col-md-4 col-sm-12 " key={item.id}>
+          <Blog_Single_CardCompo
+            image={item.image}
+            title={item.title}
+            description={item.discription} 
+          />
+        </div>
+      ))}
     </div>
+  </div>
   );
 };
 

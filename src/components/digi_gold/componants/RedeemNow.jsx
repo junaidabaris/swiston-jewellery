@@ -20,7 +20,7 @@ const RedeemNow = () => {
           <div className="d-flex justify-content-start gap-3 ">
             <img src={qicon} alt="icon" className="qicon" />
             <p className="blurcolor">
-              You can redeem CaratLane DigiGld online or <br /> offline through
+              You can redeem DigiGld online or <br /> offline through
               one of our many jewellery <br /> partner stores across India.
             </p>
           </div>
@@ -32,7 +32,7 @@ const RedeemNow = () => {
             <div className="d-flex align-items-center" data-aos="fade-right">
               <LeftBannarIconImage
                 image={gift}
-                description={"Choose your favorite jewellery from CaratLane"}
+                description={"Choose your favorite jewellery from"}
               />
               <div>
                 <img src={Arrow} alt="arrow" />
@@ -43,7 +43,7 @@ const RedeemNow = () => {
             <div className="d-flex align-items-center">
               <LeftBannarIconImage
                 image={hand}
-                description={"Redeem your Caratlane DigiGld at checkout"}
+                description={"Redeem your Swiston DigiGld at checkout"}
               />
               <div>
                 <img src={Arrow} alt="arrow"  />
