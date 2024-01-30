@@ -13,11 +13,11 @@ const RedeemNow = () => {
     <div>
       <div className="redeem p-4">
         <p className="redeemP">redeem</p>
-        <div className="d-flex justify-content-start gap-5">
+        <div className="d-flex justify-content-start gap-5" data-aos="fade-right">
           <h2>
             DigiGld to jewellery, in a<br /> blink!
           </h2>
-          <div className="d-flex justify-content-start gap-3 ">
+          <div className="d-flex justify-content-start gap-3 " data-aos="fade-right">
             <img src={qicon} alt="icon" className="qicon" />
             <p className="blurcolor">
               You can redeem CaratLane DigiGld online or <br /> offline through
@@ -39,7 +39,7 @@ const RedeemNow = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-3 p-0 mt-3 " data-aos="fade-right">
+          <div className="col-lg-3 p-0 mt-3 " data-aos="fade-left">
             <div className="d-flex align-items-center">
               <LeftBannarIconImage
                 image={hand}

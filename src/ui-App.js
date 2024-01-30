@@ -31,6 +31,15 @@ import JewellaryEdit from "./components/press/jewellaryEdit/JewellaryEdit";
 import DigGold from "./components/ui-components/digi_gold/page/DigGold";
 function UIApp() {
   const [show, setShow] = useState(false);
+
+  useEffect(() => {
+    AOS.init({
+      delay: 100,
+      duration: 800,
+      easing: "ease-in-out",
+    });
+  }, []);
+
   return (
     <>
       <div>

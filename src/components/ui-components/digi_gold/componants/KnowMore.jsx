@@ -11,7 +11,7 @@ const KnowMore = () => {
     <div>
       <div className="container-fluid">
         <div className="row">
-          <div className="col-lg-8 col-sm-12" data-aos="fade-left">
+          <div className="col-lg-8 col-sm-12" data-aos="fade-right">
             <p className="knowmoreP">Know More</p>
             <h2 className="knowmoreheading">
               Invest in a high-payoff digital gold. Buy, sell, or redeem your
@@ -29,15 +29,18 @@ const KnowMore = () => {
               heading={"Unparalleled convenience"}
             />
            </div>
-          <div data-aos="fade-left">
+          <div data-aos="fade-right">
           <LeftBannarIconImage image={Hand} description={'No carrying cost or hidden charges. Every gram of Caratlane DigiGld you buy online is backed by real gold deposits worth the same.'} heading={'What you buy is what you get'} />
-            <LeftBannarIconImage
+          <div data-aos="fade-right">
+          <LeftBannarIconImage
               image={Price}
               description={
                 "Redeem your Caratlane DigiGld balance across our 150+ online stores and physical outlets."
               }
               heading={"100% guaranteed buyback"}
             />
+          </div>
+          
           </div>
           
         
