@@ -3,6 +3,7 @@
     ._bannar_c{
         width: 100%;
         height: 57.3vh !important;
+        margin-bottom: 104px;
     }
     ._heading_baraclate{
       display: none;
@@ -25,8 +26,9 @@
     }
     /* blogs cards start from here */
     ._blogsCards{
-        padding: 5px !important;
-    }
+      padding: 0  !important;
+      
+    } 
     /* blogscard blopg page */
     .view_more{
       text-align: left;

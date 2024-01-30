@@ -49,7 +49,7 @@ const Second_hero = () => {
         </div>
       </div>
       <div className="row _second_section">
-        <div className=" col-sm-12  col-lg-6 d-flex justify-content-between gap-4 flex-sm-wrap flex-lg-nowrap  " data-aos="zoom-out-up">
+        <div className=" col-sm-12  col-lg-6 d-flex justify-content-between gap-4 flex-sm-wrap flex-lg-nowrap  ">
          <div className="blogpost_image">
           <img src={gifimage} alt="gif image " />
          </div>
@@ -58,7 +58,7 @@ const Second_hero = () => {
           <p>Do you choose the gown first or the jewellery? That is a question that does crop up from time to</p>
          </div>
         </div>
-        <div className=" col-sm-12  col-lg-6 d-flex justify-content-between gap-4 flex-sm-wrap flex-lg-nowrap " data-aos="zoom-out-up">
+        <div className=" col-sm-12  col-lg-6 d-flex justify-content-between gap-4 flex-sm-wrap flex-lg-nowrap " >
          <div className="blogpost_image">
           <img src={clebs} alt=" celbs image" />
          </div>

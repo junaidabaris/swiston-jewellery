@@ -41,16 +41,16 @@ const genralData =[
 const DigGold = () => {
   return (
     <div className="bannar" >
-      <div data-aos="fade-left">
+      <div >
         <Bannar />
       </div>
       <div className="knowmoreP">
-        <div className="knowMore" data-aos="fade-right">
+        <div className="knowMore" >
           <KnowMore />
         </div>
       </div>
       <div className="redeemNowP">
-        <div className="knowMore" data-aos="fade-left">
+        <div className="knowMore" >
           <RedeemNow />
         </div>
       </div>
@@ -58,7 +58,7 @@ const DigGold = () => {
         <div className="knowMore">
           <div className="container-fluid ">
             <div className="row">
-              <div className="col-lg-6 col-sm-12" data-aos="fade-right">
+              <div className="col-lg-6 col-sm-12" >
                 <p className="knowmoreP">
                   Got questions? We have all the answers!
                 </p>
@@ -68,10 +68,10 @@ const DigGold = () => {
                   questions.
                 </h2>
               </div>
-              <div className="col-lg-6 col-sm-12 align-self-center" data-aos="fade-left">
+              <div className="col-lg-6 col-sm-12 align-self-center" >
                 <img src={dailCall} alt="" className="dailCall" />
                 <p>At Your Service. Always.</p>
-                <form data-aos="fade-right" >
+                <form  >
                   <div className="form-row align-items-center">
                     <div className=" my-1">
                       <label className="sr-only" htmlFor="inlineFormInputName">
@@ -129,10 +129,10 @@ const DigGold = () => {
             </div>
             <div className="row pt-5">
             <h2>General</h2>
-              <div className="col-lg-4 sm-none lg-block align-self-center" data-aos="fade-right">
+              <div className="col-lg-4 sm-none lg-block align-self-center" >
                 <img src={thinkingsvg} alt="thinking " />
                  </div>
-              <div className="col-lg-8" data-aos="fade-left">
+              <div className="col-lg-8" >
                {genralData.map((item)=>{
                 return  (
                   <div key={item.id} className="m-2">
@@ -144,10 +144,10 @@ const DigGold = () => {
             </div>
             <div className="row pt-5" >
             <h2>BUY</h2>
-              <div className="col-lg-4 sm-none lg-block align-self-center" data-aos="fade-right">
+              <div className="col-lg-4 sm-none lg-block align-self-center" >
                 <img src={Loan} alt="thinking " />
                  </div>
-              <div className="col-lg-8" data-aos="fade-left">
+              <div className="col-lg-8" >
                {genralData.map((item)=>{
                 return  (
                   <div key={item.id} className="m-2">
@@ -159,10 +159,10 @@ const DigGold = () => {
             </div>
             <div className="row pt-5">
             <h2>SELL</h2>
-              <div className="col-lg-4 sm-none lg-block align-self-center" data-aos="fade-right">
+              <div className="col-lg-4 sm-none lg-block align-self-center" >
                 <img src={thinkingsvg} alt="thinking " />
                  </div>
-              <div className="col-lg-8" data-aos="fade-left">
+              <div className="col-lg-8" >
                {genralData.map((item)=>{
                 return  (
                   <div key={item.id} className="m-2">
@@ -174,7 +174,7 @@ const DigGold = () => {
             </div>
             <div className="row pt-5">
             <h2>EXCHANGE</h2>
-              <div className="col-lg-4 sm-none lg-block align-self-center" data-aos="fade-right">
+              <div className="col-lg-4 sm-none lg-block align-self-center" >
                 <img src={thinkingsvg} alt="thinking " />
                  </div>
               <div className="col-lg-8">
