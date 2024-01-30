@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import Headers from "./common/headers/Headers";
@@ -29,6 +29,7 @@ import EditPressProfile from "./components/ui-components/editPressProfile/EditPr
 import Webstories from "./pages/ui-pages/webStories";
 import JewellaryEdit from "./components/press/jewellaryEdit/JewellaryEdit";
 import DigGold from "./components/ui-components/digi_gold/page/DigGold";
+import AOS from "aos";
 function UIApp() {
   const [show, setShow] = useState(false);
 
