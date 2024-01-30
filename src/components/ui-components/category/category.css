@@ -482,7 +482,7 @@
     margin: 10px;
   }
   h3.list_title {
-    font-size: 1em;
+    font-size: 18px;
     margin: 10px;
     color: rgb(35, 21, 53);
     padding-bottom: 4px;
@@ -490,7 +490,7 @@
   }
   .listitem a {
     font-family: InterRegular, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 1rem;
+    font-size: 15px;
     color: rgb(135, 118, 157);
   }
   .s-media {

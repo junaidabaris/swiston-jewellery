@@ -17,7 +17,7 @@ export default function Footer() {
   };
   return (
     <footer>
-      <div className="container">
+      <div className="footer_container">
         <ul className="footer_blocks">
           <li className="f_list">
             <h3
