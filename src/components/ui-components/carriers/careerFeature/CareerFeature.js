@@ -30,7 +30,7 @@ const featureItem = [
 function CareerFeature() {
   var settings = {
     dots: true,
-    infinite: false,
+    infinite: true,
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
@@ -45,28 +45,26 @@ function CareerFeature() {
             out our thought-leadership articles now!
           </p>
           <div className="featureSwiper">
-            <Slider {...settings}>
-              <div className="feature_sweaper_wraper">
-                {featureItem.map((featureItem, index) => {
-                  return (
-                    <div className="feature_sweaper_slide " key={index}>
-                      <div className="img_overflow">
-                        <img src={featureItem.imgUrl} alt="" />
-                      </div>
-                      <h3 style={{ fontWeight: 600 }}>
-                        {featureItem.featureHeading}
-                      </h3>
-                      <p>{featureItem.featureAbout}</p>
-                      <div className="circle">
-                        <span>
-                          <MdArrowOutward />
-                        </span>
-                      </div>
+            <div className="feature_sweaper_wraper">
+              {featureItem.map((featureItem, index) => {
+                return (
+                  <div className="feature_sweaper_slide " key={index}>
+                    <div className="img_overflow">
+                      <img src={featureItem.imgUrl} alt="" />
                     </div>
-                  );
-                })}
-              </div>
-            </Slider>
+                    <h3 style={{ fontWeight: 600 }}>
+                      {featureItem.featureHeading}
+                    </h3>
+                    <p>{featureItem.featureAbout}</p>
+                    <div className="circle">
+                      <span>
+                        <MdArrowOutward />
+                      </span>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
           </div>
           <div className="featureSwiperSlideBtn">
             <button className="">visit our blog</button>

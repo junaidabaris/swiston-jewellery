@@ -12,6 +12,9 @@ root.render(
   <React.StrictMode>
     <Provider store={store}>{/* <App /> */}</Provider>
     <UIApp />
+
+    <Provider store={store}>{/* <App /> */}</Provider>
+    <UIApp />
   </React.StrictMode>
 );
 
