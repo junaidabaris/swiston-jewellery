@@ -39,7 +39,7 @@ function UIApp() {
   const [show, setShow] = useState(false);
   useEffect(()=>{
     AOS.init({
-      delay: 200,
+      delay: 100,
       duration: 800, 
       easing: 'ease-in-out',
     });

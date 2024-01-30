@@ -59,7 +59,7 @@ const BlogCards = () => {
     <div className="container">
       <div className="row ">
         {blogPostData.map((item) => (
-          <div key={item.id} className="col-md-4">
+          <div key={item.id} className="col-md-4" data-aos="zoom-out-up">
             <Blog_Single_CardCompo
               image={item.image}
               title={item.title}

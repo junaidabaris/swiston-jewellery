@@ -4,7 +4,7 @@ import Card from 'react-bootstrap/Card';
 
 const Blog_Single_CardCompo = ({title,description,image}) => {
     return (
-        <Card style={{ width: '22rem', margin:' 15px 0' }}>
+        <Card style={{ width: '22rem', margin:' 15px 0' }} >
           <Card.Img variant="top" src={image} />
           <Card.Body>
             <Card.Title style={{fontFamily:'lora', color:'#84827B'}}>{title}</Card.Title>
