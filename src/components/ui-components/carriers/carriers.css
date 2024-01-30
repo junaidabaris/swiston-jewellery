@@ -141,3 +141,11 @@
   font-weight: 700;
   text-align: center;
 }
+@media (max-width: 992px) {
+  .carrier_content1 h1 {
+    font-size: 1.4rem;
+    margin-bottom: 14px;
+  }
+}
+@media screen and(width:576px) {
+}

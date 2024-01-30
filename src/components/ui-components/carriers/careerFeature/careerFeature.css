@@ -115,3 +115,15 @@
   text-transform: uppercase;
   font-weight: 500;
 }
+@media (max-width: 992px) {
+  .feat_container h2 {
+    font-weight: 1rem;
+  }
+  .feat_container p {
+    font-size: 14px;
+  }
+  .feat_container {
+    padding: 100px 0px 0px 0px;
+    background-color: #fff3e7;
+  }
+}

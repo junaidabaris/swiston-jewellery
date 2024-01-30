@@ -1,7 +1,7 @@
 import React from "react";
 import "./careerFeature.css";
 import { MdArrowOutward } from "react-icons/md";
-
+import Slider from "react-slick";
 const featureItem = [
   {
     id: 1,
@@ -28,6 +28,13 @@ const featureItem = [
 ];
 
 function CareerFeature() {
+  var settings = {
+    dots: true,
+    infinite: false,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+  };
   return (
     <>
       <div className="feat_container">
@@ -38,26 +45,28 @@ function CareerFeature() {
             out our thought-leadership articles now!
           </p>
           <div className="featureSwiper">
-            <div className="feature_sweaper_wraper">
-              {featureItem.map((featureItem, index) => {
-                return (
-                  <div className="feature_sweaper_slide " key={index}>
-                    <div className="img_overflow">
-                      <img src={featureItem.imgUrl} alt="" />
+            <Slider {...settings}>
+              <div className="feature_sweaper_wraper">
+                {featureItem.map((featureItem, index) => {
+                  return (
+                    <div className="feature_sweaper_slide " key={index}>
+                      <div className="img_overflow">
+                        <img src={featureItem.imgUrl} alt="" />
+                      </div>
+                      <h3 style={{ fontWeight: 600 }}>
+                        {featureItem.featureHeading}
+                      </h3>
+                      <p>{featureItem.featureAbout}</p>
+                      <div className="circle">
+                        <span>
+                          <MdArrowOutward />
+                        </span>
+                      </div>
                     </div>
-                    <h3 style={{ fontWeight: 600 }}>
-                      {featureItem.featureHeading}
-                    </h3>
-                    <p>{featureItem.featureAbout}</p>
-                    <div className="circle">
-                      <span>
-                        <MdArrowOutward />
-                      </span>
-                    </div>
-                  </div>
-                );
-              })}
-            </div>
+                  );
+                })}
+              </div>
+            </Slider>
           </div>
           <div className="featureSwiperSlideBtn">
             <button className="">visit our blog</button>
