@@ -82,3 +82,8 @@
   margin-top: 10px;
   text-align: start;
 }
+@media screen and (max-width: 992px) {
+  .people_img_flex .img-box img {
+    margin-top: 20px;
+  }
+}

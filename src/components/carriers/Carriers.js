@@ -157,68 +157,14 @@ function Carriers() {
             </div>
           </div>
         </section>
-        <section className="Carrier_feature_reads">
-          <div className="auto_container">
-            <div>
-              <div className="Carrier_feature_content">
-                <h1>About Us</h1>
-                <p>
-                  Discover Swiston's mission to express emotions through
-                  jewelry. Journey with us from our humble beginnings in 2008 to
-                  a leading jewelry brand in 2023.
-                </p>
-                <button className="btn btn-outline-primary mt-3">
-                  {" "}
-                  Know More
-                </button>
-              </div>
-              <div className="about_photo">
-                <img
-                  className="image1"
-                  src="https://careers.caratlane.com/wp-content/uploads/2023/06/Aboutus-1.jpg"
-                  alt=""
-                />
-                <img
-                  className="image2"
-                  src="https://careers.caratlane.com/wp-content/uploads/2023/06/Aboutus-2.jpg"
-                  alt=""
-                />
-                <img
-                  className="image3"
-                  src="https://careers.caratlane.com/wp-content/uploads/2023/06/Aboutus-3.jpg"
-                  alt=""
-                />
-              </div>
-            </div>
-            <div></div>
-          </div>
-        </section>
-        <section className="carrier_review">
-          <div className="auto_container">
-            <div className="carrier_review_content">
-              <h1>Reviews</h1>
-              <p>
-                Discover What People Say: Unveiling Insider Stories from
-                AmbitionBox & Glassdoor
-              </p>
-              <div className="review_button">
-                <button className="btn btn-outline-primary ">
-                  View In Ambitionbox
-                </button>
-                <button className="btn btn-outline-primary ml-3">
-                  View In Glassdoor
-                </button>
-              </div>
-            </div>
-          </div>
-        </section>
+
         <section className="work_together">
           <div className="auto_container">
             <div className="work_content">
               <h1 className="">Let's Work Together</h1>
               <p>
-                Check out the open roles we have available at Swiston along
-                with a brief overview of our employer benefits and the expected
+                Check out the open roles we have available at Swiston along with
+                a brief overview of our employer benefits and the expected
                 process we would go through together.
               </p>
               <button className="btn btn-outline-primary mt-3">Join Us</button>

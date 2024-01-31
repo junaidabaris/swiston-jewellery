@@ -94,53 +94,6 @@
   width: 100%;
 }
 
-.work_together {
-  background-color: azure;
-  width: 100%;
-}
-.work_content {
-  padding: 80px;
-}
-.work_content h1 {
-  font-size: 40px;
-  color: rgb(88, 79, 79);
-  word-spacing: 2px;
-  /* letter-spacing: 1px; */
-  font-weight: 700;
-  text-align: center;
-}
-.work_content p {
-  font-size: 16px;
-  font-weight: 500;
-  width: 60%;
-  text-align: center;
-  margin: auto;
-  /* line-height: ; */
-}
-.work_content button {
-  display: flex;
-  justify-content: center;
-  margin: auto;
-}
-.signUp_section {
-  background-color: rgb(32, 32, 54);
-  width: 100%;
-}
-.work_content span {
-  display: flex;
-  justify-content: center;
-  margin: auto;
-  font-size: 50px;
-  color: rgb(253, 251, 255);
-}
-.signUp_section h1 {
-  font-size: 40px;
-  color: #fff;
-  word-spacing: 1px;
-  /* letter-spacing: 1px; */
-  font-weight: 700;
-  text-align: center;
-}
 @media (max-width: 992px) {
   .carrier_content1 h1 {
     font-size: 1.4rem;
@@ -148,4 +101,7 @@
   }
 }
 @media screen and(width:576px) {
+  .carrier_content1 p {
+    font-family: "inter-regular", sans-serif;
+  }
 }

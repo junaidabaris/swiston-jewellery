@@ -12,6 +12,7 @@ function CareerAnthem() {
             height="700px"
             style={{ borderRadius: "10px" }}
             muted
+            className="anthempalyer"
           />
         </div>
         <div className="career_video_text">

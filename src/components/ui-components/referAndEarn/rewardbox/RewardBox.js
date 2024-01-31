@@ -14,7 +14,10 @@ function RewardBox({
       <div className="reward_box" style={{ backgroundColor: background }}>
         <div
           className="reward_num"
-          style={{ backgroundColor: numcolor?.inner, color: numcolor?.outer }}>
+          style={{
+            backgroundColor: numcolor?.inner,
+            color: numcolor?.outer,
+          }}>
           {num}
         </div>
         <div className="reward_icons">

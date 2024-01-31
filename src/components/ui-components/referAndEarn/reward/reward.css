@@ -16,9 +16,10 @@
   overflow: auto;
   gap: 16px;
   margin: auto;
-  max-width: 1158px;
+  /* max-width: 1158px; */
   padding: 0 15px;
   width: 100%;
+  flex-wrap: wrap;
 }
 .reward_box {
   background-color: #cde9c8;

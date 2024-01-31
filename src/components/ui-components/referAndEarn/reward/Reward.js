@@ -9,18 +9,6 @@ function Reward() {
     <div className="reward_content">
       <h2 className="reward_heading">Being Stylish is Rewarding</h2>
       <div className="reward_box_flex">
-        {/* <div className="reward_box">
-          <div className="reward_num">1</div>
-          <div className="reward_icons">
-            <span className="">
-              <BiSolidMessageDots />
-            </span>
-          </div>
-          <p className="what_refer">What You Get</p>
-          <p className="refer_about">
-            Rs. 250* when your friends sign up Rs. 500* on their first purchase
-          </p>
-        </div> */}
         <RewardBox
           num={1}
           refer={"What You Get"}
