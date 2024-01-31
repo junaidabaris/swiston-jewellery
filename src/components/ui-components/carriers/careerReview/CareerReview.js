@@ -10,13 +10,19 @@ function CareerReview() {
             Discover What People Say: Unveiling Insider Stories from AmbitionBox
             & Glassdoor
           </p>
-          <div className="review_button">
-            <button className="btn btn-outline-primary ">
-              View In Ambitionbox
-            </button>
-            <button className="btn btn-outline-primary ml-3">
-              View In Glassdoor
-            </button>
+          <div className="row  justify-content-center m-auto career_review_img_flex">
+            <div className="col-lg-4 col-md-6 col-sm-12  career_review_img">
+              <img
+                src="https://careers.caratlane.com/wp-content/uploads/2024/01/ambitionbox.png"
+                alt=""
+              />
+            </div>
+            <div className="col-lg-4 col-md-6 col-sm-12 career_review_img">
+              <img
+                src="https://careers.caratlane.com/wp-content/uploads/2024/01/glasssdoor.png"
+                alt=""
+              />
+            </div>
           </div>
         </div>
       </div>

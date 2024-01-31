@@ -7,6 +7,7 @@
 .question_content_flex {
   padding: 24px;
   display: flex;
+  flex-wrap: wrap;
 }
 .question_content {
   padding: 0 50px;

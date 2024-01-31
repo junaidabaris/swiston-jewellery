@@ -1,5 +1,8 @@
 import React from "react";
 import "./careerFeature.css";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import { MdArrowOutward } from "react-icons/md";
 
 const featureItem = [
@@ -28,6 +31,45 @@ const featureItem = [
 ];
 
 function CareerFeature() {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 1,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+      // Add more responsive settings as needed
+    ],
+  };
   return (
     <>
       <div className="feat_container">
@@ -37,7 +79,7 @@ function CareerFeature() {
             Ready to broaden your knowledge and stay ahead of the curve? Check
             out our thought-leadership articles now!
           </p>
-          <div className="featureSwiper">
+          {/* <div className="featureSwiper">
             <div className="feature_sweaper_wraper">
               {featureItem.map((featureItem, index) => {
                 return (
@@ -58,7 +100,25 @@ function CareerFeature() {
                 );
               })}
             </div>
-          </div>
+          </div> */}
+          <Slider {...settings} className="featureSwiper">
+            {featureItem.map((feature, index) => (
+              <div className="feature_sweaper_wraper">
+                <div className="feature_sweaper_slide" key={index}>
+                  <div className="img_overflow">
+                    <img src={feature.imgUrl} alt="" />
+                  </div>
+                  <h3 style={{ fontWeight: 600 }}>{feature.featureHeading}</h3>
+                  <p>{feature.featureAbout}</p>
+                  <div className="circle">
+                    <span>
+                      <MdArrowOutward />
+                    </span>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </Slider>
           <div className="featureSwiperSlideBtn">
             <button className="">visit our blog</button>
           </div>

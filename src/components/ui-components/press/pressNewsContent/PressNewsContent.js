@@ -2,7 +2,7 @@ import React from "react";
 
 function PressNewsContent({ data }) {
   return (
-    <div className="row g-0 ">
+    <div className="row g-0 elementor_post_row">
       {data?.map((pressNewsArray, index) => {
         return (
           <div
