@@ -4,6 +4,7 @@ import Button from "react-bootstrap/Button";
 import Offcanvas from "react-bootstrap/Offcanvas";
 // import Example from "./path-to-your-Example-component";
 import { PiCopySimpleDuotone } from "react-icons/pi";
+
 import Slider from "react-slick";
 
 function SampleNextArrow(props) {
@@ -27,7 +28,7 @@ function SamplePrevArrow(props) {
     />
   );
 }
-function Sidebar() {
+function Sidebar(props) {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -42,18 +43,11 @@ function Sidebar() {
   };
   return (
     <>
-      {/* <div className={open ? "sidebar collaps" : "sidebar"}>
-        <ul>
-          <li>Home </li>
-          <li>About </li>
-          <li>Contact </li>
-        </ul>
-      </div> */}
-      <Button variant="light" onClick={handleShow1} className="me-2">
+      <div className="icon_box m-2" onClick={handleShow1}>
         <span>
           <PiCopySimpleDuotone />
         </span>
-      </Button>
+      </div>
       <Offcanvas
         show={show}
         onHide={handleClose}
