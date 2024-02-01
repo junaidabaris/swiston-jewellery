@@ -7,7 +7,7 @@ function SomeQuestions() {
   return (
     <>
       <div className="question_section">
-        <div className="container">
+        <div className=" ">
           <div className="question_content_flex">
             <div className="question_content">
               <h3 className="question_heading">Have Some Questions?</h3>

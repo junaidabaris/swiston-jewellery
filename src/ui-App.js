@@ -1,11 +1,11 @@
-import { useEffect, useState } from "react";
+import { useState, useEffect } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import Headers from "./common/headers/Headers";
 import "bootstrap/dist/css/bootstrap.css";
 import Footer from "./common/footer/Footer";
 import "../src/assets/css/style.css";
-import { BrowserRouter, Route, Routes, useFetcher } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Carriers from "./components/ui-components/carriers/Carriers";
 import Home from "./components/ui-components/home/Home";
 import ProductDetails from "./components/ui-components/productDetails/ProductDetails";
@@ -27,27 +27,20 @@ import Jewellaryedit from "./pages/ui-pages/jewellaryEDit";
 import NewsTab from "./components/ui-components/press/newsTab/NewsTab";
 import EditPressProfile from "./components/ui-components/editPressProfile/EditPressProfile";
 import Webstories from "./pages/ui-pages/webStories";
-
-import Returnpolicy from "./components/ui-components/15DayReturns/ReturnPolicy";
 import JewellaryEdit from "./components/press/jewellaryEdit/JewellaryEdit";
 import DigGold from "./components/ui-components/digi_gold/page/DigGold";
-
-import ShippingPolicy from "./components/ui-components/shippingPolicy/ShippingPolicy";
-import Login from "./components/ui-components/loginForm/Login";
-import FinancialOption from "./components/ui-components/financialOption/FinancialOption";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-import EnquirySupport from "./components/ui-components/enquitySupport/EnquirySupport";
-
+import AOS from "aos";
 function UIApp() {
   const [show, setShow] = useState(false);
-  useEffect(()=>{
+
+  useEffect(() => {
     AOS.init({
       delay: 100,
-      duration: 800, 
-      easing: 'ease-in-out',
+      duration: 800,
+      easing: "ease-in-out",
     });
-  },[])
+  }, []);
+
   return (
     <>
       <div>
@@ -57,7 +50,7 @@ function UIApp() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/category" element={<Category />} />
-            <Route path="/carriers" element={<Carriers />} />
+            <Route path="/careers" element={<Carriers />} />
             <Route path="/product-details" element={<ProductDetails />} />
             {/* <Route path="/trending-search" element={<TrendingSearche />} /> */}
             <Route path="/gold-rate" element={<GoldRate />} />
@@ -72,19 +65,14 @@ function UIApp() {
             <Route path="/gold-exchange" element={<GoldExchange />} />
             <Route path="/cart" element={<Cart />} />
             <Route path="/register" element={<RegisterPage />} />
-            <Route path="/returnpolicy" element={<Returnpolicy />} />
-            <Route path="/financialoption" element={<FinancialOption />} />
-            <Route path="/enquiry-support" element={<EnquirySupport />}/>
 
-            <Route path="/press" element={<EditPressProfile />}/>
+            <Route path="/press" element={<EditPressProfile />}>
               <Route path="" element={<PRess />} />
               <Route path="edit-jewellery" element={<JewellaryEdit />} />
               <Route path="web-stories" element={<Webstories />} />
-            <Route path="/shipping-policy" element={<ShippingPolicy/>} /> 
-            <Route path="/login" element={<Login/>} /> 
-
-            <Route path="/blog" element={<BlogPage/>}/>
-            <Route path="/digi_gold" element={<DigGold/>}/>
+            </Route>
+            <Route path="/blog" element={<BlogPage />} />
+            <Route path="/digi_gold" element={<DigGold />} />
           </Routes>
           <Footer />
         </BrowserRouter>

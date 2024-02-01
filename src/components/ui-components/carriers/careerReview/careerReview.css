@@ -13,6 +13,7 @@
   text-align: center;
   color: #4f3267;
   text-transform: capitalize;
+  margin-bottom: 20px;
 }
 .carrier_review_content1 p {
   font-size: 16px;
@@ -20,12 +21,25 @@
   width: 60%;
   text-align: center;
   margin: auto;
+  margin-bottom: 20px;
   /* line-height: ; */
 }
-.review_button {
-  text-align: center;
+
+.career_review_img img {
+  width: 300px;
+  height: auto;
 }
-.review_button button {
-  font-weight: 500;
-  margin: 20px;
+@media screen and (max-width: 992px) {
+  .carrier_review_content1 p {
+    font-size: 14px;
+    width: 100%;
+  }
+  .carrier_review_content1 h1 {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .career_review_img img {
+    padding-top: 10px;
+  }
 }

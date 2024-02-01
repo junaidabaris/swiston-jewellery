@@ -10,11 +10,8 @@ import store from "./apiConfig/store";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Provider store={store}>
-      {/* <App /> */}
-    </Provider>
+    <Provider store={store}>{/* <App /> */}</Provider>
     <UIApp />
-    
   </React.StrictMode>
 );
 

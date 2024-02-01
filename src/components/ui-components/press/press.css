@@ -115,3 +115,60 @@
   font-weight: 500;
   background-color: #706d77;
 }
+
+@media screen and (max-width: 992px) {
+  .elementor_post {
+    max-height: auto;
+  }
+  .elementor_post_row {
+    width: 100% !important;
+    margin: 0px 10px;
+  }
+  .elementor_post_thumbnail .press_photo_img {
+    padding: 10px;
+  }
+  .subscribeNewsletter {
+    overflow-x: hidden;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .newsTab {
+    width: 100%;
+
+    padding: 10px 20px !important;
+  }
+
+  .newsTab .nav .nav-item .nav-link a {
+    font-size: 10px !important;
+  }
+
+  .nav-fill .nav-item .nav-link {
+    padding: 4px 0px !important;
+  }
+  .nav-item {
+    width: 50px !important;
+  }
+  .newTabBox {
+    display: flex;
+  }
+  .elementor_post_title {
+    display: flex;
+    justify-content: center;
+    margin-right: 0px;
+    margin-top: 15px;
+  }
+  .subscribeNewsletter {
+    width: 100%;
+    padding: 20px !important;
+    margin: 0 10px !important;
+  }
+  .input_newsletter input {
+    width: 100% !important;
+  }
+  .input_newsletter button {
+    height: 40px;
+    width: 100% !important;
+    margin-top: 10px !important;
+  }
+}
