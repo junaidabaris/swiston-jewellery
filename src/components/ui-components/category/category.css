@@ -1,5 +1,4 @@
 .jewellery {
-<<<<<<< HEAD
     padding: 28px 15px 28px 15px;
     background-color: #f6f3f9;
   }
@@ -558,8 +557,7 @@
     justify-content: center;
   }
   .mobile_filter{
-    display: none;
-=======
+  display: none;
   padding: 28px 15px 28px 15px;
   background-color: #f6f3f9;
 }
@@ -1159,5 +1157,4 @@ h3.list_title {
   background-position: -25px -19px;
   height: 44px;
   width: 153px;
->>>>>>> 3bcc1ea816644fd04b147031ec5814737a41f82d
 }

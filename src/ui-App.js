@@ -29,6 +29,9 @@ import EditPressProfile from "./components/ui-components/editPressProfile/EditPr
 import Webstories from "./pages/ui-pages/webStories";
 import JewellaryEdit from "./components/press/jewellaryEdit/JewellaryEdit";
 import DigGold from "./components/ui-components/digi_gold/page/DigGold";
+import EnquirySupport from "./components/ui-components/enquitySupport/EnquirySupport"
+import FinancialOption from "./components/ui-components/financialOption/FinancialOption"
+import Returnpolicy from "./components/ui-components/15DayReturns/ReturnPolicy"
 import AOS from "aos";
 function UIApp() {
   const [show, setShow] = useState(false);
@@ -65,6 +68,9 @@ function UIApp() {
             <Route path="/gold-exchange" element={<GoldExchange />} />
             <Route path="/cart" element={<Cart />} />
             <Route path="/register" element={<RegisterPage />} />
+            <Route path="/enquiry-support" element={<EnquirySupport />} />
+            <Route path="/financialoption" element={<FinancialOption />} />
+            <Route path="/returnpolicy" element={<Returnpolicy />} />
 
             <Route path="/press" element={<EditPressProfile />}>
               <Route path="" element={<PRess />} />

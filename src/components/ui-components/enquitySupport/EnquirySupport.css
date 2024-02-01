@@ -127,6 +127,7 @@
     align-items: center;
     justify-content: center;
     width: 80%;
+    margin: auto;
 }
 .gold_wrap .gold-img img{
     width: 100%;
@@ -226,6 +227,10 @@
 }
 .mt-5 .b_card{
     margin: 10px;
+    box-shadow: 0px 0px 8px #cccc;
+}
+.mt-5 .b_card div{
+    padding: 10px 3px;
 }
 .b_card img{
     width: 100%;
@@ -256,7 +261,7 @@
     padding: 50px 60px;
     background-color: #231535;
 }
-.s_policyList li{
+.sPolicy .s_policyList li{
     width: 40%;
     margin: 20px;
 }
@@ -399,3 +404,8 @@
 .rForm div > p span{
     color: #e63e7e;
 }
+.main_collection{
+    margin: 60px 0px;
+}
+
+

@@ -14,7 +14,7 @@ import Shopingpolicy from "./ShopingPolicy.js";
 import ViaInstagram from "./ViaInstagram.js";
 import ShopBYinsta from "./ShopInsta.js";
 import Form from "./EnquriyFrom.js";
-
+import "./EnquirySupportResponsive.css"
 
 const EnquirySupport=()=>{
     return(
