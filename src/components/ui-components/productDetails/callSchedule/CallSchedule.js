@@ -5,7 +5,7 @@ import { FaHome } from "react-icons/fa";
 function CallSchedule() {
   return (
     <>
-      <div className="row mt-3">
+      <div className="row mt-3 callschedule">
         <div className="col-md-6 m-0 p-0">
           <div className="call_box">
             <div className="d_flex">
