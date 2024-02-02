@@ -1,0 +1,89 @@
+.ins_people_content {
+  padding: 0 15px;
+  margin-top: 80px;
+  margin-bottom: 81px;
+}
+.inspire_heading {
+  text-align: center;
+  font-family: "InterMedium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 32px;
+  line-height: 60px;
+  display: block;
+  color: #000000;
+  font-weight: 600;
+}
+.inspire_heading_heading {
+  text-align: center;
+  font-family: "InterMedium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 32px;
+  line-height: 60px;
+  display: inline-block;
+  color: #8863fb;
+  font-weight: 500;
+}
+.inspire_people_content {
+  background: #ffffff;
+  border-radius: 12px;
+  max-width: 1128px;
+  margin: 37px auto 0;
+  overflow: hidden;
+  width: 100%;
+}
+.inspire_people_content .peoplebox {
+  width: 100%;
+  height: 100%;
+  padding: 29px 44px;
+  border: 10px solid;
+  background-clip: padding-box;
+  border-image-slice: 1;
+  border-image: linear-gradient(90deg, #edc4f8 -13.59%, #d4adf9 111.41%) 1;
+  border-radius: 12px;
+}
+.people_img_flex {
+  display: flex;
+  text-align: center;
+  flex-flow: row wrap;
+  margin-bottom: 32px;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+.people_img_flex .img-box {
+  width: 23%;
+}
+.people_img_flex .img-box img {
+  width: 100%;
+  border-radius: 12px;
+}
+.peoplebox .bottom_line {
+  opacity: 0.3;
+  border-bottom: 1px dashed #4f3267;
+  /* -webkit-transform: rotate(0.11deg); */
+  -ms-transform: rotate(0.11deg);
+  transform: rotate(0.11deg);
+  width: 100%;
+}
+
+.inspire_heading2 {
+  font-family: "InterSemiBold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  color: #4f3267;
+  margin-top: 26px;
+  font-weight: 500;
+}
+.inspire_heading2 span {
+  color: #8863fb;
+}
+.inspire_content {
+  font-family: "InterRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: #4f3267;
+  margin-top: 10px;
+  text-align: start;
+}
+@media screen and (max-width: 992px) {
+  .people_img_flex .img-box img {
+    margin-top: 20px !important;
+  }
+}
