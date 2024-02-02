@@ -114,7 +114,7 @@ export default function Footer() {
                 <Link to="/blog">blog</Link>
               </li>
               <li className="listitem">
-                <Link to="/career">careers</Link>
+                <Link to="/carriers">careers</Link>
               </li>
               <li className="listitem">
                 <Link to="/testimonial">testimonial</Link>
