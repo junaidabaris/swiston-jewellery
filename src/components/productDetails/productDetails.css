@@ -327,24 +327,6 @@
 .modal-overlay {
   background: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
 }
-@media (max-width: 992px) {
-  .breadcrumbs {
-    display: none;
-  }
-  .slick_image_flex {
-    display: none;
-  }
-  .rating_flex {
-    display: flex;
-    flex-direction: column;
-    /* position: absolute; */
-  }
-  .rating_box {
-    width: fit-content;
 
-    margin-top: -60px;
-    position: absolute;
-  }
-}
 @media (max-width: 576px) {
 }

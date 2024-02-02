@@ -59,3 +59,29 @@
   font-size: 18px;
   font-weight: 500;
 }
+@media screen and(max-width:992px) {
+  .question_content {
+    padding: 0 16px;
+  }
+  .question_content .call_box1 {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 576px) {
+  .question_content_flex {
+    padding: 0px;
+  }
+  .question_content {
+    padding: 0px;
+  }
+  .question_heading {
+    font-size: 1.5rem;
+    line-height: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+  }
+  .question_content .call_box1 {
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+}

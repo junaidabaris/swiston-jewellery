@@ -41,7 +41,7 @@ function CareerFeature() {
       {
         breakpoint: 768,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 2,
           slidesToScroll: 1,
         },
       },
@@ -58,6 +58,7 @@ function CareerFeature() {
           slidesToShow: 1,
           slidesToScroll: 1,
           initialSlide: 1,
+          dots: true,
         },
       },
       {
@@ -65,6 +66,7 @@ function CareerFeature() {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          dots: true,
         },
       },
       // Add more responsive settings as needed
@@ -73,13 +75,13 @@ function CareerFeature() {
   return (
     <>
       <div className="feat_container">
-        <div className="container">
-          <h2>Featured Reads</h2>
-          <p>
-            Ready to broaden your knowledge and stay ahead of the curve? Check
-            out our thought-leadership articles now!
-          </p>
-          {/* <div className="featureSwiper">
+        {/* <div className="container"> */}
+        <h2>Featured Reads</h2>
+        <p>
+          Ready to broaden your knowledge and stay ahead of the curve? Check out
+          our thought-leadership articles now!
+        </p>
+        {/* <div className="featureSwiper">
             <div className="feature_sweaper_wraper">
               {featureItem.map((featureItem, index) => {
                 return (
@@ -101,28 +103,28 @@ function CareerFeature() {
               })}
             </div>
           </div> */}
-          <Slider {...settings} className="featureSwiper">
-            {featureItem.map((feature, index) => (
-              <div className="feature_sweaper_wraper">
-                <div className="feature_sweaper_slide" key={index}>
-                  <div className="img_overflow">
-                    <img src={feature.imgUrl} alt="" />
-                  </div>
-                  <h3 style={{ fontWeight: 600 }}>{feature.featureHeading}</h3>
-                  <p>{feature.featureAbout}</p>
-                  <div className="circle">
-                    <span>
-                      <MdArrowOutward />
-                    </span>
-                  </div>
+        <Slider {...settings} className="featureSwiper">
+          {featureItem.map((feature, index) => (
+            <div className="feature_sweaper_wraper">
+              <div className="feature_sweaper_slide" key={index}>
+                <div className="img_overflow">
+                  <img src={feature.imgUrl} alt="" />
+                </div>
+                <h3 style={{ fontWeight: 600 }}>{feature.featureHeading}</h3>
+                <p>{feature.featureAbout}</p>
+                <div className="circle">
+                  <span>
+                    <MdArrowOutward />
+                  </span>
                 </div>
               </div>
-            ))}
-          </Slider>
-          <div className="featureSwiperSlideBtn">
-            <button className="">visit our blog</button>
-          </div>
+            </div>
+          ))}
+        </Slider>
+        <div className="featureSwiperSlideBtn">
+          <button className="">visit our blog</button>
         </div>
+        {/* </div> */}
       </div>
     </>
   );

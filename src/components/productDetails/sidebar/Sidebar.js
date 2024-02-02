@@ -42,13 +42,6 @@ function Sidebar() {
   };
   return (
     <>
-      {/* <div className={open ? "sidebar collaps" : "sidebar"}>
-        <ul>
-          <li>Home </li>
-          <li>About </li>
-          <li>Contact </li>
-        </ul>
-      </div> */}
       <Button variant="light" onClick={handleShow1} className="me-2">
         <span>
           <PiCopySimpleDuotone />

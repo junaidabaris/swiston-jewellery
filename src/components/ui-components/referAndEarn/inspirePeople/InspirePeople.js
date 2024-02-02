@@ -18,7 +18,7 @@ function InspirePeople() {
           <div className="peoplebox ">
             <div className="people_img_flex">
               {imageUrls.map((imageUrls, index) => (
-                <div className="img_box">
+                <div className="img_box m-2">
                   <img src={imageUrls} alt={`Girl  ${index + 1}`} />
                 </div>
               ))}
