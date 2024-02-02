@@ -82,6 +82,5 @@
   .rating_flex {
     display: flex;
     flex-direction: column;
-    /* position: absolute; */
   }
 }

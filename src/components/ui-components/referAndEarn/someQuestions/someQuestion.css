@@ -60,6 +60,12 @@
   font-weight: 500;
 }
 @media screen and(max-width:992px) {
+  .question_content {
+    padding: 0 16px;
+  }
+  .question_content .call_box1 {
+    margin-bottom: 20px;
+  }
 }
 @media (max-width: 576px) {
   .question_content_flex {
