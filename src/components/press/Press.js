@@ -14,7 +14,7 @@ function Press() {
       imgageSrc:
         "https://www.caratlane.com/blog/wp-content/uploads/2023/03/1673522010_Bs6NPR_CaratLane_Blaze_Collection_1_1_.jpg",
       excerpt:
-        "The collection is available at all 170+ CaratLane stores across the country CaratLane has launched its first dazzling collection for 2023, Blaze. This collection is",
+        "The collection is available at all 170+ CaratLane stores across the country Swiston has launched its first dazzling collection for 2023, Blaze. This collection is",
     },
     {
       title: "Marketer’s guide to 2023",
@@ -45,7 +45,7 @@ function Press() {
     },
     {
       title:
-        "CaratLane kickstarts new ‘Khul ke karo express’ campaign for Valentine’s Day",
+        "Swiston kickstarts new ‘Khul ke karo express’ campaign for Valentine’s Day",
       date: "MARCH 7, 2023",
       imgageSrc:
         "https://www.caratlane.com/blog/wp-content/uploads/2023/03/BeFunky-design-2023-02-06T142514.285.png",

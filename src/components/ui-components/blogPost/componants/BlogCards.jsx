@@ -56,19 +56,19 @@ const blogPostData = [
 
 const BlogCards = () => {
   return (
-    <div className="container">
-      <div className="row ">
-        {blogPostData.map((item) => (
-          <div key={item.id} className="col-md-4">
-            <Blog_Single_CardCompo
-              image={item.image}
-              title={item.title}
-              description={item.discription}
-            />
-          </div>
-        ))}
-      </div>
+    <div className="container container-fluid">
+    <div className="row justify-content-start justify-sm-content-center">
+      {blogPostData.map((item) => (
+        <div className="col-md-4 col-sm-12 " key={item.id}>
+          <Blog_Single_CardCompo
+            image={item.image}
+            title={item.title}
+            description={item.discription} 
+          />
+        </div>
+      ))}
     </div>
+  </div>
   );
 };
 

@@ -51,7 +51,7 @@ export const jwelleryApi = createApi({
         }),
         getProduct: builder.mutation({
             query: (pay) => ({
-                url: `product/filter`,
+                url: `product/jewel/filter`,
                 method: 'POST',
                 body:pay
             }),

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function NewsTab() {
   return (
     <div className="newsTab">
-      <div>
+      <div className="newTabBox">
         <Nav fill variant="tabs" defaultActiveKey="/press">
           <Nav.Item>
             <Nav.Link eventKey="link-1">

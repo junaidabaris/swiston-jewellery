@@ -1,4 +1,4 @@
-.slick-next{
+/* .slick-next{
     width: 25px;
     height: 25px;
     right: 55px;
@@ -10,8 +10,7 @@
     font-size: 27px;
 }
 .slick-next::before{
-    font-size: 27px;
-    
+    font-size: 27px;   
 }
 .slick-prev{
     left:-17px;
@@ -25,4 +24,4 @@
 .slick-dots li button{
     display: none;
 }
- 
+  */

@@ -43,6 +43,8 @@ import ScheduleMain from "./components/scheduleAppointment/scheduleAppointment/S
 import ShippingPolicy from "./components/shippingPolicy/ShippingPolicy";
 import OurStory from "./pages/our-story";
 import PhotoMain from "./components/photoGallery/PhotoMain";
+import EnquirySupport from "./components/enquitySupport/EnquirySupport";
+import Checkout from "./components/checkout/Checkout";
 function App() {
     const [show, setShow] = useState(false)
     useEffect(()=>{
@@ -62,7 +64,7 @@ function App() {
                         <Route path="/" element={<Home />} />
                         <Route path="/schedule_appointment" element={<ScheduleMain />} />
                         <Route path="/category" element={<CategoryPage />} />
-                        <Route path="/career" element={<Carriers />} />
+                        <Route path="/carriers" element={<Carriers />} />
                         <Route path="/product-details" element={<ProductDetails />} />
                         {/* <Route path="/trending-search" element={<TrendingSearche />} /> */}
                         <Route path="/gold-rate" element={<GoldRate />} />
@@ -94,6 +96,8 @@ function App() {
                         <Route path="/financialoption" element={<FinancialOptionS />} />
                         <Route path="/shipping-policy" element={<ShippingPolicy/>} /> 
                         <Route path="/our-story" element={<OurStory/>} /> 
+                        <Route path="/enquiry-support" element={<EnquirySupport />} />
+                        <Route path="/checkout" element={<Checkout />} />
                     </Routes>
                     <Footer />
                 </BrowserRouter>

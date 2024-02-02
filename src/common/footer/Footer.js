@@ -7,11 +7,10 @@ import { FaMinus } from "react-icons/fa";
 import { useState } from "react";
 import "../footer/footer.css";
 
-
 import { Link } from "react-router-dom";
 import ReactWhatsapp from "react-whatsapp";
 export default function Footer() {
-  const [openAccordion, setOpenAccordion   ] = useState(null);
+  const [openAccordion, setOpenAccordion] = useState(null);
   const handleAccordionClick = (index) => {
     setOpenAccordion((prevIndex) => (prevIndex === index ? null : index));
   };
@@ -60,10 +59,10 @@ export default function Footer() {
             </h3>
             <ul className={openAccordion === 1 ? "block" : ""}>
               <li className="listitem">
-                 <Link to="/returnpolicy" >15-day returns</Link>
+                <Link to="/returnpolicy">15-day returns</Link>
               </li>
               <li className="listitem">
-                <Link to ="/shipping-policy">free shipping</Link>
+                <Link to="/shipping-policy">free shipping</Link>
               </li>
               <li className="listitem">
                 <Link to="/financialoption">financing options</Link>
@@ -152,12 +151,23 @@ export default function Footer() {
                   <li>
                     <a href="#"></a>
 
-                    <ReactWhatsapp style={{ border: "none", backgroundColor: "transparent", padding: '0' }} number='+97 466362210' massage="Hello Mamass Tycoon"><FaWhatsapp /></ReactWhatsapp>
+                    <ReactWhatsapp
+                      style={{
+                        border: "none",
+                        backgroundColor: "transparent",
+                        padding: "0",
+                      }}
+                      number="+97 466362210"
+                      massage="Hello Mamass Tycoon">
+                      <FaWhatsapp />
+                    </ReactWhatsapp>
                   </li>
                 </ul>
               </li>
               <li className="c-listitem">
-                <Link to="/enquiry-support">24X7 Enquiry Support ( ALL Days )</Link>
+                <Link to="/enquiry-support">
+                  24X7 Enquiry Support ( ALL Days )
+                </Link>
               </li>
               <li className="c-listitem">
                 <a href="/">
@@ -187,12 +197,22 @@ export default function Footer() {
         </div>
         <div>
           <ul className="social_icon">
-            <a href="https://www.facebook.com/swistonjewellery" target="blank"> <li className="facebook">
-
-            </li></a>
-            <a href="https://www.instagram.com/swistonjewellery/" target="blank"> <li className="insta"></li></a>
-            <a href="https://www.linkedin.com/in/swiston-jewellery-953a182ab/" target="blank"> <li className="in"></li></a>
-
+            <a href="https://www.facebook.com/swistonjewellery" target="blank">
+              {" "}
+              <li className="facebook"></li>
+            </a>
+            <a
+              href="https://www.instagram.com/swistonjewellery/"
+              target="blank">
+              {" "}
+              <li className="insta"></li>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/swiston-jewellery-953a182ab/"
+              target="blank">
+              {" "}
+              <li className="in"></li>
+            </a>
 
             <li className="p"></li>
             <li className="twetter"></li>
