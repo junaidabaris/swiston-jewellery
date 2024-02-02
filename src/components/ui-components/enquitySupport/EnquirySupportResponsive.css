@@ -1,0 +1,109 @@
+@media screen and (max-width: 992px) {
+    .main_collection{
+        width: 100%;
+        overflow: auto;
+    }
+    .collections{
+        width: 125%;
+    }
+    .collections div button{
+        position: absolute;
+    }
+    .wrap_appoitment .appoitment{
+        position: relative;
+    width: 100%;
+    flex-wrap: wrap;
+    }
+    .wrap_appoitment .appoitment .appoitment_img{
+        width: 100%;
+        padding: 20px;
+    }
+    .wrap_appoitment .appoitment .text-appoitment {
+        width: 100%;
+        position: relative;
+        right: 0px;
+        text-align: center;
+        padding: 20px;
+    }
+    .appoitment .text-appoitment h2 , .appoitment .text-appoitment h2 , .appoitment .text-appoitment div{
+        margin: 5px !important;
+    } 
+    .ant-btn{
+        margin: 0px;
+    }
+    .gold-text h1{
+        margin-bottom: 70px;
+    }
+    .tanishq_wrap .tanishq {
+        width: 55%;
+    }
+    .wrapper_element{
+        width: 90%;
+    }
+    .s_policyList p .s_detail{
+        display: none;
+    }
+    .s_policyList li:nth-child(3){
+        margin-left: 20px;
+    }
+    .s_policyList a{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .s_policyList p .s_title{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .gold-text{
+        text-align: center;
+    }
+    .wrap_appoitment{
+        padding: 0px;
+    }
+    .gold_wrap{
+        padding: 0px 0px 10px 0px;
+    }
+    .gold-text .know{
+        margin: auto;
+    }
+    .tanishq_wrap{
+        padding: 30px 10px;
+    }
+    .tanishq_wrap .tanishq{
+        width: 100%;
+    }
+    .wrapper-BestOf{
+        padding: 20px 10px;
+    }
+    .bestOf{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .bestOf h2{
+        margin-bottom: 20px;
+    }
+    .sPolicy .s_policyList li{
+        width: 100%;
+    }
+    .via_insta{
+        padding: 30px 4px;
+    }
+    .insta_deatail h1{
+        font-size: .8rem;
+    }
+    .j-story{
+        flex-wrap: wrap;
+        justify-content: center; 
+    }
+    .j-story li:last-child{
+        font-size: .8rem;
+    }
+    .rForm{
+        font-size: 10px;
+    }
+    .rForm .f_text{
+        width: 100%;
+    }
+}
