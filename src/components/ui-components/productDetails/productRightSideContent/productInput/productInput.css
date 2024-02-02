@@ -1,0 +1,181 @@
+.formInp_guide {
+  display: none;
+}
+
+@media (max-width: 992px) {
+  .form_input_flex {
+    display: flex;
+  }
+  .form-input {
+    width: 100% !important;
+  }
+  .formInp_guide {
+    display: block;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid gray;
+    padding: 10px;
+    background: #fff;
+    width: 20%;
+    border-radius: 12px;
+  }
+  .main_form {
+    flex-direction: column !important;
+  }
+}
+.main_form1 {
+  display: flex;
+  flex-direction: column;
+}
+.main_from_flex1 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.select_size_form {
+  width: 245px;
+}
+.selectInput_guide {
+  margin-top: 30px;
+}
+.select_input_label {
+  display: flex;
+  justify-content: space-between;
+  align-items: first baseline;
+}
+.select_input_label_name {
+  height: 18px;
+  margin-bottom: 7px;
+  color: #33363e;
+  font-size: 12px;
+  font-family: "InterRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.label_guide_name {
+  font-size: 12px;
+  line-height: 1.8rem;
+
+  padding-left: 0px;
+  cursor: pointer;
+  font-family: "InterRegular", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+
+  display: block;
+  color: #de57e5;
+}
+.product_select_input_form {
+  position: relative;
+  outline: none;
+  cursor: pointer;
+  height: 48px;
+
+  border-radius: 12px;
+  border: 1px solid #ded6fb;
+  background: #ffffff;
+  padding-right: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.product_select_input_form .product_input_number {
+  font-size: 14px;
+  font-family: "InterSemiBold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #4f3267;
+  padding-top: 12px;
+  padding-left: 12px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: bold;
+}
+.product_select_input_form .product_input_number span {
+  font-size: 12px;
+  font-family: "InterRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #4f3267;
+  padding-top: 12px;
+  padding-left: 5px;
+}
+.product_select_input_form .down_arrow_icon {
+  margin-top: 5px;
+  font-size: 22px;
+}
+.diamond_guide_small_box {
+  margin-left: 12px !important;
+  margin-top: 10px;
+  display: inline-block;
+  width: auto;
+  min-height: 24px;
+  font-family: "InterSemiBold", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  background: #f6f3f9;
+  font-size: 10px;
+  text-align: center;
+  border-radius: 8px;
+  color: #4f3267;
+  position: relative;
+  margin-left: 4px;
+  padding: 5px 10px;
+}
+.deliery_store {
+  width: 245px;
+  /* padding-top: 6px; */
+}
+.locate_me_name {
+  font-size: 12px;
+  line-height: 1.8rem;
+
+  padding-left: 0px;
+  cursor: pointer;
+  font-family: "InterRegular", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+
+  display: block;
+  color: #de57e5;
+}
+@media (max-width: 992px) {
+  .label_guide {
+    font-size: 12px;
+    width: 103px;
+    height: 48px;
+    margin-top: 11px;
+    right: 15px;
+    position: absolute;
+    border: 1px solid #ded6fb;
+    border-radius: 12px;
+    text-align: center;
+    padding: 16px;
+    color: #4f3267;
+    background: #ffffff;
+  }
+  .label_guide_name {
+    color: #4f3267;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-family: "InterSemiBold", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    display: block;
+    cursor: default;
+    line-height: 13px;
+    letter-spacing: 0.5px;
+  }
+  .select_size_form {
+    width: 100%;
+    padding-right: 103px;
+  }
+  .selectInput_guide {
+    padding-right: 16px;
+    margin-top: 18px;
+  }
+  .product_select_input_form {
+    padding-right: 35px;
+  }
+  .down_arrow_icon {
+    right: 12px;
+  }
+  .main_from_flex1 {
+    flex-direction: column;
+  }
+  .deliery_store {
+    width: 100%;
+  }
+}
+@media (max-width: 576px) {
+  .product_select_input_form {
+    padding-right: 10px;
+  }
+}

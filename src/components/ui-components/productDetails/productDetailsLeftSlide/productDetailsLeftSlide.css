@@ -37,3 +37,11 @@
 .slick-next {
   display: none !important;
 } */
+@media (max-width: 768px) {
+  .breadcrumbs {
+    display: none !important;
+  }
+  .container {
+    margin: 0px;
+  }
+}

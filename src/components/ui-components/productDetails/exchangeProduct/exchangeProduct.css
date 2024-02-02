@@ -1,6 +1,6 @@
 .exchange_product_box {
   width: 90%;
-  height: auto;
+  height: 100%;
   padding: 15px;
   border-radius: 10px;
   background-color: aliceblue;
@@ -9,13 +9,17 @@
 .exchange_product_content h6 {
   font-size: 14px;
   margin-bottom: 0px;
+  color: #4f3267;
+  font-weight: 600;
 }
 .exchange_product_content p {
   font-size: 12px;
   /* width: 90%; */
-  line-height: 14px;
+  line-height: 18px;
   color: gray;
   font-weight: 400;
+  letter-spacing: 0.5px;
+  margin-top: 5px;
 }
 .see_more_content {
   display: flex;

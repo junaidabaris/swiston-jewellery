@@ -1,4 +1,4 @@
-.product_content_details_background {
+.product_content_details_background1 {
   background-color: rgb(220, 213, 226);
   padding: 40px 80px;
   overflow: scroll;
@@ -73,14 +73,23 @@
   color: #4f3267;
 }
 @media (max-width: 992px) {
-  .breadcrumbs {
-    display: none;
+  .product_content_details_background1 {
+    padding: 30px 20px;
+    height: 100%;
+    overflow: auto;
+  }
+  .rating_box {
+    width: fit-content;
   }
   .slick_image_flex {
     display: none;
   }
   .rating_flex {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .main_addcart {
+    display: none !important;
   }
 }
