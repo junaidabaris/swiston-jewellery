@@ -19,14 +19,14 @@ function CategoryPage() {
     const { data: lengthJwell } = useGetJwellLengthQuery()
     const { data: curatedBy } = useGetcuratebyQuery()
     const { data: alfalist } = useGetAlphabeticQuery()
-    const [productData, { isLoading, isError, isSuccess }] = useGetProductMutation()
+    const [productData, { data: products, isLoading, isError, isSuccess }] = useGetProductMutation()
     const [count, setCount] = useState(1)
     const [page, setPage] = useState(0)
     useEffect(() => {
-        productData({ count: count, page: page })
+        productData({ occassions: [], ringSize: [], shopForModule: [], category: [], style: [], material: [], gemStone: [], theme: [], sku: '', count: count, page: page })
     }, [])
     return <section className="">
-          <div className="main_nav"><NavCat /></div>
+        <div className="main_nav"><NavCat /></div>
         <div className="d-flex p-5">
             <CategoryFilter data={{
                 prices: [],
@@ -46,14 +46,14 @@ function CategoryPage() {
                 <div className="w-100">
                     <div className="wrapper_card">
                         <div className="main-card">
-                            <Cards data={mockData} />
-                            <PriceFilter prices={filerCase} />
+                            <Cards data={products} />
+                            {/* <PriceFilter prices={filerCase} /> */}
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-<MobileFilter/>
+        <MobileFilter />
     </section>
 }
 export default CategoryPage

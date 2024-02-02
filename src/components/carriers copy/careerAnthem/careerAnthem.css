@@ -1,0 +1,65 @@
+.career_anthem_section {
+  width: 100%;
+  padding-top: 47%;
+  position: relative;
+  display: flex;
+  flex-direction: column-reverse;
+}
+.career_video_container {
+  position: absolute;
+  inset: 0;
+  .career_video_container {
+    width: 100%;
+    margin-bottom: 20px; /* Add spacing between the video and text */
+  }
+}
+.career_video_text {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  max-width: 1083px;
+  padding: 0 20px;
+  margin: 0 auto;
+  text-align: center;
+}
+.career_video_text h4 {
+  font-size: 3.2rem;
+  color: #ffffff;
+  margin-bottom: 26px;
+}
+.career_video_text p {
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+  margin-bottom: 38px;
+}
+@media (max-width: 992px) {
+  .career_video_text {
+    bottom: -356px;
+  }
+  .career_video_text h4 {
+    margin-bottom: 0px;
+    font-size: 1.5rem !important;
+    letter-spacing: 1px !important;
+    font-weight: 600 !important;
+  }
+  .career_video_text p {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 54px;
+  }
+  .career_anthem_section {
+    flex-direction: column; /* Stack elements vertically on smaller screens */
+  }
+
+  .career_video_container {
+    height: 300px; /* Adjust the video height for smaller screens */
+  }
+}
+
+@media screen and(max-width: 576px) {
+  .career_video_text {
+    bottom: -529px;
+  }
+}

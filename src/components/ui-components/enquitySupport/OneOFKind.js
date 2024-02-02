@@ -8,7 +8,7 @@ import Link from "antd/es/typography/Link";
 export default function OneOfKind(){
     return(
         <div className="banner_1">
-            <div className="row gx-4">
+            <div className="row g-4">
                 <div className="col-12 col-md-6">
                    <Link to="/"><img src={image1} alt="image1"/> </Link>
                 </div>
