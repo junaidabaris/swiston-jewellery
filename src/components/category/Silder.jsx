@@ -32,30 +32,17 @@ export default function Silder({ item }) {
     <>
       <div className="silder">
         <Slider {...settings} className="slider_box">
-          {item?.img1 &&
-            item?.img1?.map((item) => {
+          {item?.gallery_image &&
+            item?.gallery_image?.map((item) => {
               return (
                 <div className="card_img" key={item?.id}>
                   <Link to="/product-details">
                     {" "}
-                    <img src={item.img} alt="ring" />
+                    <img src={item.url} alt="ring" />
                   </Link>
                 </div>
               );
             })}
-
-          {/* <div>
-                    <img src={item.img2} alt="ring" />
-                </div>
-                <div>
-                     <img src={item.img3} alt="ring" />
-                </div>
-                <div>
-                    <img src={item.img4} alt="ring" />
-                </div>
-                <div>
-                    <img src={item.img5} alt="ring" />
-                </div> */}
         </Slider>
       </div>
     </>

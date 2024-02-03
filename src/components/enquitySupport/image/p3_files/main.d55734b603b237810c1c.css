@@ -1,0 +1,179 @@
+@font-face {
+  font-family: 'RolleteqakuRegular';
+  src: url('https://assets.cltstatic.com/fonts/maatran/rolleteqaku-regular-webfont.woff2')
+      format('woff2'),
+    url('https://assets.cltstatic.com/fonts/maatran/rolleteqaku-regular-webfont.woff')
+      format('woff'),
+    url('https://assets.cltstatic.com/fonts/maatran/RolleteQaku-Regular.ttf')
+      format('ttf');
+  font-display: swap;
+}
+
+@media screen and (max-width: 992px) {
+  .runway .vjs-control-bar:not(.vjs-focus-within) {
+    transition: transform 0.1s ease 0s;
+  }
+
+  .runway .vjs-has-started.vjs-playing.vjs-user-inactive .vjs-control-bar:not(.vjs-focus-within):not(.vjs-control-bar-visible) {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(2.8em);
+    transition: transform 1s ease 0s;
+  }
+
+  .runway .vjs-progress-control {
+    height: 0px !important;
+    left: 0;
+    position: absolute !important;
+    right: 0;
+    top: 0;
+    width: 100% !important;
+  }
+
+  .runway .video-js .vjs-progress-control .vjs-progress-holder {
+    margin: 0;
+    height: 10px;
+    bottom: 5px;
+  }
+
+  .runway .video-js .vjs-custom-control-spacer {
+    display: block;
+    flex: auto;
+  }
+
+  .runway .video-js .vjs-progress-control {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    flex: auto;
+    min-width: 4em;
+    touch-action: none;
+  }
+
+  .runway .video-js .vjs-control {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    top: 0em !important;
+  }
+}
+
+.runway .video-js .vjs-big-play-button {
+  top: 50%;
+  left: 50%;
+  margin-left: -1em;
+  margin-top: -1em;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  border: none;
+  border-radius: 50%;
+  font-size: 4.5em;
+  color: #fff;
+  /* background-color: rgba(0, 0, 0, 0.45); */
+  background-color: #d52484;
+  -webkit-transition: border-color 0.4s, outline 0.4s, background-color 0.4s;
+  -moz-transition: border-color 0.4s, outline 0.4s, background-color 0.4s;
+  -ms-transition: border-color 0.4s, outline 0.4s, background-color 0.4s;
+  -o-transition: border-color 0.4s, outline 0.4s, background-color 0.4s;
+  transition: border-color 0.4s, outline 0.4s, background-color 0.4s;
+}
+
+/* .reels-widget-lp .video-js .vjs-big-play-button {
+  width: 25px;
+  height: 25px;
+  border: none;
+  border-radius: 50%;
+  margin-left: -12px;
+  margin-top: -12px;
+  font-size: 17px;
+} */
+
+.runway .video-js .vjs-big-play-button:hover {
+  background-color: #d52484;
+}
+
+.runway .video-js .vjs-play-progress:before {
+  display: none;
+}
+
+.runway .video-js .vjs-play-progress {
+  background-color: #d52484;
+}
+
+.vjs-loading-spinner {
+  display: none !important;
+}
+
+.vjs-waiting {
+  position: relative;
+  &:before {
+    content: '';
+    background: url('https://assets.cltstatic.com/images/responsive/overlay-loader.gif') top left no-repeat;
+    background-size: 50px auto;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+}
+
+@font-face {
+  font-family: 'InterBold';
+  src: url('https://assets.cltstatic.com/fonts/maatran/Inter-Bold.woff2')
+      format('woff2'),
+    url('https://assets.cltstatic.com/fonts/maatran/Inter-Bold.woff')
+      format('woff'),
+    url('https://assets.cltstatic.com/fonts/maatran/Inter-Bold.ttf')
+      format('ttf');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'InterRegular';
+  src: url('https://assets.cltstatic.com/fonts/maatran/Inter-Regular.woff2')
+      format('woff2'),
+    url('https://assets.cltstatic.com/fonts/maatran/Inter-Regular.woff')
+      format('woff'),
+    url('https://assets.cltstatic.com/fonts/maatran/Inter-Regular.ttf')
+      format('ttf');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'InterSemiBold';
+  src: url('https://assets.cltstatic.com/fonts/maatran/Inter-SemiBold.woff2')
+      format('woff2'),
+    url('https://assets.cltstatic.com/fonts/maatran/Inter-SemiBold.woff')
+      format('woff'),
+    url('https://assets.cltstatic.com/fonts/maatran/Inter-SemiBold.ttf')
+      format('ttf');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'InterMedium';
+  src: url('https://assets.cltstatic.com/fonts/maatran/Inter-Medium.woff2')
+      format('woff2'),
+    url('https://assets.cltstatic.com/fonts/maatran/Inter-Medium.woff')
+      format('woff'),
+    url('https://assets.cltstatic.com/fonts/maatran/Inter-Medium.ttf')
+      format('ttf');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'KaushanRegular';
+  src: url('https://assets.cltstatic.com/fonts/maatran/kaushanscript-regular.woff2')
+      format('woff2'),
+    url('https://assets.cltstatic.com/fonts/maatran/kaushanscript-regular.woff')
+      format('woff'),
+    url('https://assets.cltstatic.com/fonts/maatran/kaushanscript-regular.ttf')
+      format('ttf');
+  font-display: swap;
+}
+

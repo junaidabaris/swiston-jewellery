@@ -1,4 +1,3 @@
-
 App {
   text-align: center;
 }
@@ -254,7 +253,7 @@ ul {
     display: none;
   }
   .footer_container .footer_blocks {
-    display: block;
+    display: block !important;
   }
   .f_list {
     border-bottom: 1px solid rgb(233, 233, 233);
@@ -369,4 +368,9 @@ footer .footer-bottom {
  .s-media{
   display: flex;
  }
+}
+@media (max-width:367px) {
+  .app_store{
+    display: none !important;
+  }
 }

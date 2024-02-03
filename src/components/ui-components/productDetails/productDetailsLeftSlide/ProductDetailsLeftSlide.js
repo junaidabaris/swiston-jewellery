@@ -11,29 +11,31 @@ function ProductDetailsLeftSlide() {
   return (
     <>
       <div className="col-lg-5 slide_breadcrumb_image">
-        <div className="container">
+        <div className="container left_slide_container">
           <ProductDetailsBreadcrumb />
           <ProductDetailsSlide />
-          <div className="slick_image_flex">
-            <div className="slick_image_item">
-              <span>
-                <HiOutlineCurrencyRupee />
-              </span>
-              <p>15 Day Money Back</p>
+          <marquee>
+            <div className="slick_image_flex">
+              <div className="slick_image_item pl-3">
+                <span>
+                  <HiOutlineCurrencyRupee />
+                </span>
+                <p>15 Day Money Back</p>
+              </div>
+              <div className="slick_image_item pl-3">
+                <span>
+                  <FaRegGrinHearts />
+                </span>
+                <p>Lifetime Exchange</p>
+              </div>
+              <div className="slick_image_item pl-3">
+                <span>
+                  <FaRegStar />
+                </span>
+                <p>100% Certified</p>
+              </div>
             </div>
-            <div className="slick_image_item">
-              <span>
-                <FaRegGrinHearts />
-              </span>
-              <p>Lifetime Exchange</p>
-            </div>
-            <div className="slick_image_item">
-              <span>
-                <FaRegStar />
-              </span>
-              <p>100% Certified</p>
-            </div>
-          </div>
+          </marquee>
         </div>
       </div>
     </>

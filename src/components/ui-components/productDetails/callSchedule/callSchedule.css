@@ -55,3 +55,9 @@
   color: brown;
   background-color: rgb(233, 197, 197);
 }
+
+@media (max-width: 992px) {
+  .callschedule {
+    display: none !important;
+  }
+}

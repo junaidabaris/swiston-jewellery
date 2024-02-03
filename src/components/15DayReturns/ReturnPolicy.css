@@ -4,27 +4,33 @@
   box-sizing: border-box;
   list-style: none;
 }
+
 .main_Returnpolicy {
   text-align: center;
   padding: 100px 0px;
 }
+
 .main_Returnpolicy .main_Returnpolicy_header h1 {
   font-weight: 600;
   position: relative;
 }
+
 .main_Returnpolicy .main_Returnpolicy_header p {
   font-size: 1.1rem;
   margin-top: 20px;
 }
+
 .main_Returnpolicy .main_Returnpolicy_header h1::before {
   content: "";
   position: absolute;
   width: 100px;
   bottom: 0px;
 }
+
 .term-condition-list li {
   text-align: left;
 }
+
 .term-condition-list li .header_title {
   padding: 10px;
   width: 100%;
@@ -33,6 +39,7 @@
   text-transform: capitalize;
   font-weight: 500;
 }
+
 .term-condition-list li .header_title span {
   font-size: 1rem;
   display: inline-block;
@@ -40,18 +47,22 @@
   font-weight: 400;
   color: pink;
 }
+
 .term-condition-list li .header_title span.down-icon {
   margin-right: auto;
   float: right;
   color: black;
 }
+
 .main_box {
   max-width: 80%;
   margin: 10px auto;
 }
+
 .seeT_C {
   text-align: end;
 }
+
 .seeT_C a {
   color: #333;
   font-size: 15px;
@@ -59,27 +70,34 @@
   margin: 10px;
   display: inline-block;
 }
+
 .main-offer-list {
   border: 1px solid #cccccc;
   padding: 0px;
 }
+
 .row {
   width: 100%;
   margin: auto;
   padding: 0px;
 }
+
 .main_list {
   padding: 0px;
 }
+
 .main_list .first_line {
   background: rgb(249, 249, 250);
 }
+
 .main_list .first_line p img {
   width: 30px;
 }
+
 .main_list li {
   padding: 20px 50px;
 }
+
 .main_list li p strong {
   display: block;
   font-size: 16px;
@@ -90,16 +108,34 @@
   margin: 0px;
   margin-top: 5px;
 }
+
 .application {
   font-size: 16px;
   font-weight: 600;
 }
+
 .main_list li.meterail {
   padding: 5px 50px;
 }
+
 .main_list li .note-application {
   color: pink;
 }
+
 .remark {
   color: pink;
+}
+
+@media (max-width: 992px) {
+  .main_box {
+    max-width: 99% !important;
+  }
+
+  .moneyexchange {
+    width: 99% !important;
+  }
+
+  .term-condition-list li .header_title {
+    font-size: .8rem !important;
+  }
 }

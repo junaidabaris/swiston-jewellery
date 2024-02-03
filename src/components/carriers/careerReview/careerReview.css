@@ -1,0 +1,45 @@
+.carrier_review1 {
+  background-color: rgb(245, 240, 233);
+  width: 100%;
+}
+.carrier_review_content1 {
+  padding: 80px 0px;
+}
+.carrier_review_content1 h1 {
+  font-size: 40px;
+  word-spacing: 2px;
+  /* letter-spacing: 1px; */
+  font-weight: 700;
+  text-align: center;
+  color: #4f3267;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.carrier_review_content1 p {
+  font-size: 16px;
+  font-weight: 500;
+  width: 60%;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 20px;
+  /* line-height: ; */
+}
+
+.career_review_img img {
+  width: 300px;
+  height: auto;
+}
+@media screen and (max-width: 992px) {
+  .carrier_review_content1 p {
+    font-size: 14px;
+    width: 100%;
+  }
+  .carrier_review_content1 h1 {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .career_review_img img {
+    padding-top: 10px;
+  }
+}

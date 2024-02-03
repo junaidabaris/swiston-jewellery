@@ -1,0 +1,107 @@
+.carriers_background {
+  width: 100%;
+  background: radial-gradient(
+    111.87% 129.26% at -5.52% -1.73%,
+    rgba(255, 246, 200, 0.7) 0%,
+    rgba(255, 215, 245, 0.7) 21.81%,
+    rgba(243, 241, 255, 0.8) 50%,
+    #f8ebfb 100%
+  );
+  background-color: antiquewhite;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.carrier_content1 {
+  width: 100%;
+  max-width: 1880px;
+  margin: 0 auto;
+  padding: 40px 0px;
+}
+.carrier_content1 h1 {
+  font-size: 3.4rem;
+  font-family: "inter-semibold", sans-serif;
+  color: #4f3267;
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.carrier_content1 p {
+  font-family: "inter-regular";
+  line-height: 24px;
+  max-width: 866px;
+  padding-right: 16px;
+  font-size: 18px;
+  /* line-height: ; */
+}
+.careers_slide_video {
+  padding: 40px 0px;
+}
+.careers_slide {
+  position: relative;
+}
+.careers_custom_pre_arrow {
+  position: absolute;
+  top: -38px;
+  right: 0;
+}
+.careers_custom_next_arrow {
+  position: absolute;
+  top: -38px;
+  right: 64px;
+}
+.career_btn_slide {
+  font-size: 30px;
+  font-weight: 500;
+  background: gray;
+  width: 50px;
+  border-radius: 24%;
+  display: flex;
+  align-items: center;
+}
+.career_btn_slide span {
+  margin-left: 10px;
+}
+.careers_slide_video_content {
+  /* margin-left: 20px; */
+  /* padding-left: 20px; */
+}
+
+.careers_slide_video_content .slide_content1 {
+  /* position: absolute; */
+  position: relative;
+  background: linear-gradient(270deg, #ffd0fe 0%, #fff2fb 100%);
+  width: 288px;
+  max-width: 60%;
+  padding: 12px 20px;
+  border-radius: 12px;
+  bottom: 30px;
+  left: 0px;
+}
+.careers_slide_video_content .slide_content1 h3 {
+  font-family: "inter-semibold";
+  font-size: 22px;
+  line-height: 18px;
+  text-align: left;
+  color: #4f3267;
+  padding-bottom: 0;
+  margin-bottom: 8px;
+}
+.careers_slide_video_content .slide_content1 p {
+  font-family: "inter-regular";
+  text-align: left;
+  font-size: 16px;
+  width: 100%;
+}
+
+@media (max-width: 992px) {
+  .carrier_content1 h1 {
+    font-size: 1.4rem;
+    margin-bottom: 14px;
+  }
+}
+@media screen and(width:576px) {
+  .carrier_content1 p {
+    font-family: "inter-regular", sans-serif;
+  }
+}

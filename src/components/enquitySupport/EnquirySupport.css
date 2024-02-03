@@ -1,0 +1,496 @@
+.banner_1 .col-12 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0px;
+}
+
+.banner_1 {
+    margin-top: 100px;
+    margin: 20px;
+}
+
+.mainBox {
+    width: 98%;
+    margin: auto;
+}
+
+.main_add {
+    margin: 20px 0px;
+}
+
+.main_add image {
+    width: 100%;
+    height: 100%;
+}
+
+.collections {
+    margin: 20px 0px;
+    justify-content: space-between;
+}
+
+.collections div {
+    margin: 20px;
+}
+
+.collections div img {
+    width: 100%;
+}
+
+.collections div button {
+    margin: 20px auto;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    padding: 20px 10px;
+    font-size: 1rem;
+
+    border: 1px solid rgb(179, 27, 53);
+}
+
+.wrap_appoitment {
+    padding: 50px 20px;
+    margin: 20px 0px;
+    background: #e9e9e9;
+}
+
+.wrap_appoitment .appoitment {
+    align-items: center;
+    position: relative;
+    width: 100%;
+}
+
+.wrap_appoitment .appoitment .location {
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    border-radius: 13px;
+    padding: 10px;
+    border: 1px solid #ee2546;
+    background-color: #fff;
+}
+
+.wrap_appoitment .appoitment .location span {
+    font-size: 1rem;
+}
+
+.wrap_appoitment .appoitment .location input {
+    width: 130px;
+    font-size: 1rem;
+    margin: 0px 5px;
+    border: none;
+}
+
+.wrap_appoitment .appoitment .location a {
+    color: palevioletred;
+    font-size: 12px;
+}
+
+.wrap_appoitment .appoitment .location input:focus {
+    outline: none;
+}
+
+.wrap_appoitment .appoitment .appoitment_img {
+    width: 70%;
+}
+
+.wrap_appoitment .appoitment .appoitment_img img {
+    border-radius: 0px;
+}
+
+.wrap_appoitment .appoitment .text-appoitment {
+    width: 40%;
+    position: absolute;
+    right: 0px;
+}
+
+.wrap_appoitment .appoitment .text-appoitment h2 {
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+    color: black;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.wrap_appoitment .appoitment .text-appoitment p {
+    font-size: 1rem;
+    color: black;
+    text-transform: capitalize;
+}
+
+.shedule_appoitment {
+    width: 100%;
+    text-align: center;
+    display: inline;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff;
+    height: 50px;
+    line-height: 40px;
+    margin-top: 30px;
+    text-transform: capitalize;
+    border: none;
+    background: linear-gradient(90deg, purple, blue);
+}
+
+.shedule_appoitment:hover {
+    color: #fff !important;
+    transition: all 1s;
+    background: linear-gradient(90deg, blue, purple);
+}
+
+.gold_wrap {
+    padding: 50px 20px;
+    background: #e9e9e9;
+}
+
+.gold_wrap .gold-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+}
+
+.gold_wrap .gold-img img {
+    width: 100%;
+}
+
+.gold-text {
+    padding: 10px 40px 10px 0px;
+}
+
+.gold-text h1 {
+    font-size: 3rem;
+    margin-bottom: 100px;
+}
+
+.gold-text ul li {
+    font-size: 1.1rem;
+    color: black;
+}
+
+.gold-text .know {
+    width: 200px;
+}
+
+.tanishq_wrap {
+    background: rgb(35, 21, 53);
+    text-align: center;
+    padding: 80px;
+}
+
+.tanishq_wrap .tanishq {
+    width: 40%;
+    margin: auto;
+}
+
+.tanishq_wrap .tanishq img {
+    width: 100%;
+}
+
+.tanishq_wrap .tanishq p {
+    color: white;
+}
+
+.tanishq_wrap .btn_know {
+    width: 200px;
+    background-color: transparent;
+    height: 50px;
+    border: 1px solid rgb(110, 4, 231);
+    color: #fff;
+    font-size: 1.2rem;
+    margin-top: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.tanishq_wrap p {
+    font-size: 1rem;
+    width: 350px;
+    margin-top: 30px;
+    margin: auto;
+}
+
+.tanishq h1 {
+    font: 1.5rem sans-serif;
+    margin-bottom: 50px;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.tanishq h1 span {
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+
+.wrapper-BestOf {
+    padding: 20px 30px;
+}
+
+.bestOf {
+    justify-content: space-between;
+}
+
+.bestOf .B_catagory {
+    margin: 0px;
+    align-items: center;
+    position: relative;
+}
+
+.bestOf .B_catagory li {
+    border: 1px solid #e63e7e;
+    height: 50px;
+    width: 130px;
+    line-height: 50px;
+    background-color: transparent;
+    text-align: center;
+}
+
+.bestOf .B_catagory li a {
+    width: 100%;
+    text-align: center;
+    color: #333;
+    background: transparent;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.bestOf .B_catagory li:first-child {
+    border-right: none;
+}
+
+.effect {
+    background: linear-gradient(90deg, purple, blue);
+}
+
+.effect a {
+    color: white !important;
+}
+
+.mt-5 .b_card {
+    margin: 10px;
+    box-shadow: 0px 0px 8px #cccc;
+}
+
+.mt-5 .b_card div {
+    padding: 10px 3px;
+}
+
+.b_card img {
+    width: 100%;
+    border-radius: 0px;
+}
+
+.b_card .currentPrice {
+    margin: 10px;
+    font-size: 1.1rem;
+    color: black;
+}
+
+.b_card .prePrice {
+    margin: 10px 0px;
+    color: #575656;
+    text-decoration: line-through;
+    font-size: 1rem;
+}
+
+.b_card .detail {
+    font-size: 1rem;
+    color: #575656;
+    margin: 5px 10px;
+}
+
+.img_change img {
+    width: 175px;
+    border-radius: 0px;
+}
+
+.sPolicy {
+    padding: 50px 60px;
+    background-color: #231535;
+}
+
+.sPolicy .s_policyList li {
+    width: 40%;
+    margin: 20px;
+}
+
+.s_policyList {
+    flex-wrap: wrap;
+}
+
+.s_policyList p .s_title {
+    display: block;
+    font-weight: 600;
+    font-size: 1.2rem;
+    font-family: InterRegular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.s_policyList p .s_detail {
+    color: rgb(196, 173, 225);
+    font-size: 1.2rem;
+    font-family: InterRegular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 20px;
+    color: rgb(196, 173, 225);
+    max-width: 224px;
+}
+
+.s_policyList li:nth-child(3) {
+    margin-left: 100px;
+}
+
+.s_policyList a {
+    align-items: center;
+}
+
+.via_insta {
+    padding: 70px;
+    background: #e7e7e7;
+    text-align: center;
+}
+
+.insta_deatail {
+    text-align: center;
+}
+
+.wrapper_element {
+    width: 80%;
+    margin: auto;
+}
+
+.insta_deatail span {
+    font-size: 2rem;
+    color: rgb(98, 6, 184);
+    margin-bottom: 30px;
+}
+
+.insta_deatail h1 {
+    font-size: 2.2rem;
+    color: black;
+    margin-top: 30px;
+}
+
+.insta_deatail p {
+    margin-top: 50px;
+    color: #575656;
+    font-size: 1rem;
+}
+
+.insta_deatail button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid rgb(98, 6, 184);
+    text-transform: capitalize;
+    background: transparent;
+    color: rgb(98, 6, 184);
+}
+
+.wrapper_element .slide {
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+
+.j-story {
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+}
+
+.j-story li {
+    font-size: 1.7rem;
+    text-transform: capitalize;
+}
+
+.s-mt {
+    margin-top: 10px !important;
+    margin-bottom: 0px !important;
+}
+
+.rForm {
+    text-align: center;
+    padding: 70px;
+    padding-bottom: 2px;
+    background: #231535;
+}
+
+.rForm .f_logo img {
+    width: 175px;
+}
+
+.rForm .gender {
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.rForm h2 {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.rForm .f_text {
+    width: 400px;
+    border: 2px solid red;
+    margin: auto;
+    padding: 0px;
+}
+
+.rForm .f_text input {
+    height: 50px;
+    width: 70%;
+    border: none;
+    padding: 10px;
+}
+
+.rForm .f_text input:focus {
+    outline: none;
+}
+
+.rForm .f_text button {
+    width: 30%;
+    height: 50px;
+    border: none;
+    background: linear-gradient(90deg, purple, blue);
+    text-transform: capitalize;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.gender div {
+    margin: 20px 50px;
+}
+
+.gender div label {
+    color: #fff;
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+
+.gender div input {
+    width: 15px;
+    height: 15px;
+    border-radius: 2px solid blue;
+}
+
+.rForm div>p {
+    color: #fff;
+}
+
+.rForm div>p span {
+    color: #e63e7e;
+}
+
+.main_collection {
+    margin: 60px 0px;
+}
+
+
+.slick-list,
+.slick-slider {
+    overflow: hidden;
+}

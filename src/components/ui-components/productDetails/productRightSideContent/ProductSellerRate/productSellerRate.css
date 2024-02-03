@@ -1,0 +1,13 @@
+.rate_flex1 {
+  display: flex;
+}
+.rate_flex1 p {
+  font-size: 25px;
+  font-weight: 600;
+  margin-right: 15px;
+  margin-bottom: 0px;
+}
+.rate_flex1 span {
+  font-size: 23px;
+  text-decoration: line-through;
+}

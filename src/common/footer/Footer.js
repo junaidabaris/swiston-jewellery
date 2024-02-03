@@ -16,7 +16,7 @@ export default function Footer() {
   };
   return (
     <footer>
-      <div className="footer_container">
+      <div className="">
         <ul className="footer_blocks">
           <li className="f_list">
             <h3
@@ -113,7 +113,7 @@ export default function Footer() {
                 <Link to="/blog">blog</Link>
               </li>
               <li className="listitem">
-                <Link to="/careers">careers</Link>
+                <Link to="/carriers">careers</Link>
               </li>
               <li className="listitem">
                 <Link to="/testimonial">testimonial</Link>
