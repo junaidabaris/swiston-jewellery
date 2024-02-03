@@ -212,6 +212,11 @@ ul {
   height: 41px;
   width: 388px;
 }
+.s-media li a{
+  border: none;
+  color: black;
+  padding: "0";
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

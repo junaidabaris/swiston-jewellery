@@ -149,7 +149,7 @@ export default function Footer() {
                     </a>
                   </li>
                   <li>
-                    <a href="#"></a>
+                    <a href="#">
 
                     <ReactWhatsapp
                       style={{
@@ -161,6 +161,7 @@ export default function Footer() {
                       massage="Hello Mamass Tycoon">
                       <FaWhatsapp />
                     </ReactWhatsapp>
+                    </a>
                   </li>
                 </ul>
               </li>
