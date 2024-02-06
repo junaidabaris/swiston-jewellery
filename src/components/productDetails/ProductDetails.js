@@ -19,7 +19,7 @@ import { IoDiamond } from "react-icons/io5";
 import PriceBreakupDetails from "./priceBreakupDetails/PriceBreakupDetails";
 import NearLocation from "./nearLocation/NearLocation";
 import ServiceTileSection from "./serviceTileSection/ServiceTileSection";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import ProductSelectSize from "./productSelectSize/ProductSelectSize";
 import Modal from "react-modal";
 import Sidebar from "./sidebar/Sidebar";
@@ -28,8 +28,11 @@ import CallSchedule from "./callSchedule/CallSchedule";
 import ExchangeProduct from "./exchangeProduct/ExchangeProduct";
 import ProductRelatedCategories from "./productRelatedCategories/ProductRelatedCategories";
 import SimilarProduct from "./similarProduct/SimilarProduct";
+import { useGetProductDetailsQuery } from "../../apiConfig/jwellerySlice";
+
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
+
   return (
     <div
       className={className}
@@ -50,10 +53,25 @@ function SamplePrevArrow(props) {
   );
 }
 function ProductDetails() {
+  const param = useParams();
+  console.log(param, "param");
+  const { data, isError, isLoading, isSuccess } = useGetProductDetailsQuery(
+    param.uid
+  );
   const [nav1, setNav1] = useState(null);
   const [nav2, setNav2] = useState(null);
   const slider1 = useRef(null);
   const slider2 = useRef(null);
+  if (data && data.product) {
+    const product = data.product;
+    console.log("product:", data.product ,);
+    // console.log("product:", data.product ,data.product.width,data.product.height);
+    // console.log("Product Name:", product.name);
+    // console.log("Category:", product.category[0].name);
+    // console.log("Metal Type:", product.metals[0].metalType.name);
+  } else {
+    console.log("No product data available"); // Handle if no data is available
+  }
 
   useEffect(() => {
     setNav1(slider1.current);
@@ -113,85 +131,33 @@ function ProductDetails() {
               </div>
               <div>
                 <Slider asNavFor={nav2} ref={slider1}>
-                  <div className="slick1_image">
-                    <img
-                      src="https://cdn.caratlane.com/media/catalog/product/J/R/JR06350-1RP600_1_lar.jpg"
-                      alt=""
-                    />
-                  </div>
-                  <div className="slick1_image">
-                    <img
-                      src="https://cdn.caratlane.com/media/catalog/product/J/R/JR06350-1RP600_3_lar.jpg"
-                      alt=""
-                    />
-                  </div>
-                  <div className="slick1_image">
-                    <img
-                      src="https://cdn.caratlane.com/media/catalog/product/J/R/JR06350-1RP600_5_lar.jpg"
-                      alt=""
-                    />
-                  </div>
-                  <div className="slick1_image">
-                    <img
-                      src="https://cdn.caratlane.com/media/static/images/Placeholder/Placeholder.png"
-                      alt=""
-                    />
-                  </div>
-                  <div className="slick1_image">
-                    <img
-                      src="https://cdn.caratlane.com/media/catalog/product/J/R/JR06350-1RP600_9_lar.jpg"
-                      alt=""
-                    />
-                  </div>
-                  <div className="slick1_image">
-                    <img
-                      src="https://cdn.caratlane.com/media/catalog/product/J/R/JR06350-1RP600_4_lar.jpg"
-                      alt=""
-                    />
-                  </div>
+                  {data && data.product && data.product.gallary_image ? (
+                    data.product.gallary_image.map((item) => (
+                      <div className="slick1_image" key={item._id}>
+                        <img src={item.url} alt="" />
+                      </div>
+                    ))
+                  ) : (
+                    <div>No images available</div>
+                  )}
                 </Slider>
+                {/* bootom image  */}
                 <Slider
                   asNavFor={nav1}
                   ref={slider2}
-                  slidesToShow={6}
+                  slidesToShow={3}
                   swipeToSlide={true}
-                  focusOnSelect={true}>
-                  <div className="slick2_image">
-                    <img
-                      src="https://cdn.caratlane.com/media/catalog/product/J/R/JR06350-1RP600_1_lar.jpg"
-                      alt=""
-                    />
-                  </div>
-                  <div className="slick2_image">
-                    <img
-                      src="https://cdn.caratlane.com/media/catalog/product/J/R/JR06350-1RP600_3_lar.jpg"
-                      alt=""
-                    />
-                  </div>
-                  <div className="slick2_image">
-                    <img
-                      src="https://cdn.caratlane.com/media/catalog/product/J/R/JR06350-1RP600_5_lar.jpg"
-                      alt=""
-                    />
-                  </div>
-                  <div className="slick2_image">
-                    <img
-                      src="https://cdn.caratlane.com/media/static/images/Placeholder/Placeholder.png"
-                      alt=""
-                    />
-                  </div>
-                  <div className="slick2_image">
-                    <img
-                      src="https://cdn.caratlane.com/media/catalog/product/J/R/JR06350-1RP600_9_lar.jpg"
-                      alt=""
-                    />
-                  </div>
-                  <div className="slick2_image">
-                    <img
-                      src="https://cdn.caratlane.com/media/catalog/product/J/R/JR06350-1RP600_4_lar.jpg"
-                      alt=""
-                    />
-                  </div>
+                  focusOnSelect={true}
+                >
+                  {data && data.product && data.product.gallary_image ? (
+                    data.product.gallary_image.map((item) => (
+                      <div className="slick2_image" key={item._id}>
+                        <img src={item.url} alt="image here" />
+                      </div>
+                    ))
+                  ) : (
+                    <div>No images available</div>
+                  )}
                 </Slider>
               </div>
               <div className="slick_image_flex">
@@ -254,7 +220,8 @@ function ProductDetails() {
                   className="form_inp "
                   // onClick={toggleProfileBox}
                   // onClick={() => toggleProfileBox(0)}
-                  onClick={openModal}>
+                  onClick={openModal}
+                >
                   <p>
                     12(51.8mm) - <small>in sock</small>
                   </p>
@@ -349,11 +316,12 @@ function ProductDetails() {
             <div className="col-md-6">
               <div className="product_details_content">
                 <span>SKU</span>
-                <span className="sku_color">JR06350-1RP600</span>
+                
+                   <span className="sku_color">{data && data.product.sku}</span>
+              
                 <h3>Product Details</h3>
                 <p className="jewellary_about">
-                  These beautiful Ber Leaf Diamond Stud Earrings are sure to add
-                  a special sparkle to any outfit.
+                {data && data.product.longDes}
                 </p>
                 <div className="row mt-3">
                   <div className="col-md-3 product_details_box">
@@ -365,15 +333,16 @@ function ProductDetails() {
                     </h6>
                     <p>
                       <span>Width</span> <span>-</span>
-                      <span> 19.9 mm</span>
+                      <span> {data && data.product.width}</span>
                     </p>
                     <p>
                       <span>Height </span> <span>-</span>
-                      <span> 19.9 mm</span>
+                      <span> {data && data.product.height}</span>
                     </p>
                     <p>
                       <span>Size </span> <span>-</span>
-                      <span> 19.9 mm</span>
+                      <span> 19.9 mm </span>   
+                      {/* size not made by backend */}
                     </p>
                   </div>
                   <div className="col-md-3 product_details_box">
@@ -385,7 +354,8 @@ function ProductDetails() {
                     </h6>
                     <p>
                       <span>Gross</span> <span>-</span>
-                      <span> 2.620 g</span>
+                      <span> 19.9 mm</span>
+                      {/* not made from backend */}
                     </p>
                   </div>
                   <div className="col-md-3 product_details_box">
@@ -396,7 +366,7 @@ function ProductDetails() {
                       Purity
                     </h6>
                     <p>
-                      <span>18</span> <span>KT</span>
+                      <span>{data && data.product.metals[0].metalType.name}</span>
                     </p>
                   </div>
                 </div>
@@ -404,7 +374,8 @@ function ProductDetails() {
             </div>
             <div
               className="col-md-6"
-              style={{ display: "flex", alignItems: "center" }}>
+              style={{ display: "flex", alignItems: "center" }}
+            >
               <div className="product_details_box1">
                 <div className="">
                   <h5>

@@ -77,6 +77,15 @@ export const jwelleryApi = createApi({
                 body:pay
             }),
         }),
+        getProductDetails: builder.query({
+            query: (uid) => {
+                console.log("UID:", uid); 
+                return ({
+                    url: `product/jewel/public/${uid}`, 
+                    method: 'GET',
+                });
+            }
+        })
 
 
     })
@@ -94,5 +103,6 @@ export const {
     useGetJwellLengthQuery,
     useGetProductMutation,
     useGetcuratebyQuery,
-    useGetThemesQuery
+    useGetThemesQuery,
+    useGetProductDetailsQuery
 } = jwelleryApi

@@ -65,7 +65,7 @@ function App() {
                         <Route path="/schedule_appointment" element={<ScheduleMain />} />
                         <Route path="/category" element={<CategoryPage />} />
                         <Route path="/carriers" element={<Carriers />} />
-                        <Route path="/product-details" element={<ProductDetails />} />
+                        <Route path="/product-details/:uid" element={<ProductDetails />} />
                         {/* <Route path="/trending-search" element={<TrendingSearche />} /> */}
                         <Route path="/gold-rate" element={<GoldRate />} />
                         <Route path="/diamond-buy-guide" element={<DiamondBuyGuide />} />

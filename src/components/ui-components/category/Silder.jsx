@@ -30,13 +30,15 @@ export default function Silder({ item }) {
   };
   return (
     <>
+    
       <div className="silder">
         <Slider {...settings} className="slider_box">
           {item?.img1 &&
             item?.img1?.map((item) => {
+              console.log('item---',item);
               return (
                 <div className="card_img" key={item?.id}>
-                  <Link to="/product-details">
+                  <Link to={`/product-details/${item.id}`}>
                     {" "}
                     <img src={item.img} alt="ring" />
                   </Link>

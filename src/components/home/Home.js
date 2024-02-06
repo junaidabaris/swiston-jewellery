@@ -75,7 +75,7 @@ function Home() {
   const sendCategory = ()=>{
     navigater('/category')
   }
-  const goDetails = ()=>{
+  const goDetails = (id)=>{
     navigater('/product-details')
   }
   return (
@@ -297,11 +297,13 @@ function Home() {
             <div>
               <Slider {...settings1}>
                 <div className="view_product">
+                  <Link to="/product-details/18">
                   <img
                     src="https://cdn.caratlane.com/media/catalog/product/cache/6/image/480x480/9df78eab33525d08d6e5fb8d27136e95/J/R/JR08153-1YP9RS_12_listhover.jpg"
                     alt=""
-                    onClick={goDetails}
+                    
                   />
+                  </Link>
                   <div className="rate_flex">
                     <p>₹14,256 </p>
                     <span>₹15,840</span>
