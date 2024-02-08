@@ -15,7 +15,7 @@ import { FaArrowRight } from "react-icons/fa";
 import Country from "./country/Country";
 import { IoClose } from "react-icons/io5";
 // import swistonLogo from "../../assets/img/switon logo.jpg";
-import swistonLogo from "../../assets/img/swiston jewlery.gif";
+import swistonLogo from "../../assets/img/logoMain.jpg";
 
 function Headers({ setShow }) {
   const [modalVisible, setModalVisible] = useState(false);
@@ -33,11 +33,11 @@ function Headers({ setShow }) {
   };
   return (
     <>
-      <div className="" style={{ position: "sticky", top: 0, zIndex: 99 }}>
+      <div className="colorsDef" style={{ position: "sticky", top: 0, zIndex: 99 }}>
         <Navbar
           expand="lg"
           className="bg-body-tertiary"
-          style={{ padding: "25px 0px" }}
+          // style={{ padding: "25px 0px" }}
         >
           <Container fluid>
             <Navbar.Brand href="#">

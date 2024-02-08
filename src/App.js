@@ -45,6 +45,11 @@ import OurStory from "./pages/our-story";
 import PhotoMain from "./components/photoGallery/PhotoMain";
 import EnquirySupport from "./components/enquitySupport/EnquirySupport";
 import Checkout from "./components/checkout/Checkout";
+import ShippingAddress from "./pages/shippingadd/ShippingAddress";
+import BillingAddress from "./pages/billingAdd/BillingAddress";
+import MyAccountDetail from "./pages/myAccountDetail/Index";
+import TrackOrderPage from "./pages/track-order";
+import ProfilePage from "./pages/profile/ProfilePage";
 function App() {
     const [show, setShow] = useState(false)
     useEffect(()=>{
@@ -97,7 +102,13 @@ function App() {
                         <Route path="/shipping-policy" element={<ShippingPolicy/>} /> 
                         <Route path="/our-story" element={<OurStory/>} /> 
                         <Route path="/enquiry-support" element={<EnquirySupport />} />
+
                         <Route path="/checkout" element={<Checkout />} />
+                        <Route path="/shippingAddress" element={<ShippingAddress />} />
+                        <Route path="/billingAddress" element={<BillingAddress />} />
+                        <Route path="/myAccount" element={<MyAccountDetail />} />
+                        <Route path="/profile" element={<ProfilePage />} />
+                        <Route path="/track-order" element={<TrackOrderPage />} />
                     </Routes>
                     <Footer />
                 </BrowserRouter>
