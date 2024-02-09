@@ -52,7 +52,7 @@
 .nav-items {
   font-size: 15px;
   font-weight: 500;
-  color: #333;
+  color: wheat;
 }
 .pincode_text {
   padding-left: 16px;
@@ -425,5 +425,10 @@ li {
 }
 .swistonLogo {
   width: 100px;
-  height: 40px;
+  height: 90px;
+}
+
+
+.colorsDef > nav{
+  background-color: black !important;
 }
