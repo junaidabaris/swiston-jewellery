@@ -22,7 +22,7 @@ export default function Footer() {
             <h3
               className={`list_title ${openAccordion === 0 ? "open" : ""}`}
               onClick={() => handleAccordionClick(0)}>
-              Know Your Jewellery{" "}
+              Know Your Jewellery
               <span className="add">
                 {openAccordion === 0 ? <FaMinus /> : <FaPlus />}
               </span>
@@ -52,7 +52,7 @@ export default function Footer() {
             <h3
               className={`list_title ${openAccordion === 1 ? "open" : ""}`}
               onClick={() => handleAccordionClick(1)}>
-              Swicton Advantage{" "}
+              Swicton Advantage
               <span className="add">
                 {openAccordion === 1 ? <FaMinus /> : <FaPlus />}
               </span>
@@ -76,7 +76,7 @@ export default function Footer() {
             <h3
               className={`list_title ${openAccordion === 2 ? "open" : ""}`}
               onClick={() => handleAccordionClick(2)}>
-              Customer Service{" "}
+              Customer Service
               <span className="add">
                 {openAccordion === 2 ? <FaMinus /> : <FaPlus />}
               </span>
@@ -94,7 +94,7 @@ export default function Footer() {
             <h3
               className={`list_title ${openAccordion === 3 ? "open" : ""}`}
               onClick={() => handleAccordionClick(3)}>
-              About Us{" "}
+              About Us
               <span className="add">
                 {openAccordion === 3 ? <FaMinus /> : <FaPlus />}
               </span>
@@ -130,7 +130,7 @@ export default function Footer() {
             <h3
               className={`list_title ${openAccordion === 4 ? "open" : ""}`}
               onClick={() => handleAccordionClick(4)}>
-              Contact Us{" "}
+              Contact Us
               <span className="add">
                 {openAccordion === 4 ? <FaMinus /> : <FaPlus />}
               </span>
@@ -199,19 +199,19 @@ export default function Footer() {
         <div>
           <ul className="social_icon">
             <a href="https://www.facebook.com/swistonjewellery" target="blank">
-              {" "}
+              
               <li className="facebook"></li>
             </a>
             <a
               href="https://www.instagram.com/swistonjewellery/"
               target="blank">
-              {" "}
+              
               <li className="insta"></li>
             </a>
             <a
               href="https://www.linkedin.com/in/swiston-jewellery-953a182ab/"
               target="blank">
-              {" "}
+              
               <li className="in"></li>
             </a>
 
@@ -231,10 +231,10 @@ export default function Footer() {
       </div>
       <div className="footer-bottom">
         <div className="copyright">
-          Copyright © 2024{" "}
+          Copyright © 2024
           <Link to="https://www.abarissoftech.com/">
             <span>Abaris Softech Pvt Ltd.</span>
-          </Link>{" "}
+          </Link>
           All rights reserved.
         </div>
       </div>

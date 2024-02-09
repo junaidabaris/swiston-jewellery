@@ -1025,7 +1025,7 @@ h3.list_title {
 }
 
 footer {
-  background: rgb(246 239 246);
+  background:black;
   font-family: InterRegular, "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding: 55px 0px;
 }
@@ -1043,14 +1043,14 @@ footer {
 h3.list_title {
   font-size: 1em;
   margin: 10px;
-  color: rgb(35, 21, 53);
+  color:#8c7145;
   padding-bottom: 4px;
   text-transform: capitalize;
 }
 .listitem a {
   font-family: InterRegular, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1rem;
-  color: rgb(135, 118, 157);
+  color:wheat;
 }
 .s-media {
   font-size: 1em;
@@ -1059,12 +1059,12 @@ h3.list_title {
   margin: 0px 10px;
 }
 .c-listitem {
-  font-size: 1rem;
+  font-size: 13px;
   margin: 10px 5px;
 }
 .c-listitem a {
   font-size: 1rem;
-  color: rgb(135, 118, 157);
+  color:wheat;
 }
 .c-listitem a span {
   font-size: 1rem;

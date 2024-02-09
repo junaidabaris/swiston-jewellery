@@ -1,0 +1,16 @@
+.profile_page{
+     max-width: 800px;
+     margin: 0 auto;
+     border: 1px solid black;
+     border-radius: 10px ;
+     color:black;
+   
+}
+.form_field{
+    border-radius: 20px;
+}
+@media only screen and (max-width: 600px) {
+    .profile_page{
+        width: 100%;
+    }
+  }
