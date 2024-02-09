@@ -45,6 +45,7 @@ import OurStory from "./pages/our-story";
 import PhotoMain from "./components/photoGallery/PhotoMain";
 import EnquirySupport from "./components/enquitySupport/EnquirySupport";
 import Checkout from "./components/checkout/Checkout";
+import ProfilePage from "./components/profile/ProfilePage";
 function App() {
     const [show, setShow] = useState(false)
     useEffect(()=>{
@@ -98,6 +99,7 @@ function App() {
                         <Route path="/our-story" element={<OurStory/>} /> 
                         <Route path="/enquiry-support" element={<EnquirySupport />} />
                         <Route path="/checkout" element={<Checkout />} />
+                        <Route path ='/profile' element={<ProfilePage/>}/>
                     </Routes>
                     <Footer />
                 </BrowserRouter>
